@@ -25,10 +25,10 @@ priv-mode:
 general:
   total_instructions: 1000
   regs_not_use: x1,x2
-  custom_trap_handler: false
+  custom_trap_handler: true
   code_start_address: 0x80000000
   default_program_exit: true
-  delegation: 0x0
+  delegation: 0xfff
 
 # ---------------------------------------------------------------------------------
 # Distribution of instructions according to ISA extensions
