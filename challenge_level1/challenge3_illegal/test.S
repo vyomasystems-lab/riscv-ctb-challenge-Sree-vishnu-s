@@ -20,8 +20,9 @@ illegal_instruction:
 mtvec_handler:
   li t1, CAUSE_ILLEGAL_INSTRUCTION
   csrr t0, mcause
-  bne t0, t1, fail
-  csrr t0, mepc
+  csrr t1, mepc
+  addi t1, t1, 8
+  csrw mepc, t1
 
   mret
 
