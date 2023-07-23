@@ -11,7 +11,7 @@ RVTEST_CODE_BEGIN
   li TESTNUM, 2
 
   la t0, test_cases
-  lw t6, 9600(t0)
+  lw t6, 32(t0)
   li t5, 3
   
   
