@@ -5,7 +5,7 @@ gen: clean
 	@echo '[UpTickPro] Test Generation ------'
 	pip install aapg
 	aapg setup
-	aapg gen --config_file $(PWD)/rv32i.yaml --asm_name test --output_dir $(PWD) --arch rv32
+	aapg gen --config_file $(PWD)/simulator.yaml --asm_name test --output_dir $(PWD) --arch rv32
 
 compile:
 	@echo '[UpTickPro] Test Compilation ------'
@@ -18,7 +18,7 @@ disass: compile
 spike: compile
 	@echo '[UpTickPro] Spike Run ------'
 	spike --isa=rv32i test.elf 
-	spike --isa=rv32i +signature=test_spike_signature.log test.elf
+	spike -c --isa=rv32i +signature=test_spike_signature.log test.elf
 
 sim: spike
 	@echo '[UpTickPro] Simulation ------'
