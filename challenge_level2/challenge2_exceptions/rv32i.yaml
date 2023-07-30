@@ -40,7 +40,7 @@ isa-instruction-distribution:
   rel_sys: 0
   rel_sys.csr: 1
   rel_rv32i.ctrl: 0
-  rel_rv32i.compute: 30
+  rel_rv32i.compute: 35
   rel_rv32i.data: 35
   rel_rv32i.fence: 30
   rel_rv64i.compute: 0

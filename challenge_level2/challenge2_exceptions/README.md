@@ -10,4 +10,5 @@ it was set by modifying
   rel_rv32i.data: 35
   rel_rv32i.fence: 30
 
-It generated around 11 exception
+It generated around 10 exception
+![Alt text](image.png)

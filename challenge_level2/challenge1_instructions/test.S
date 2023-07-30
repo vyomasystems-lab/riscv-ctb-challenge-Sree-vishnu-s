@@ -1,6 +1,6 @@
 # Random Assembly Program Generated using aapg
-# Generated at: 2023-07-22 20:00 GMT
-# Seed: 11570733518171237381
+# Generated at: 2023-07-30 17:36 GMT
+# Seed: 2578294811315138508
 
 #include "test_template.S"
 #define TEST_NAME test
@@ -149,1009 +149,1009 @@ main:
 				test_entry_macro              
 				123:                          
 				la                  sp, begin_signature
-				li                  t1, 5208  
+				li                  t1, 5336  
 				add                 sp, sp, t1
 i0000000000:	li                  x31, 10   
-i0000000001:	srli                t0, a3, 21
-i0000000002:	srli                t5, s3, 11
-i0000000003:	xori                s4, t3, -1383
-i0000000004:	srai                t6, s4, 24
-i0000000005:	lui                 s3, 176581
-i0000000006:	slli                a3, s3, 3 
-i0000000007:	and                 a2, t6, a3
-i0000000008:	or                  s4, a5, s6
-i0000000009:	lui                 t5, 469355
-i000000000a:	sub                 s3, a3, a3
-i000000000b:	or                  a3, s4, s4
-i000000000c:	sra                 a1, a3, a3
-i000000000d:	srli                a3, a4, 6 
-i000000000e:	and                 s11, s2, s8
-i000000000f:	auipc               a5, 269937
-i0000000010:	auipc               s4, 444449
-i0000000011:	sll                 a4, s3, a3
-i0000000012:	lui                 a3, 222716
-i0000000013:	slti                s4, a3, 156
-i0000000014:	and                 s4, a6, a1
-i0000000015:	add                 t2, s4, s3
-i0000000016:	xori                s5, s3, -214
-i0000000017:	and                 a3, s4, a3
-i0000000018:	slti                s3, tp, -1293
-i0000000019:	xor                 s4, t5, s0
-i000000001a:	srl                 s3, s11, t0
-i000000001b:	addi                a3, a3, -561
-i000000001c:	sra                 a6, t2, s2
-i000000001d:	xor                 tp, a4, s5
-i000000001e:	sub                 s3, s5, t3
-i000000001f:	xor                 t6, a3, s3
-i0000000020:	sub                 a7, s1, a1
-i0000000021:	slt                 tp, a0, a6
-i0000000022:	xor                 t0, a3, s4
-i0000000023:	sltiu               a3, s4, -1662
-i0000000024:	sltu                a6, t3, zero
-i0000000025:	add                 a3, a0, s0
-i0000000026:	and                 s4, s4, a3
-i0000000027:	addi                a3, a3, 572
-i0000000028:	srai                s4, s4, 26
-i0000000029:	slt                 s4, s2, s10
-i000000002a:	xor                 t6, s4, a3
-i000000002b:	slli                s3, t2, 7 
-i000000002c:	sltiu               a1, s4, -512
-i000000002d:	sltiu               a4, a6, -940
-i000000002e:	addi                a3, t4, -2022
-i000000002f:	andi                a3, s4, -1245
-i0000000030:	ori                 s2, s4, -1253
-i0000000031:	auipc               s4, 377593
-i0000000032:	slli                s4, s11, 2
-i0000000033:	xor                 t2, a6, a4
-i0000000034:	slti                tp, a3, -1267
-i0000000035:	srl                 tp, a5, t3
-i0000000036:	sra                 t2, s1, t2
-i0000000037:	slt                 s5, t4, a7
-i0000000038:	or                  a0, s4, s4
-i0000000039:	sltiu               t0, s3, 621
-i000000003a:	srl                 a3, a6, a7
-i000000003b:	and                 s4, a3, a3
-i000000003c:	sub                 s4, s4, s4
-i000000003d:	and                 a3, s3, a3
-i000000003e:	and                 s4, s6, a6
-i000000003f:	lui                 s6, 296079
-i0000000040:	xori                a3, s8, 1963
-i0000000041:	srai                s3, a3, 22
-i0000000042:	add                 gp, a3, a3
-i0000000043:	srl                 t3, a3, a3
-i0000000044:	srl                 s3, s8, zero
-i0000000045:	sub                 tp, s3, a3
-i0000000046:	lui                 s0, 179573
-i0000000047:	and                 zero, s3, s3
-i0000000048:	andi                s6, s3, -342
-i0000000049:	addi                s5, a7, -1978
-i000000004a:	srli                s4, a3, 21
-i000000004b:	add                 a3, s4, s3
-i000000004c:	sub                 a3, t3, s9
-i000000004d:	slt                 s2, a3, s4
-i000000004e:	ori                 s4, a3, -1439
-i000000004f:	add                 s4, a3, s4
-i0000000050:	auipc               s10, 452078
-i0000000051:	addi                t1, a0, 570
-i0000000052:	sra                 t1, t5, a7
-i0000000053:	sub                 s5, a3, a3
-i0000000054:	andi                a3, s0, -583
-i0000000055:	ori                 a3, s0, -462
-i0000000056:	srl                 a5, s4, a3
-i0000000057:	add                 s3, s4, a3
-i0000000058:	and                 t4, t0, a4
-i0000000059:	ori                 s9, a3, -113
-i000000005a:	ori                 s3, s9, 1933
-i000000005b:	auipc               a3, 302851
-i000000005c:	sltiu               s3, s3, 1753
-i000000005d:	srli                s4, gp, 7 
-i000000005e:	xor                 s3, s3, s4
-i000000005f:	sra                 s3, t3, s9
-i0000000060:	xori                a3, a3, -1127
-i0000000061:	or                  t4, s5, t5
-i0000000062:	add                 a3, a3, s3
-i0000000063:	sub                 s0, s9, a6
-i0000000064:	slti                a0, s4, 1868
-i0000000065:	sltiu               a5, a5, 117
-i0000000066:	slt                 a4, a3, a3
-i0000000067:	srl                 s11, s3, s4
-i0000000068:	sltiu               a3, t1, -1856
-i0000000069:	sra                 s3, t3, s8
-i000000006a:	srl                 s4, t0, zero
-i000000006b:	slti                t1, s3, 864
-i000000006c:	srl                 a3, t3, a1
-i000000006d:	ori                 s5, s3, -1348
-i000000006e:	sll                 s10, gp, s6
-i000000006f:	srai                s4, a3, 17
-i0000000070:	srai                t5, s11, 16
-i0000000071:	slli                s4, a3, 10
-i0000000072:	srai                t6, a3, 26
-i0000000073:	srai                t2, a2, 18
-i0000000074:	and                 s6, a5, s10
-i0000000075:	srli                s3, s8, 23
-i0000000076:	slti                s3, s4, 1714
-i0000000077:	srai                s3, s5, 7 
-i0000000078:	slli                s3, s9, 11
-i0000000079:	andi                s2, a5, 75
-i000000007a:	add                 s3, a3, a3
-i000000007b:	slti                s3, t0, -872
-i000000007c:	sub                 a3, s4, s3
-i000000007d:	and                 s3, s3, s3
-i000000007e:	srai                zero, s2, 20
-i000000007f:	and                 a1, t5, a7
-i0000000080:	sub                 a5, t6, s10
-i0000000081:	or                  s5, s4, s3
-i0000000082:	lui                 t0, 314307
-i0000000083:	sub                 s4, s10, t3
-i0000000084:	sltu                s4, s4, a3
-i0000000085:	auipc               a3, 409307
-i0000000086:	add                 s10, s4, s4
-i0000000087:	srl                 s7, a3, s3
-i0000000088:	xori                a3, s10, -600
-i0000000089:	sltu                s4, s4, a3
-i000000008a:	sltu                a2, a3, s3
-i000000008b:	ori                 s3, zero, -1508
-i000000008c:	sra                 s4, s2, zero
-i000000008d:	ori                 s3, a3, -1208
-i000000008e:	sltu                a4, s5, t4
-i000000008f:	slt                 a4, a1, s2
-i0000000090:	sll                 s4, a3, s3
-i0000000091:	sltiu               a1, a4, -386
-i0000000092:	slli                s4, s2, 25
-i0000000093:	or                  a6, a4, a7
-i0000000094:	srli                t5, a3, 14
-i0000000095:	slt                 a3, s5, t6
-i0000000096:	addi                a7, a3, 1449
-i0000000097:	andi                s3, a3, 1150
-i0000000098:	andi                s3, s3, -916
-i0000000099:	slt                 a1, t4, gp
-i000000009a:	xor                 a6, a3, s4
-i000000009b:	sltiu               s4, t6, 837
-i000000009c:	sltiu               a3, t0, 1685
-i000000009d:	auipc               s0, 9249  
-i000000009e:	lui                 s6, 345182
-i000000009f:	andi                s10, s8, -476
-i00000000a0:	or                  a1, s11, t0
-i00000000a1:	srli                s7, t4, 5 
-i00000000a2:	ori                 s3, s10, 344
-i00000000a3:	xor                 s3, a5, t5
-i00000000a4:	or                  zero, a3, s3
-i00000000a5:	sltu                s3, t2, tp
-i00000000a6:	sll                 a3, s4, s4
-i00000000a7:	sltu                s3, s9, t0
-i00000000a8:	sltiu               s2, a0, -306
-i00000000a9:	addi                s6, s2, -1018
-i00000000aa:	andi                s3, a7, 794
-i00000000ab:	ori                 t2, t2, -19
-i00000000ac:	or                  a6, s3, s3
-i00000000ad:	xor                 t6, s3, s4
-i00000000ae:	auipc               s11, 399981
-i00000000af:	sltu                a3, a7, t4
-i00000000b0:	sub                 s8, s9, a7
-i00000000b1:	srl                 s2, a6, s11
-i00000000b2:	srl                 t3, a3, s3
-i00000000b3:	or                  a3, s3, s4
-i00000000b4:	slt                 s10, s3, a3
-i00000000b5:	slt                 t5, a3, s4
-i00000000b6:	add                 s4, s0, t3
-i00000000b7:	and                 s4, s3, s3
-i00000000b8:	or                  s3, t4, s9
-i00000000b9:	sltu                s3, s0, a5
-i00000000ba:	lui                 s3, 387496
-i00000000bb:	slli                t3, a1, 25
-i00000000bc:	slti                s3, t4, 96
-i00000000bd:	xori                s3, s4, -1691
-i00000000be:	xori                s4, s8, -851
-i00000000bf:	srl                 s4, t4, a4
-i00000000c0:	and                 s5, a2, t1
-i00000000c1:	lui                 s1, 413416
-i00000000c2:	addi                a3, s4, 765
-i00000000c3:	ori                 s4, t4, -936
-i00000000c4:	andi                s3, s3, 1185
-i00000000c5:	add                 t6, s1, t0
-i00000000c6:	sra                 a3, t2, t4
-i00000000c7:	slt                 s10, s0, t4
-i00000000c8:	sltu                a3, s4, s4
-i00000000c9:	slt                 t3, t4, s6
-i00000000ca:	add                 s2, s3, a3
-i00000000cb:	sra                 s4, s4, s3
-i00000000cc:	lui                 s1, 292163
-i00000000cd:	xori                s4, s10, -756
-i00000000ce:	sub                 a7, s3, a3
-i00000000cf:	add                 s3, a7, tp
-i00000000d0:	sll                 s3, a3, s3
-i00000000d1:	slt                 s3, t0, a4
-i00000000d2:	sll                 s4, s9, s1
-i00000000d3:	sra                 a3, a1, s11
-i00000000d4:	xor                 s3, s4, s4
-i00000000d5:	and                 s2, s3, s3
-i00000000d6:	sub                 s4, s4, a3
-i00000000d7:	slli                a2, s4, 11
-i00000000d8:	xori                s1, s3, -1940
-i00000000d9:	or                  s4, t2, a7
-i00000000da:	or                  s0, s3, a3
-i00000000db:	srli                a7, a3, 9 
-i00000000dc:	slt                 s2, s4, s4
-i00000000dd:	srl                 s1, a5, s0
-i00000000de:	slli                s0, a3, 31
-i00000000df:	addi                a3, a3, 1301
-i00000000e0:	and                 gp, s11, zero
-i00000000e1:	slli                a3, s1, 1 
-i00000000e2:	srli                s4, s3, 2 
-i00000000e3:	sltu                t4, s4, s3
-i00000000e4:	sra                 s4, s0, gp
-i00000000e5:	slti                s5, s5, -30
-i00000000e6:	and                 tp, a3, a3
-i00000000e7:	auipc               s3, 472971
-i00000000e8:	addi                a3, a2, -673
-i00000000e9:	auipc               a3, 378434
-i00000000ea:	and                 s0, s3, s3
-i00000000eb:	srli                a3, s4, 21
-i00000000ec:	srai                s3, s4, 18
-i00000000ed:	auipc               a3, 422923
-i00000000ee:	srl                 s4, a5, s2
-i00000000ef:	sltu                a3, s11, s10
-i00000000f0:	srl                 s3, s2, a2
-i00000000f1:	sll                 s3, a3, s4
-i00000000f2:	sra                 s6, t6, a1
-i00000000f3:	or                  a3, t5, a6
-i00000000f4:	slt                 s3, s5, t5
-i00000000f5:	auipc               s11, 47433
-i00000000f6:	sub                 a4, a5, t6
-i00000000f7:	lui                 s4, 292764
-i00000000f8:	lui                 a7, 209491
-i00000000f9:	srl                 s3, s0, a2
-i00000000fa:	ori                 a4, s4, 2007
-i00000000fb:	sltu                s4, a6, s6
-i00000000fc:	ori                 s4, s4, 697
-i00000000fd:	add                 a3, s1, a4
-i00000000fe:	slti                a3, a0, -373
-i00000000ff:	add                 a7, s4, a3
-i0000000100:	sltu                a3, a2, t4
-i0000000101:	add                 a2, s4, a3
-i0000000102:	add                 s5, t1, t5
-i0000000103:	slt                 s6, a3, a3
-i0000000104:	xori                a3, a3, -731
-i0000000105:	srai                a2, s3, 19
-i0000000106:	lui                 t2, 356412
-i0000000107:	auipc               t0, 83167 
-i0000000108:	srli                a2, t1, 29
-i0000000109:	slli                s3, a0, 1 
-i000000010a:	sll                 a2, t3, s11
-i000000010b:	add                 a1, s2, s8
-i000000010c:	sub                 s4, a3, s4
-i000000010d:	andi                s3, t4, 1009
-i000000010e:	add                 t0, a3, a3
-i000000010f:	srai                a3, s3, 2 
-i0000000110:	or                  s3, s4, s3
-i0000000111:	andi                a6, s1, -858
-i0000000112:	auipc               s8, 410542
-i0000000113:	slti                s3, s2, 1257
-i0000000114:	addi                a3, a3, 238
-i0000000115:	lui                 a3, 57920 
-i0000000116:	ori                 t2, s3, 580
-i0000000117:	or                  s4, a3, a3
-i0000000118:	xor                 a2, a3, a3
-i0000000119:	lui                 t6, 93689 
-i000000011a:	sll                 s3, a6, t3
-i000000011b:	addi                s3, s4, -605
-i000000011c:	srl                 s10, s3, s4
-i000000011d:	addi                s8, t3, 35
-i000000011e:	slli                s4, gp, 27
-i000000011f:	slli                a3, a3, 10
-i0000000120:	lui                 s3, 32505 
-i0000000121:	srai                a3, s4, 0 
-i0000000122:	sra                 s4, s3, s3
-i0000000123:	srai                t3, s3, 6 
-i0000000124:	auipc               zero, 47547
-i0000000125:	and                 tp, s0, gp
-i0000000126:	sub                 s3, zero, s8
-i0000000127:	xori                t5, s9, -1354
-i0000000128:	sub                 a2, a5, s10
-i0000000129:	auipc               a3, 27916 
-i000000012a:	srai                t6, s6, 5 
-i000000012b:	xori                s8, t6, 171
-i000000012c:	sll                 a6, s4, a3
-i000000012d:	sltiu               t3, s4, -786
-i000000012e:	add                 s1, t2, s5
-i000000012f:	addi                t4, a3, 1147
-i0000000130:	slli                s4, s4, 29
-i0000000131:	add                 a3, s4, s4
-i0000000132:	addi                a0, s10, 1464
-i0000000133:	sltu                t2, t1, s11
-i0000000134:	sltiu               a3, s3, -1286
-i0000000135:	auipc               zero, 18194
-i0000000136:	addi                a3, a3, 1098
-i0000000137:	srai                zero, s3, 30
-i0000000138:	sll                 a4, a6, a1
-i0000000139:	sra                 a3, s3, a3
-i000000013a:	sra                 t4, s3, s4
-i000000013b:	auipc               s4, 385677
-i000000013c:	sra                 a3, t2, t3
-i000000013d:	andi                s4, a3, -239
-i000000013e:	xor                 a3, zero, t2
-i000000013f:	xori                a3, s4, 695
-i0000000140:	xor                 a5, s10, s7
-i0000000141:	or                  s5, a7, t5
-i0000000142:	srai                s4, s2, 13
-i0000000143:	auipc               a1, 410712
-i0000000144:	or                  a3, s3, s3
-i0000000145:	xori                a3, a3, 1983
-i0000000146:	ori                 s3, s4, -141
-i0000000147:	xor                 s4, a3, s3
-i0000000148:	or                  a3, s4, a3
-i0000000149:	xor                 a7, s4, s4
-i000000014a:	srli                s4, s3, 22
-i000000014b:	sltiu               s4, a3, -447
-i000000014c:	lui                 s9, 72459 
-i000000014d:	sub                 s3, s2, a5
-i000000014e:	srli                a3, s4, 22
-i000000014f:	sra                 a2, t6, t0
-i0000000150:	andi                s8, s3, -964
-i0000000151:	xor                 a3, t2, t2
-i0000000152:	or                  gp, a2, t6
-i0000000153:	srli                a4, a0, 25
-i0000000154:	slti                s3, s4, -73
-i0000000155:	and                 s3, t0, gp
-i0000000156:	sub                 s4, s3, a3
-i0000000157:	ori                 s0, s3, -1113
-i0000000158:	auipc               a3, 472562
-i0000000159:	or                  s3, s8, s8
-i000000015a:	sltu                a3, s3, a3
-i000000015b:	auipc               a3, 399342
-i000000015c:	srl                 gp, a3, s4
-i000000015d:	srl                 a5, s4, a3
-i000000015e:	lui                 t0, 491753
-i000000015f:	ori                 s4, s4, -1854
-i0000000160:	add                 a6, s3, s4
-i0000000161:	ori                 a3, s4, 1998
-i0000000162:	sra                 s3, s3, s4
-i0000000163:	srai                s3, a5, 27
-i0000000164:	sltu                s3, a1, s8
-i0000000165:	xori                s4, a3, -1269
-i0000000166:	sltu                s3, s4, s3
-i0000000167:	slti                t6, s3, 1715
-i0000000168:	sll                 tp, a1, t3
-i0000000169:	lui                 a3, 282282
-i000000016a:	ori                 s3, a3, -209
-i000000016b:	srli                s3, a3, 15
-i000000016c:	auipc               s3, 92397 
-i000000016d:	addi                a2, s3, -970
-i000000016e:	addi                s0, s3, -527
-i000000016f:	auipc               tp, 407334
-i0000000170:	ori                 a3, s3, 1468
-i0000000171:	slt                 t6, a3, a3
-i0000000172:	auipc               s3, 232581
-i0000000173:	xori                t1, s4, -719
-i0000000174:	sltu                a3, gp, gp
-i0000000175:	srli                s4, s3, 12
-i0000000176:	slti                s4, a3, -801
-i0000000177:	slli                a3, s4, 19
-i0000000178:	srl                 a3, a3, s4
-i0000000179:	sll                 s4, t3, a2
-i000000017a:	sltiu               s11, s10, -405
-i000000017b:	auipc               a3, 143557
-i000000017c:	xori                s4, gp, -1570
-i000000017d:	srli                a3, t5, 29
-i000000017e:	sub                 s3, s4, s3
-i000000017f:	andi                a3, t4, 1831
-i0000000180:	srl                 gp, a3, a3
-i0000000181:	slti                s4, s3, 346
-i0000000182:	srai                t2, a5, 3 
-i0000000183:	sub                 gp, t2, t4
-i0000000184:	slt                 a2, s1, t4
-i0000000185:	or                  tp, s8, a4
-i0000000186:	slti                a3, a2, -1693
-i0000000187:	lui                 s0, 56981 
-i0000000188:	ori                 a3, a0, -866
-i0000000189:	slli                s3, a7, 18
-i000000018a:	xor                 s9, s10, s0
-i000000018b:	sll                 s3, s4, s3
-i000000018c:	sra                 s7, a3, a3
-i000000018d:	sltu                s8, t3, gp
-i000000018e:	slt                 a2, s3, s3
-i000000018f:	add                 a5, s4, a3
-i0000000190:	xori                a7, a3, 30
-i0000000191:	slli                a3, t4, 14
-i0000000192:	sub                 s3, s4, s4
-i0000000193:	srl                 s1, s1, s6
-i0000000194:	sll                 s4, s3, s3
-i0000000195:	srai                a5, a3, 0 
-i0000000196:	and                 a7, t3, tp
-i0000000197:	or                  s3, a3, s3
-i0000000198:	sll                 s9, s3, s3
-i0000000199:	sltiu               a7, a1, 422
-i000000019a:	xori                s4, t4, -59
-i000000019b:	addi                t4, s6, 1005
-i000000019c:	xori                s3, s0, -1288
-i000000019d:	sub                 s8, a3, s4
-i000000019e:	auipc               s4, 73787 
-i000000019f:	ori                 s2, a3, 1459
-i00000001a0:	xor                 t6, s4, s4
-i00000001a1:	ori                 gp, a3, 1385
-i00000001a2:	xor                 s4, t0, t2
-i00000001a3:	srl                 s4, s4, a3
-i00000001a4:	ori                 s3, s5, -254
-i00000001a5:	auipc               s4, 480860
-i00000001a6:	xori                s3, a3, 1644
-i00000001a7:	srli                s3, a7, 15
-i00000001a8:	sll                 s4, a7, t6
-i00000001a9:	sub                 t3, s4, s3
-i00000001aa:	slti                a3, s4, -352
-i00000001ab:	xor                 a6, tp, gp
-i00000001ac:	sub                 s4, zero, t3
-i00000001ad:	or                  s4, s5, gp
-i00000001ae:	lui                 s5, 163218
-i00000001af:	sll                 a3, a3, s3
-i00000001b0:	xor                 s4, s11, a7
-i00000001b1:	srl                 s3, s7, s11
-i00000001b2:	srl                 a3, s4, s3
-i00000001b3:	addi                a1, a3, 1706
-i00000001b4:	sll                 s3, a3, a3
-i00000001b5:	auipc               a3, 141879
-i00000001b6:	slli                a3, s3, 18
-i00000001b7:	addi                s3, a3, -1883
-i00000001b8:	srli                a3, s4, 30
-i00000001b9:	sra                 t5, a3, a3
-i00000001ba:	sub                 a3, s4, a3
-i00000001bb:	and                 s3, s4, s4
-i00000001bc:	andi                s4, s4, 2031
-i00000001bd:	auipc               a3, 266537
-i00000001be:	slti                zero, zero, 1020
-i00000001bf:	sub                 tp, a6, s0
-i00000001c0:	sltiu               a7, a3, 1458
-i00000001c1:	sra                 s4, a2, t5
-i00000001c2:	slti                t5, t1, 1333
-i00000001c3:	ori                 s10, s8, -75
-i00000001c4:	and                 t3, a3, a3
-i00000001c5:	add                 t5, s3, s4
-i00000001c6:	or                  a3, a3, a3
-i00000001c7:	ori                 t1, t4, -1272
-i00000001c8:	srl                 t0, s4, s4
-i00000001c9:	sll                 s3, s1, a7
-i00000001ca:	sltiu               a6, s8, 643
-i00000001cb:	add                 a6, a2, t2
-i00000001cc:	xor                 a1, s4, a3
-i00000001cd:	slli                s1, a7, 24
-i00000001ce:	srai                a5, zero, 19
-i00000001cf:	sltu                s3, s8, a0
-i00000001d0:	auipc               s1, 389487
-i00000001d1:	sra                 s4, s3, a3
-i00000001d2:	and                 s4, s9, s5
-i00000001d3:	sltiu               t6, gp, 1985
-i00000001d4:	sltiu               s4, s8, -792
-i00000001d5:	srai                a3, t4, 9 
-i00000001d6:	sub                 t0, t1, s11
-i00000001d7:	auipc               s3, 443622
-i00000001d8:	slti                s9, t4, -1542
-i00000001d9:	srli                s5, s4, 25
-i00000001da:	slt                 a3, s3, a3
-i00000001db:	xor                 s9, s3, a3
-i00000001dc:	srl                 a3, zero, t4
-i00000001dd:	add                 s4, s3, a3
-i00000001de:	andi                s3, a3, -1092
-i00000001df:	slt                 s8, s11, s1
-i00000001e0:	srai                s3, t4, 7 
-i00000001e1:	srli                t2, s10, 6
-i00000001e2:	sltiu               a3, a0, -1434
-i00000001e3:	or                  s4, zero, a7
-i00000001e4:	addi                a3, s4, -1963
-i00000001e5:	sra                 s3, a3, a3
-i00000001e6:	or                  a3, s4, s4
-i00000001e7:	andi                tp, s4, 1461
-i00000001e8:	sltu                s4, a3, a3
-i00000001e9:	auipc               a7, 146670
-i00000001ea:	xor                 zero, gp, t0
-i00000001eb:	srai                s3, s3, 18
-i00000001ec:	sub                 s4, s4, s3
-i00000001ed:	slli                a3, a3, 23
-i00000001ee:	xori                s5, a1, -1721
-i00000001ef:	addi                zero, s3, 220
-i00000001f0:	sltu                t0, s5, t5
-i00000001f1:	sltiu               tp, s10, -163
-i00000001f2:	srai                s3, s3, 7 
-i00000001f3:	slli                a3, a3, 31
-i00000001f4:	slt                 t4, a7, s7
-i00000001f5:	slti                s4, s3, -1363
-i00000001f6:	addi                s0, a3, 1651
-i00000001f7:	srl                 s1, a5, a4
-i00000001f8:	slti                s4, s0, -1144
-i00000001f9:	add                 s4, tp, t6
-i00000001fa:	sra                 s10, a3, s4
-i00000001fb:	andi                a2, a3, -1999
-i00000001fc:	ori                 a3, s4, -3
-i00000001fd:	sub                 s0, s10, s5
-i00000001fe:	andi                s1, s4, -781
-i00000001ff:	slti                a1, s9, 141
-i0000000200:	andi                a3, s3, 1089
-i0000000201:	addi                gp, t6, 1725
-i0000000202:	lui                 a3, 303213
-i0000000203:	andi                s1, s3, -798
-i0000000204:	sltiu               t6, s1, -1677
-i0000000205:	srl                 t3, s4, s4
-i0000000206:	xor                 a0, a3, s3
-i0000000207:	slt                 s3, a3, s3
-i0000000208:	auipc               s3, 368916
-i0000000209:	slti                s3, s4, -1671
-i000000020a:	andi                s6, t2, 494
-i000000020b:	slti                a3, s4, -740
-i000000020c:	slti                s6, s5, -103
-i000000020d:	sll                 s3, a3, s3
-i000000020e:	andi                s3, t3, -874
-i000000020f:	xor                 s4, a3, a3
-i0000000210:	xor                 a5, s4, a3
-i0000000211:	addi                s3, t2, -965
-i0000000212:	addi                a6, s3, 128
-i0000000213:	xor                 s5, s3, s3
-i0000000214:	addi                s1, s2, 752
-i0000000215:	add                 t3, s4, s4
-i0000000216:	ori                 t3, s4, -849
-i0000000217:	xori                s4, s4, 1973
-i0000000218:	srli                gp, s5, 9 
-i0000000219:	addi                t2, a2, -2007
-i000000021a:	and                 s4, a3, s4
-i000000021b:	ori                 s10, s3, -349
-i000000021c:	slt                 s3, t4, t0
-i000000021d:	sltu                a3, t5, s10
-i000000021e:	xori                s4, s2, -1025
-i000000021f:	xor                 s4, s11, t6
-i0000000220:	andi                gp, s3, 1521
-i0000000221:	sll                 a4, s3, a3
-i0000000222:	srl                 s4, a4, t2
-i0000000223:	srai                s11, a4, 23
-i0000000224:	srli                t5, s2, 6 
-i0000000225:	lui                 s3, 206486
-i0000000226:	slti                t6, a3, 822
-i0000000227:	andi                s4, s4, -1459
-i0000000228:	ori                 s3, s4, -463
-i0000000229:	sub                 s10, s3, s3
-i000000022a:	srl                 s3, s4, s4
-i000000022b:	lui                 a3, 362652
-i000000022c:	andi                s4, t1, -1417
-i000000022d:	auipc               s2, 160970
-i000000022e:	lui                 a3, 435178
-i000000022f:	slli                s3, a5, 25
-i0000000230:	auipc               a3, 501834
-i0000000231:	sub                 t4, s3, s3
-i0000000232:	or                  s1, s6, t6
-i0000000233:	sub                 t5, s3, s4
-i0000000234:	slt                 s4, s4, s3
-i0000000235:	or                  a3, s11, t2
-i0000000236:	sltiu               s4, s4, -188
-i0000000237:	and                 s3, a3, s3
-i0000000238:	srli                t5, a1, 8 
-i0000000239:	srai                s4, s7, 1 
-i000000023a:	sltiu               s4, tp, -252
-i000000023b:	slti                s6, s0, 2007
-i000000023c:	sub                 s6, s8, t0
-i000000023d:	andi                a4, s3, -1747
-i000000023e:	srli                s5, a2, 31
-i000000023f:	sll                 s3, a3, s3
-i0000000240:	andi                s4, s4, -1862
-i0000000241:	srl                 a2, s3, a3
-i0000000242:	sra                 s3, s3, s3
-i0000000243:	srli                s3, s3, 13
-i0000000244:	addi                t0, a3, -715
-i0000000245:	sltiu               s4, s4, -1744
-i0000000246:	auipc               s4, 312239
-i0000000247:	srai                a5, t1, 19
-i0000000248:	ori                 a6, s4, -1716
-i0000000249:	sra                 s3, a3, a3
-i000000024a:	auipc               s4, 231401
-i000000024b:	sltu                a3, s4, a3
-i000000024c:	add                 s3, a3, s4
-i000000024d:	slt                 t2, s11, s5
-i000000024e:	xor                 a6, zero, a0
-i000000024f:	srai                t2, s3, 28
-i0000000250:	srli                s3, t0, 3 
-i0000000251:	andi                zero, s4, 1954
-i0000000252:	and                 s3, s4, s4
-i0000000253:	slti                s8, t0, 329
-i0000000254:	srai                a3, a3, 7 
-i0000000255:	xori                a2, t4, -814
-i0000000256:	andi                a3, s11, 1950
-i0000000257:	lui                 a3, 182182
-i0000000258:	add                 a1, s0, a7
-i0000000259:	srl                 s3, s1, t6
-i000000025a:	or                  s3, a2, t5
-i000000025b:	sll                 s4, zero, t3
-i000000025c:	sll                 s3, t4, s7
-i000000025d:	xor                 gp, tp, s5
-i000000025e:	xor                 a5, s4, a3
-i000000025f:	srli                s4, s1, 19
-i0000000260:	add                 s3, s5, s0
-i0000000261:	lui                 s5, 15262 
-i0000000262:	xori                t5, s4, -1198
-i0000000263:	xori                a1, a3, 1124
-i0000000264:	xor                 s3, a3, a3
-i0000000265:	slti                s3, a3, -811
-i0000000266:	and                 a3, s4, s3
-i0000000267:	sra                 a3, a3, a3
-i0000000268:	and                 t5, s4, a3
-i0000000269:	andi                a3, s3, 1862
-i000000026a:	andi                t0, s3, 629
-i000000026b:	addi                s3, a7, 1424
-i000000026c:	sltiu               s3, a1, 58
-i000000026d:	xori                a3, s3, 711
-i000000026e:	sltiu               t1, s4, -1136
-i000000026f:	srli                s5, t2, 27
-i0000000270:	add                 s3, s3, s4
-i0000000271:	ori                 a3, a3, -1669
-i0000000272:	sltu                a3, a3, s4
-i0000000273:	sub                 t6, s3, a3
-i0000000274:	slli                a3, a2, 15
-i0000000275:	sra                 a3, s4, s3
-i0000000276:	sltu                s3, s4, s3
-i0000000277:	add                 s10, s4, s4
-i0000000278:	xor                 a3, t4, t4
-i0000000279:	or                  a3, s4, a3
-i000000027a:	srai                tp, s3, 23
-i000000027b:	slt                 t3, s11, a5
-i000000027c:	sltiu               s8, s3, -885
-i000000027d:	or                  a2, a3, s4
-i000000027e:	auipc               s2, 261038
-i000000027f:	xori                a3, a4, -485
-i0000000280:	and                 s3, a4, s1
-i0000000281:	sra                 a3, s4, s3
-i0000000282:	srli                s5, s3, 24
-i0000000283:	srai                t4, t1, 14
-i0000000284:	sra                 s3, s3, s3
-i0000000285:	sll                 s4, a3, a3
-i0000000286:	sub                 s8, s3, a3
-i0000000287:	or                  s4, s4, a3
-i0000000288:	ori                 a3, s4, 1249
-i0000000289:	sub                 t0, s4, a3
-i000000028a:	sra                 s4, a3, a3
-i000000028b:	or                  s3, t2, t4
-i000000028c:	ori                 a3, a6, 568
-i000000028d:	srai                t6, s4, 1 
-i000000028e:	sltu                a3, s7, t5
-i000000028f:	srai                s4, s3, 8 
-i0000000290:	ori                 a3, s3, -729
-i0000000291:	auipc               a2, 256474
-i0000000292:	addi                a3, s5, -33
-i0000000293:	and                 a5, s5, a4
-i0000000294:	lui                 s1, 27090 
-i0000000295:	lui                 s3, 32597 
-i0000000296:	or                  a3, t2, t5
-i0000000297:	sll                 t5, s9, t4
-i0000000298:	add                 a3, s0, a2
-i0000000299:	xori                s11, s7, 1301
-i000000029a:	addi                a3, s3, 1160
-i000000029b:	sra                 a3, s3, s3
-i000000029c:	or                  s5, a7, s0
-i000000029d:	or                  tp, t5, a2
-i000000029e:	auipc               t2, 317751
-i000000029f:	sltiu               a3, s3, -675
-i00000002a0:	xor                 s4, gp, t1
-i00000002a1:	lui                 t1, 95225 
-i00000002a2:	sltiu               gp, s4, -494
-i00000002a3:	or                  s4, s3, s4
-i00000002a4:	xor                 a3, a4, s8
-i00000002a5:	slt                 a3, s3, s3
-i00000002a6:	and                 s4, a7, a7
-i00000002a7:	lui                 s3, 350867
-i00000002a8:	slli                s4, s2, 6 
-i00000002a9:	sub                 s3, s10, t2
-i00000002aa:	slti                a4, s3, -6
-i00000002ab:	srl                 t1, gp, gp
-i00000002ac:	srai                s4, tp, 14
-i00000002ad:	sltu                tp, t1, a5
-i00000002ae:	srl                 gp, a3, a3
-i00000002af:	sll                 s4, t4, t1
-i00000002b0:	auipc               a3, 436543
-i00000002b1:	sra                 a3, s11, a0
-i00000002b2:	slli                s4, t1, 7 
-i00000002b3:	addi                a7, s7, 1152
-i00000002b4:	xori                zero, a4, -1187
-i00000002b5:	srli                a3, a3, 3 
-i00000002b6:	xor                 a3, s0, s1
-i00000002b7:	sub                 s10, s7, s9
-i00000002b8:	or                  s3, t5, s0
-i00000002b9:	xor                 s2, a3, a3
-i00000002ba:	add                 a3, s7, s5
-i00000002bb:	auipc               s10, 149834
-i00000002bc:	slli                s4, a3, 5 
-i00000002bd:	add                 t4, a3, s3
-i00000002be:	and                 t2, s6, tp
-i00000002bf:	sltu                a7, s4, a3
-i00000002c0:	and                 s3, s2, t0
-i00000002c1:	slli                s11, tp, 2
-i00000002c2:	slli                a3, s3, 20
-i00000002c3:	sub                 tp, s6, t2
-i00000002c4:	lui                 s3, 366735
-i00000002c5:	sltiu               s5, a3, -1647
-i00000002c6:	slt                 a3, zero, t4
-i00000002c7:	slti                s11, a6, 1859
-i00000002c8:	ori                 s3, t2, -959
-i00000002c9:	slt                 a1, a7, a5
-i00000002ca:	or                  a3, tp, t5
-i00000002cb:	srl                 a3, s10, gp
-i00000002cc:	slt                 t6, a3, s4
-i00000002cd:	xor                 gp, s4, s4
-i00000002ce:	sltu                a3, tp, s7
-i00000002cf:	or                  s4, a3, s3
-i00000002d0:	slli                a3, s3, 23
-i00000002d1:	andi                gp, a7, -405
-i00000002d2:	sll                 a3, zero, s5
-i00000002d3:	sub                 a3, a3, a3
-i00000002d4:	add                 s3, a3, s3
-i00000002d5:	auipc               s4, 19648 
-i00000002d6:	slli                t0, s3, 11
-i00000002d7:	addi                tp, s4, -889
-i00000002d8:	lui                 s6, 158447
-i00000002d9:	slli                s9, s9, 9 
-i00000002da:	srai                a5, s4, 9 
-i00000002db:	add                 a7, a3, a3
-i00000002dc:	and                 s3, a0, s7
-i00000002dd:	sltiu               a3, s2, -1325
-i00000002de:	add                 s3, t2, a6
-i00000002df:	sltu                s3, s3, s4
-i00000002e0:	addi                a2, s4, 1225
-i00000002e1:	and                 s3, s3, s3
-i00000002e2:	addi                s4, s3, 482
-i00000002e3:	slt                 s3, s4, a3
-i00000002e4:	xor                 s4, s4, s3
-i00000002e5:	slti                a0, t2, -3
-i00000002e6:	auipc               s3, 25859 
-i00000002e7:	sub                 s11, a7, s11
-i00000002e8:	slli                t5, a3, 31
-i00000002e9:	andi                t3, s11, 916
-i00000002ea:	srai                s4, s11, 26
-i00000002eb:	slt                 t3, s8, s2
-i00000002ec:	and                 tp, s4, a3
-i00000002ed:	addi                s4, s6, 170
-i00000002ee:	sra                 s3, a5, s0
-i00000002ef:	sll                 s2, s4, s3
-i00000002f0:	auipc               s4, 522966
-i00000002f1:	sra                 s4, s11, s6
-i00000002f2:	srai                a3, t4, 26
-i00000002f3:	andi                s6, a4, 1111
-i00000002f4:	ori                 a5, s3, 302
-i00000002f5:	srl                 s5, s6, s6
-i00000002f6:	slti                s3, a5, -260
-i00000002f7:	slti                t2, a6, 1909
-i00000002f8:	srl                 s4, a3, a3
-i00000002f9:	andi                t6, s7, 1163
-i00000002fa:	lui                 s3, 266776
-i00000002fb:	sltu                a7, s3, a3
-i00000002fc:	ori                 a3, s3, 1672
-i00000002fd:	srai                a3, t6, 31
-i00000002fe:	sltu                a3, s3, s4
-i00000002ff:	andi                s1, s4, -856
-i0000000300:	or                  a3, s5, s9
-i0000000301:	xori                a3, a3, -592
-i0000000302:	xor                 s4, a3, a3
-i0000000303:	xori                a3, s4, 271
-i0000000304:	and                 s11, t6, t3
-i0000000305:	sll                 a3, a6, s10
-i0000000306:	sll                 gp, s1, a0
-i0000000307:	sltu                tp, s7, t1
-i0000000308:	srai                s3, zero, 11
-i0000000309:	slli                a3, a1, 6 
-i000000030a:	andi                s3, s3, 139
-i000000030b:	sll                 s3, gp, s0
-i000000030c:	xori                s10, s6, -1126
-i000000030d:	xor                 s4, a3, s4
-i000000030e:	xor                 s3, a3, a3
-i000000030f:	ori                 tp, a3, -637
-i0000000310:	sll                 a3, t1, s9
-i0000000311:	sltu                a3, s0, s8
-i0000000312:	or                  t4, t5, s10
-i0000000313:	ori                 s6, a3, 1639
-i0000000314:	slt                 s3, s4, a3
-i0000000315:	addi                a0, s10, -915
-i0000000316:	and                 s10, t2, t3
-i0000000317:	sll                 a3, t6, s9
-i0000000318:	slli                s2, a3, 24
-i0000000319:	srai                s3, s1, 10
-i000000031a:	xor                 a3, t2, a2
-i000000031b:	ori                 s5, t4, 1514
-i000000031c:	xori                a2, a2, 1443
-i000000031d:	xori                s4, s8, 1877
-i000000031e:	auipc               t6, 73113 
-i000000031f:	lui                 a6, 334901
-i0000000320:	sltu                t0, s6, t6
-i0000000321:	or                  s11, a3, s3
-i0000000322:	slti                s9, s9, -1115
-i0000000323:	or                  t6, s3, a3
-i0000000324:	ori                 s4, s11, -272
-i0000000325:	auipc               s0, 444484
-i0000000326:	andi                a7, s5, 1903
-i0000000327:	sltiu               s3, t1, 748
-i0000000328:	andi                s4, s4, 555
-i0000000329:	sra                 a2, gp, a6
-i000000032a:	slt                 s3, s3, s4
-i000000032b:	andi                a3, a4, -38
-i000000032c:	auipc               a3, 342038
-i000000032d:	sub                 tp, s9, t6
-i000000032e:	slli                a7, s4, 23
-i000000032f:	or                  t6, s4, s4
-i0000000330:	slt                 a0, s3, a3
-i0000000331:	slti                s3, t3, 732
-i0000000332:	srl                 s4, gp, s8
-i0000000333:	sra                 t5, s4, s4
-i0000000334:	auipc               s3, 445395
-i0000000335:	auipc               gp, 343743
-i0000000336:	slt                 s3, a3, a3
-i0000000337:	and                 s11, s3, s3
-i0000000338:	sra                 a5, gp, zero
-i0000000339:	addi                a6, t1, 431
-i000000033a:	sltu                a4, s1, a5
-i000000033b:	slli                a5, s8, 5 
-i000000033c:	xor                 a3, a3, s3
-i000000033d:	and                 t3, s4, s4
-i000000033e:	sltu                t0, a1, a0
-i000000033f:	ori                 s0, t3, -1730
-i0000000340:	auipc               s11, 97541
-i0000000341:	sltiu               s10, a3, -1009
-i0000000342:	or                  a2, s4, s4
-i0000000343:	ori                 s4, a7, -1897
-i0000000344:	add                 t2, a3, a3
-i0000000345:	srli                a3, s7, 9 
-i0000000346:	ori                 s9, s7, -383
-i0000000347:	sub                 s7, s4, s4
-i0000000348:	andi                a3, s0, -1272
-i0000000349:	sltiu               a3, a3, 858
-i000000034a:	sub                 a3, t5, a1
-i000000034b:	andi                a7, s3, -321
-i000000034c:	sltiu               s7, a3, -221
-i000000034d:	add                 s3, t2, a5
-i000000034e:	sltu                a3, tp, t4
-i000000034f:	or                  s2, s3, a3
-i0000000350:	and                 zero, t0, s6
-i0000000351:	andi                a3, a7, -1783
-i0000000352:	or                  s9, s3, a3
-i0000000353:	srai                a0, s4, 23
-i0000000354:	ori                 a2, gp, -1772
-i0000000355:	sra                 a0, s9, zero
-i0000000356:	slli                s8, t5, 24
-i0000000357:	sltiu               a1, s4, 1900
-i0000000358:	sra                 t3, s9, s10
-i0000000359:	slli                s9, s3, 5 
-i000000035a:	and                 a3, t4, t3
-i000000035b:	auipc               a4, 9179  
-i000000035c:	sra                 t6, s0, s7
-i000000035d:	and                 s3, s4, s3
-i000000035e:	sra                 s0, s4, s4
-i000000035f:	sub                 s3, s4, s4
-i0000000360:	and                 a3, a5, s8
-i0000000361:	or                  s3, a3, s3
-i0000000362:	and                 s2, a3, a3
-i0000000363:	srli                s4, s2, 15
-i0000000364:	xor                 a2, s4, a3
-i0000000365:	xori                s0, a5, -520
-i0000000366:	xori                a7, s11, 1209
-i0000000367:	sub                 a3, s3, s4
-i0000000368:	sltu                a3, a5, t4
-i0000000369:	and                 s4, t5, a6
-i000000036a:	srli                a6, s10, 31
-i000000036b:	auipc               t1, 67738 
-i000000036c:	andi                a3, a3, -1982
-i000000036d:	ori                 s3, s3, 558
-i000000036e:	slt                 s3, a3, a3
-i000000036f:	srl                 s10, s3, a3
-i0000000370:	xori                s4, s3, -1767
-i0000000371:	srai                s4, s4, 21
-i0000000372:	srl                 s4, t6, a4
-i0000000373:	sra                 s3, t2, s7
-i0000000374:	ori                 s3, a3, -305
-i0000000375:	andi                s3, s4, -1870
-i0000000376:	srli                t5, s1, 6 
-i0000000377:	srl                 s3, a3, a3
-i0000000378:	sltu                s3, t0, a1
-i0000000379:	sub                 t5, gp, s7
-i000000037a:	sltu                a1, s4, a3
-i000000037b:	ori                 s4, a3, -59
-i000000037c:	or                  s3, a0, a0
-i000000037d:	sll                 s4, a7, a6
-i000000037e:	slt                 a4, s4, s3
-i000000037f:	sll                 s4, s4, s3
-i0000000380:	ori                 s5, s4, 116
-i0000000381:	slt                 s4, s3, a3
-i0000000382:	andi                a3, s4, -544
-i0000000383:	addi                s2, t2, 104
-i0000000384:	srli                a3, s4, 16
-i0000000385:	slt                 s3, t6, a4
-i0000000386:	add                 tp, tp, a2
-i0000000387:	andi                s3, s4, -1327
-i0000000388:	sra                 s6, s5, t4
-i0000000389:	auipc               s4, 309306
-i000000038a:	slti                a3, t1, 1941
-i000000038b:	auipc               tp, 159302
-i000000038c:	ori                 s4, s3, -1296
-i000000038d:	ori                 s3, s4, -268
-i000000038e:	srli                a7, a6, 8 
-i000000038f:	srli                a1, a6, 6 
-i0000000390:	sub                 t3, s4, s3
-i0000000391:	srl                 s4, a6, t3
-i0000000392:	or                  s4, t0, a2
-i0000000393:	xori                t6, s5, -1878
-i0000000394:	add                 gp, a3, s3
-i0000000395:	xori                s3, a4, -1170
-i0000000396:	srl                 s0, s7, t5
-i0000000397:	addi                a3, s1, 1502
-i0000000398:	sltu                t0, s4, a3
-i0000000399:	sltu                a1, t2, t3
-i000000039a:	addi                s1, a5, -988
-i000000039b:	xori                a7, s4, -2004
-i000000039c:	sll                 a3, s7, a7
-i000000039d:	ori                 a3, s4, -1586
-i000000039e:	srai                t3, a0, 0 
-i000000039f:	srl                 s6, a3, s4
-i00000003a0:	sub                 s6, a3, s4
-i00000003a1:	srli                s3, tp, 24
-i00000003a2:	sll                 s3, a2, s8
-i00000003a3:	add                 a3, a3, s3
-i00000003a4:	sra                 s6, a2, s8
-i00000003a5:	ori                 s4, s4, 225
-i00000003a6:	slti                s5, a3, -1891
-i00000003a7:	andi                s1, s4, 211
-i00000003a8:	addi                s2, a1, -393
-i00000003a9:	sltiu               s4, s4, -1556
-i00000003aa:	slli                s4, s3, 18
-i00000003ab:	lui                 s3, 226045
-i00000003ac:	slt                 a3, s4, s3
-i00000003ad:	sll                 a2, s1, a4
-i00000003ae:	sltiu               s3, s3, -751
-i00000003af:	srl                 s4, s3, a3
-i00000003b0:	sltu                a3, tp, t4
-i00000003b1:	slt                 s3, s4, s3
-i00000003b2:	slti                s4, s4, -1437
-i00000003b3:	addi                s3, a1, -336
-i00000003b4:	srl                 a3, s3, s3
-i00000003b5:	srai                a3, s4, 10
-i00000003b6:	xori                a2, a3, -175
-i00000003b7:	lui                 s3, 396175
-i00000003b8:	and                 s11, s3, s3
-i00000003b9:	sll                 s4, t4, s7
-i00000003ba:	xor                 a3, a2, t6
-i00000003bb:	slli                s4, s4, 6 
-i00000003bc:	and                 s4, a3, s3
-i00000003bd:	ori                 t5, t6, -1779
-i00000003be:	sub                 s4, a3, s3
-i00000003bf:	srl                 t2, a6, tp
-i00000003c0:	addi                zero, t4, -186
-i00000003c1:	xor                 a3, t6, a1
-i00000003c2:	add                 a5, s6, a4
-i00000003c3:	srai                s4, s4, 7 
-i00000003c4:	srai                t2, s3, 25
-i00000003c5:	lui                 a1, 518611
-i00000003c6:	slt                 s3, s9, t4
-i00000003c7:	ori                 s4, s3, 1702
-i00000003c8:	ori                 s4, s3, -199
-i00000003c9:	slli                a6, s0, 26
-i00000003ca:	slti                a3, s3, -259
-i00000003cb:	andi                t5, gp, -357
-i00000003cc:	lui                 t6, 477304
-i00000003cd:	srli                s0, t0, 24
-i00000003ce:	slt                 s10, t2, t1
-i00000003cf:	ori                 s3, s3, 1366
-i00000003d0:	and                 a6, t4, s9
-i00000003d1:	slli                s4, t6, 28
-i00000003d2:	sra                 t5, s4, s4
-i00000003d3:	add                 a4, s10, a6
-i00000003d4:	sltiu               s3, s6, -2004
-i00000003d5:	xori                s4, a3, 775
-i00000003d6:	sub                 t6, a3, s4
-i00000003d7:	sra                 s4, s4, a3
-i00000003d8:	sra                 s3, t3, s10
-i00000003d9:	xori                s9, a1, 110
-i00000003da:	xori                t0, zero, -113
-i00000003db:	slli                a3, s4, 6 
-i00000003dc:	andi                s4, s10, -213
-i00000003dd:	addi                s4, s1, -1732
-i00000003de:	add                 t4, s4, s4
-i00000003df:	slti                s3, s3, -240
-i00000003e0:	or                  t1, a1, s5
-i00000003e1:	ori                 t6, s3, 732
-i00000003e2:	lui                 a3, 85015 
-i00000003e3:	addi                a3, s3, -820
-i00000003e4:	addi                s9, s4, -1261
-i00000003e5:	addi                s4, a6, -1615
-i00000003e6:	addi                t4, s1, -990
-i00000003e7:	srli                s4, s3, 9 
-i00000003e8:	add                 t6, s5, s6
+i0000000001:	xori                s8, s0, 1624
+i0000000002:	sub                 a3, s4, s10
+i0000000003:	and                 a0, t5, s9
+i0000000004:	srai                s10, s8, 5
+i0000000005:	sub                 s8, t1, t5
+i0000000006:	lui                 s0, 112561
+i0000000007:	slt                 t6, s8, a0
+i0000000008:	xor                 t1, t6, a0
+i0000000009:	xor                 s3, a3, a0
+i000000000a:	srli                s2, a0, 29
+i000000000b:	and                 a0, s3, s3
+i000000000c:	andi                a0, s10, -1439
+i000000000d:	sltiu               s8, s0, -1160
+i000000000e:	slt                 tp, gp, t4
+i000000000f:	andi                t5, a4, 424
+i0000000010:	or                  s3, s5, a5
+i0000000011:	andi                a6, t1, 807
+i0000000012:	sltiu               a3, s7, 200
+i0000000013:	andi                s2, t5, 1886
+i0000000014:	xori                s0, s3, 1883
+i0000000015:	lui                 a3, 186168
+i0000000016:	xori                t1, s4, -1946
+i0000000017:	sra                 a0, s4, a1
+i0000000018:	sra                 t1, t1, s9
+i0000000019:	addi                s4, s8, -504
+i000000001a:	auipc               s4, 114813
+i000000001b:	lui                 t0, 428725
+i000000001c:	addi                a0, t6, -223
+i000000001d:	srai                s3, t0, 10
+i000000001e:	sll                 t2, s4, zero
+i000000001f:	sub                 a0, t2, s9
+i0000000020:	slli                s8, t2, 5 
+i0000000021:	lui                 s9, 268474
+i0000000022:	addi                t5, a3, 1892
+i0000000023:	addi                s4, s1, 1399
+i0000000024:	sltiu               s10, s3, 1279
+i0000000025:	andi                a7, s8, -820
+i0000000026:	auipc               s0, 496788
+i0000000027:	srl                 s3, t6, a7
+i0000000028:	sltiu               s6, gp, -1230
+i0000000029:	sltiu               s8, s2, -814
+i000000002a:	slli                a0, a0, 13
+i000000002b:	ori                 s8, t5, 589
+i000000002c:	slli                s11, t4, 27
+i000000002d:	andi                a5, t1, -103
+i000000002e:	srai                s1, s4, 26
+i000000002f:	sub                 s3, zero, t6
+i0000000030:	srli                s1, s2, 7 
+i0000000031:	and                 s8, zero, a7
+i0000000032:	sra                 t1, s8, s8
+i0000000033:	slti                s8, s9, -464
+i0000000034:	ori                 a3, zero, -513
+i0000000035:	slli                a7, s5, 13
+i0000000036:	slli                s0, s9, 15
+i0000000037:	sub                 s8, s8, s8
+i0000000038:	srli                s3, s1, 16
+i0000000039:	ori                 s9, s8, -1746
+i000000003a:	srli                s9, s3, 29
+i000000003b:	sltu                s8, s8, s3
+i000000003c:	andi                s8, t0, 1933
+i000000003d:	add                 s3, s3, s3
+i000000003e:	slli                s4, a3, 13
+i000000003f:	slti                zero, s8, 515
+i0000000040:	slli                t4, t4, 22
+i0000000041:	xor                 s2, s8, a0
+i0000000042:	ori                 s8, s4, 1493
+i0000000043:	sltu                s3, zero, a2
+i0000000044:	addi                s8, a7, -990
+i0000000045:	srai                s0, t4, 26
+i0000000046:	slt                 a4, a3, t0
+i0000000047:	sra                 a0, gp, s11
+i0000000048:	srai                s8, s8, 7 
+i0000000049:	sltiu               s8, a0, 1749
+i000000004a:	slli                s8, a1, 5 
+i000000004b:	sra                 s3, s8, a0
+i000000004c:	sltiu               a7, s8, -1418
+i000000004d:	sltiu               a2, s3, 1806
+i000000004e:	andi                s2, a0, 345
+i000000004f:	sra                 a3, t4, s6
+i0000000050:	or                  a0, s3, a0
+i0000000051:	srli                s0, s3, 21
+i0000000052:	sub                 s0, a0, s3
+i0000000053:	xor                 s8, s3, a0
+i0000000054:	sltiu               s3, t0, -1965
+i0000000055:	sra                 s8, s10, s1
+i0000000056:	auipc               s8, 439879
+i0000000057:	sll                 a0, s8, s3
+i0000000058:	xor                 a7, gp, a3
+i0000000059:	sltu                a0, s8, a0
+i000000005a:	sll                 a0, a5, a6
+i000000005b:	sltu                a0, s3, s3
+i000000005c:	slti                s8, t4, -1167
+i000000005d:	sll                 s3, s3, s3
+i000000005e:	srli                s9, t2, 17
+i000000005f:	sltiu               a0, a2, 1134
+i0000000060:	sltiu               a0, s3, 1933
+i0000000061:	sub                 s8, t6, a5
+i0000000062:	xor                 a0, s8, s3
+i0000000063:	slt                 s3, a6, s0
+i0000000064:	sub                 a0, t2, t4
+i0000000065:	and                 s3, s3, s3
+i0000000066:	slli                s8, a6, 15
+i0000000067:	andi                zero, s10, -739
+i0000000068:	sltu                a5, s3, s8
+i0000000069:	slt                 a4, s3, a0
+i000000006a:	and                 a5, s8, s3
+i000000006b:	andi                t3, t3, 1581
+i000000006c:	add                 a6, t5, a4
+i000000006d:	auipc               s3, 163620
+i000000006e:	slli                s10, s3, 5
+i000000006f:	and                 s8, t4, s6
+i0000000070:	xor                 s6, s8, a0
+i0000000071:	slli                s3, s3, 1 
+i0000000072:	sltu                s3, s1, t1
+i0000000073:	auipc               s0, 348202
+i0000000074:	ori                 a0, t0, -1162
+i0000000075:	xori                s3, s8, 31
+i0000000076:	sub                 t2, t0, zero
+i0000000077:	srai                t5, t5, 19
+i0000000078:	srai                a0, s3, 0 
+i0000000079:	sll                 a7, s3, s3
+i000000007a:	sra                 s3, t2, s4
+i000000007b:	srl                 s7, t2, s1
+i000000007c:	andi                s7, a5, 586
+i000000007d:	srli                a2, s1, 2 
+i000000007e:	srl                 a0, s1, s4
+i000000007f:	sub                 s4, t2, a3
+i0000000080:	sra                 t0, s3, s3
+i0000000081:	srai                s8, t5, 24
+i0000000082:	sll                 s10, a3, gp
+i0000000083:	xori                a0, s8, -591
+i0000000084:	slli                t0, s8, 19
+i0000000085:	sub                 s6, s3, s8
+i0000000086:	sltu                t1, a7, t1
+i0000000087:	ori                 s2, t6, 1590
+i0000000088:	slti                s0, a3, 322
+i0000000089:	or                  s8, s8, s3
+i000000008a:	auipc               a0, 416119
+i000000008b:	auipc               zero, 252339
+i000000008c:	sltiu               a4, s8, -7
+i000000008d:	or                  a0, a0, a0
+i000000008e:	srai                s3, a2, 16
+i000000008f:	and                 gp, s8, a0
+i0000000090:	ori                 a0, s9, -1734
+i0000000091:	srl                 a2, t2, s5
+i0000000092:	auipc               t5, 171008
+i0000000093:	srli                a0, s8, 11
+i0000000094:	sra                 tp, s8, s8
+i0000000095:	slti                s7, a3, -657
+i0000000096:	sra                 s3, s3, s3
+i0000000097:	andi                t5, a0, 1954
+i0000000098:	slti                s8, s3, 531
+i0000000099:	sra                 t4, a4, a2
+i000000009a:	sltiu               s3, s7, 1372
+i000000009b:	auipc               a0, 291457
+i000000009c:	srl                 a0, a0, s3
+i000000009d:	srl                 s0, s3, a0
+i000000009e:	sub                 s8, s3, a0
+i000000009f:	sub                 a5, s8, a0
+i00000000a0:	addi                s0, t5, -1526
+i00000000a1:	addi                s8, s3, -1609
+i00000000a2:	sub                 s8, s8, s3
+i00000000a3:	srai                s3, s0, 26
+i00000000a4:	sltu                s10, a6, t0
+i00000000a5:	srli                a0, s8, 28
+i00000000a6:	addi                s6, s3, -872
+i00000000a7:	srli                a0, a1, 30
+i00000000a8:	sub                 s2, s3, s3
+i00000000a9:	slli                s1, a2, 24
+i00000000aa:	lui                 s3, 2785  
+i00000000ab:	and                 s3, s8, s3
+i00000000ac:	sub                 gp, s3, s8
+i00000000ad:	slti                s3, a0, -1400
+i00000000ae:	auipc               s3, 280438
+i00000000af:	slli                s8, s3, 24
+i00000000b0:	slli                a0, s3, 3 
+i00000000b1:	ori                 s8, s8, 144
+i00000000b2:	sltiu               s3, a4, 1627
+i00000000b3:	lui                 a1, 47588 
+i00000000b4:	lui                 a6, 128402
+i00000000b5:	add                 s8, s6, s11
+i00000000b6:	andi                s3, s8, -1090
+i00000000b7:	or                  s8, s9, tp
+i00000000b8:	and                 a0, t2, s6
+i00000000b9:	auipc               a2, 140101
+i00000000ba:	lui                 a0, 60428 
+i00000000bb:	srli                s8, s3, 9 
+i00000000bc:	ori                 s8, gp, -1667
+i00000000bd:	sra                 t2, s3, s3
+i00000000be:	slt                 t2, s3, a0
+i00000000bf:	xori                t0, s3, -1027
+i00000000c0:	auipc               s4, 96712 
+i00000000c1:	sll                 s0, s9, t0
+i00000000c2:	and                 a0, a0, s8
+i00000000c3:	slti                s8, s8, -1743
+i00000000c4:	auipc               s8, 52163 
+i00000000c5:	sub                 s3, t2, a5
+i00000000c6:	auipc               s3, 328290
+i00000000c7:	srli                a0, s3, 18
+i00000000c8:	srli                a0, s4, 21
+i00000000c9:	srli                a0, t1, 8 
+i00000000ca:	srai                s3, s0, 21
+i00000000cb:	add                 s3, s8, s8
+i00000000cc:	slli                s1, s9, 28
+i00000000cd:	or                  s4, a0, s8
+i00000000ce:	sub                 s8, a6, s9
+i00000000cf:	andi                a7, s3, -1919
+i00000000d0:	slti                s8, s3, 583
+i00000000d1:	sll                 s10, a7, t3
+i00000000d2:	auipc               s7, 1518  
+i00000000d3:	sll                 a0, a7, s7
+i00000000d4:	slt                 s1, t2, s4
+i00000000d5:	xori                s6, s3, 126
+i00000000d6:	xor                 t0, a1, s9
+i00000000d7:	sll                 s8, s1, s5
+i00000000d8:	xori                s3, a4, -172
+i00000000d9:	slti                s8, s8, 1329
+i00000000da:	sub                 a3, a0, s8
+i00000000db:	ori                 s4, s8, -1451
+i00000000dc:	slt                 a0, zero, a3
+i00000000dd:	and                 s3, t2, t1
+i00000000de:	xori                s8, gp, 1269
+i00000000df:	lui                 s2, 363588
+i00000000e0:	sub                 t1, gp, t6
+i00000000e1:	and                 t5, s3, s3
+i00000000e2:	sub                 s8, s3, a0
+i00000000e3:	sub                 t5, gp, s9
+i00000000e4:	srli                s6, t1, 5 
+i00000000e5:	xor                 t1, a1, tp
+i00000000e6:	add                 a6, s8, a0
+i00000000e7:	srl                 s3, t5, gp
+i00000000e8:	sltiu               a7, t4, 1768
+i00000000e9:	sll                 s0, t6, t4
+i00000000ea:	or                  s3, zero, a2
+i00000000eb:	lui                 t4, 79768 
+i00000000ec:	add                 s8, t3, s7
+i00000000ed:	lui                 s3, 126763
+i00000000ee:	slli                s1, s8, 4 
+i00000000ef:	slt                 s6, t3, t2
+i00000000f0:	xor                 a0, s5, t2
+i00000000f1:	auipc               s8, 177424
+i00000000f2:	or                  s1, a0, a0
+i00000000f3:	andi                a0, t5, 229
+i00000000f4:	slti                s11, a0, -616
+i00000000f5:	addi                s1, s3, 230
+i00000000f6:	slli                t5, zero, 10
+i00000000f7:	sltiu               s2, a0, -246
+i00000000f8:	add                 a6, s4, t5
+i00000000f9:	lui                 s0, 285994
+i00000000fa:	srai                s8, s8, 1 
+i00000000fb:	sra                 t3, s1, a4
+i00000000fc:	and                 s10, s5, t2
+i00000000fd:	srli                s3, s7, 21
+i00000000fe:	auipc               a0, 222709
+i00000000ff:	ori                 s3, t3, -619
+i0000000100:	slti                t6, a3, -1483
+i0000000101:	sltiu               a5, tp, 874
+i0000000102:	srai                a0, s8, 21
+i0000000103:	slt                 a6, s3, s8
+i0000000104:	addi                s8, a0, -1471
+i0000000105:	ori                 t1, gp, 31
+i0000000106:	slt                 a6, s8, s3
+i0000000107:	and                 a0, a0, a0
+i0000000108:	srli                s3, a0, 29
+i0000000109:	auipc               s8, 235305
+i000000010a:	srl                 s8, s3, s8
+i000000010b:	sll                 a7, s4, t0
+i000000010c:	and                 gp, a7, s0
+i000000010d:	xori                t5, a0, 496
+i000000010e:	srl                 s0, s11, t6
+i000000010f:	slti                t2, s9, -1435
+i0000000110:	srai                t4, s4, 30
+i0000000111:	slti                a4, a7, -1435
+i0000000112:	add                 s1, a1, s11
+i0000000113:	xori                a0, s9, 1949
+i0000000114:	srl                 s8, a0, s3
+i0000000115:	or                  s3, s3, s8
+i0000000116:	slli                s8, s1, 30
+i0000000117:	srai                a0, t2, 13
+i0000000118:	sub                 s8, s7, s2
+i0000000119:	slti                s3, s3, 426
+i000000011a:	slli                s3, s5, 23
+i000000011b:	andi                s3, t1, 1899
+i000000011c:	and                 a0, s0, t4
+i000000011d:	lui                 s8, 273487
+i000000011e:	sub                 t5, s3, a0
+i000000011f:	srai                a0, s6, 1 
+i0000000120:	lui                 a0, 486320
+i0000000121:	xori                a0, a6, -43
+i0000000122:	slli                t2, a0, 27
+i0000000123:	srli                a5, a0, 31
+i0000000124:	slli                a1, s6, 5 
+i0000000125:	sub                 s5, s8, s8
+i0000000126:	slli                s3, s8, 16
+i0000000127:	sll                 s3, zero, t3
+i0000000128:	xor                 s8, s11, s6
+i0000000129:	srli                t4, s8, 1 
+i000000012a:	andi                s6, zero, -1605
+i000000012b:	slli                s3, a0, 8 
+i000000012c:	add                 s3, t0, tp
+i000000012d:	xor                 zero, s0, s7
+i000000012e:	or                  s8, s10, a3
+i000000012f:	slt                 s3, s8, s8
+i0000000130:	sra                 s8, s6, a7
+i0000000131:	slti                s3, s2, -1600
+i0000000132:	auipc               s0, 224722
+i0000000133:	sltiu               s6, t3, 1578
+i0000000134:	sltu                s4, s8, a0
+i0000000135:	slli                s8, s8, 23
+i0000000136:	xor                 s3, s2, a4
+i0000000137:	sra                 t3, s10, a6
+i0000000138:	xori                a2, s8, -1558
+i0000000139:	sra                 s3, s8, s8
+i000000013a:	sub                 s3, s8, s3
+i000000013b:	srli                a3, a0, 29
+i000000013c:	sll                 a5, s3, s3
+i000000013d:	andi                a0, a0, -849
+i000000013e:	srai                a0, zero, 27
+i000000013f:	sltiu               t4, tp, -1567
+i0000000140:	xori                a3, a0, -421
+i0000000141:	slli                s8, zero, 16
+i0000000142:	sll                 s1, a0, s8
+i0000000143:	sub                 s8, t3, t1
+i0000000144:	lui                 t4, 123450
+i0000000145:	sll                 s11, t2, s0
+i0000000146:	lui                 s5, 119234
+i0000000147:	sltu                a4, s3, s8
+i0000000148:	auipc               s8, 436523
+i0000000149:	xori                t2, s8, 940
+i000000014a:	slt                 a4, s2, a3
+i000000014b:	lui                 t3, 358576
+i000000014c:	slt                 a0, s8, a0
+i000000014d:	sra                 s10, s3, s3
+i000000014e:	sltu                s3, a5, tp
+i000000014f:	sltu                a7, s3, s8
+i0000000150:	auipc               s11, 183059
+i0000000151:	andi                a0, a1, 1262
+i0000000152:	slli                a0, s8, 26
+i0000000153:	slti                s8, a0, 1304
+i0000000154:	srai                t0, a0, 13
+i0000000155:	slti                a0, a0, -1464
+i0000000156:	xor                 s2, s11, a6
+i0000000157:	srai                s1, s3, 11
+i0000000158:	sltiu               a0, tp, -1214
+i0000000159:	addi                s2, s3, -548
+i000000015a:	ori                 s1, s3, 1694
+i000000015b:	or                  s3, a0, s3
+i000000015c:	srl                 s3, s3, s8
+i000000015d:	ori                 a4, s8, 2020
+i000000015e:	addi                s2, s3, -1410
+i000000015f:	slli                s7, s3, 23
+i0000000160:	sll                 s3, s6, t5
+i0000000161:	srli                a2, s3, 9 
+i0000000162:	and                 s3, a0, s8
+i0000000163:	sub                 a0, s8, s3
+i0000000164:	sra                 t4, s7, t4
+i0000000165:	sltu                a0, s1, s4
+i0000000166:	sra                 a3, a3, s9
+i0000000167:	or                  s10, s0, t0
+i0000000168:	slt                 a0, s3, a0
+i0000000169:	ori                 s8, s3, -1629
+i000000016a:	lui                 s8, 118967
+i000000016b:	sll                 s8, s0, t2
+i000000016c:	sltu                zero, a7, t1
+i000000016d:	and                 t5, s8, s8
+i000000016e:	slt                 s7, tp, s5
+i000000016f:	auipc               s8, 149312
+i0000000170:	lui                 t4, 281764
+i0000000171:	sltu                s8, s7, t4
+i0000000172:	auipc               s9, 262965
+i0000000173:	sra                 t3, t0, s11
+i0000000174:	sra                 s8, s3, s3
+i0000000175:	sltu                a6, a0, s8
+i0000000176:	slti                a5, a0, 2023
+i0000000177:	srli                a7, s5, 7 
+i0000000178:	srai                s3, t3, 23
+i0000000179:	srli                tp, a0, 22
+i000000017a:	sll                 s3, a0, a0
+i000000017b:	add                 zero, s3, s3
+i000000017c:	srli                s6, a3, 16
+i000000017d:	sub                 t3, s5, t6
+i000000017e:	slli                s8, t2, 2 
+i000000017f:	srl                 s8, a0, a0
+i0000000180:	or                  s8, a4, s11
+i0000000181:	ori                 s4, s9, 329
+i0000000182:	auipc               a6, 191688
+i0000000183:	lui                 zero, 405379
+i0000000184:	sra                 a0, a3, s0
+i0000000185:	or                  s11, a5, t2
+i0000000186:	srl                 s8, a0, s3
+i0000000187:	sra                 t1, zero, a3
+i0000000188:	slli                t2, s8, 14
+i0000000189:	ori                 s8, a0, -219
+i000000018a:	slli                t3, s7, 0 
+i000000018b:	sltu                a6, s8, a0
+i000000018c:	xori                a0, t2, 435
+i000000018d:	sltiu               a0, t5, -1385
+i000000018e:	sub                 tp, a1, s11
+i000000018f:	auipc               s3, 200447
+i0000000190:	and                 a0, a0, s8
+i0000000191:	sll                 s6, t5, s0
+i0000000192:	sll                 s8, a0, s8
+i0000000193:	auipc               a0, 149760
+i0000000194:	add                 t1, s8, a0
+i0000000195:	sltiu               s8, s3, 1558
+i0000000196:	sltiu               s3, a1, 466
+i0000000197:	andi                s8, a4, -132
+i0000000198:	srli                s6, s0, 22
+i0000000199:	srl                 a0, s1, t5
+i000000019a:	or                  s6, s3, s8
+i000000019b:	slti                s6, a5, 731
+i000000019c:	add                 s2, a0, a0
+i000000019d:	ori                 a0, s3, 1669
+i000000019e:	slli                s3, s8, 11
+i000000019f:	addi                a0, s2, 95
+i00000001a0:	ori                 a0, s8, -1897
+i00000001a1:	slli                s8, tp, 7 
+i00000001a2:	slt                 s3, a0, s8
+i00000001a3:	sltiu               s8, t1, -1687
+i00000001a4:	or                  s3, s9, a2
+i00000001a5:	srai                gp, a4, 22
+i00000001a6:	ori                 s8, s11, -232
+i00000001a7:	sltu                s3, t0, gp
+i00000001a8:	slt                 s11, t6, tp
+i00000001a9:	sltu                a0, s3, s8
+i00000001aa:	lui                 a2, 110645
+i00000001ab:	slli                a0, s8, 31
+i00000001ac:	auipc               a0, 405266
+i00000001ad:	or                  s7, s8, a0
+i00000001ae:	srai                s3, s10, 21
+i00000001af:	ori                 tp, s8, -2035
+i00000001b0:	srl                 a4, s2, t0
+i00000001b1:	and                 zero, s8, a0
+i00000001b2:	addi                a5, a0, 1402
+i00000001b3:	auipc               a0, 337246
+i00000001b4:	sltu                s2, s4, a3
+i00000001b5:	ori                 a2, s8, 1629
+i00000001b6:	slt                 s0, s8, s3
+i00000001b7:	and                 t2, t6, zero
+i00000001b8:	and                 zero, s6, s6
+i00000001b9:	srl                 s8, s8, s8
+i00000001ba:	lui                 s8, 12197 
+i00000001bb:	sll                 s8, s10, a1
+i00000001bc:	sltu                a0, s3, s8
+i00000001bd:	andi                s8, s10, -1790
+i00000001be:	and                 a0, a4, s11
+i00000001bf:	xori                s8, s8, -239
+i00000001c0:	or                  s8, t6, s4
+i00000001c1:	sra                 s8, a0, a0
+i00000001c2:	sra                 s8, t4, s7
+i00000001c3:	slti                a7, gp, 1406
+i00000001c4:	lui                 s1, 431568
+i00000001c5:	srl                 s8, a0, a0
+i00000001c6:	sltu                a5, a5, t4
+i00000001c7:	addi                a1, s3, 266
+i00000001c8:	ori                 s8, s3, 1903
+i00000001c9:	and                 s8, a0, a0
+i00000001ca:	xor                 s8, s3, s3
+i00000001cb:	srli                s8, a0, 17
+i00000001cc:	lui                 a2, 290391
+i00000001cd:	sra                 a0, s5, s10
+i00000001ce:	srl                 a0, a4, s2
+i00000001cf:	srai                t3, s3, 18
+i00000001d0:	or                  s8, s10, a7
+i00000001d1:	srli                s3, a0, 31
+i00000001d2:	add                 s10, t4, a7
+i00000001d3:	lui                 s7, 382072
+i00000001d4:	sra                 zero, a0, a0
+i00000001d5:	and                 a1, a0, a0
+i00000001d6:	and                 s8, a0, a0
+i00000001d7:	auipc               s8, 342200
+i00000001d8:	slt                 t2, t1, s11
+i00000001d9:	sltiu               s3, a6, 777
+i00000001da:	sltiu               a0, t1, -1827
+i00000001db:	addi                s0, a0, 1686
+i00000001dc:	addi                s3, s8, -1239
+i00000001dd:	xor                 t6, s3, s3
+i00000001de:	slti                a0, a4, -1995
+i00000001df:	andi                s8, tp, 1635
+i00000001e0:	sltiu               s8, a0, -329
+i00000001e1:	andi                s8, s3, -1384
+i00000001e2:	addi                s3, s8, -684
+i00000001e3:	sltiu               s8, a0, -1335
+i00000001e4:	or                  a1, t5, s11
+i00000001e5:	srli                t1, s2, 30
+i00000001e6:	or                  t4, s5, s1
+i00000001e7:	add                 s3, t3, t6
+i00000001e8:	slt                 s10, a0, a0
+i00000001e9:	srai                s8, gp, 11
+i00000001ea:	auipc               s3, 312817
+i00000001eb:	sra                 a0, s0, s10
+i00000001ec:	addi                a6, t6, 857
+i00000001ed:	or                  a4, s8, a0
+i00000001ee:	slti                s8, s8, 1982
+i00000001ef:	slli                tp, s3, 30
+i00000001f0:	sub                 s0, t1, s6
+i00000001f1:	slt                 s8, a0, s8
+i00000001f2:	slt                 s3, t1, s11
+i00000001f3:	srli                s0, a0, 6 
+i00000001f4:	and                 s11, s8, s3
+i00000001f5:	xori                a5, s8, -222
+i00000001f6:	sll                 a6, t1, a7
+i00000001f7:	slti                s8, s6, 1598
+i00000001f8:	slt                 t4, a6, s11
+i00000001f9:	and                 a0, s8, a0
+i00000001fa:	sltu                a4, s3, a0
+i00000001fb:	sll                 gp, s3, s8
+i00000001fc:	xor                 s1, s5, tp
+i00000001fd:	sll                 s3, a0, s3
+i00000001fe:	add                 a0, a0, s3
+i00000001ff:	and                 s3, a5, a3
+i0000000200:	ori                 a4, s0, -806
+i0000000201:	xor                 zero, t0, s10
+i0000000202:	xori                s3, s8, -101
+i0000000203:	sub                 s3, a0, a0
+i0000000204:	andi                s9, s7, 515
+i0000000205:	srai                t0, a0, 25
+i0000000206:	add                 tp, a0, s8
+i0000000207:	slti                s8, s3, 33
+i0000000208:	sltu                a3, s3, s8
+i0000000209:	sra                 s5, a3, t2
+i000000020a:	slli                a0, t5, 18
+i000000020b:	srl                 s3, s5, tp
+i000000020c:	andi                a5, t2, 1168
+i000000020d:	srl                 s8, s3, s8
+i000000020e:	lui                 a4, 283021
+i000000020f:	sltiu               t1, t4, -2040
+i0000000210:	srl                 t2, a7, s10
+i0000000211:	and                 s0, s6, a2
+i0000000212:	slt                 a0, a3, a2
+i0000000213:	sltiu               a3, a0, 1527
+i0000000214:	andi                a3, s8, 440
+i0000000215:	srli                s8, a0, 24
+i0000000216:	add                 a0, t4, a5
+i0000000217:	ori                 s3, s3, 1897
+i0000000218:	slli                t1, t4, 31
+i0000000219:	slli                s10, s10, 22
+i000000021a:	lui                 s3, 165428
+i000000021b:	addi                s8, s8, 1028
+i000000021c:	slt                 a0, a0, a0
+i000000021d:	srai                s3, s3, 26
+i000000021e:	sltu                a0, tp, gp
+i000000021f:	add                 s2, s3, s3
+i0000000220:	auipc               gp, 409657
+i0000000221:	slti                tp, a7, 694
+i0000000222:	slti                t5, a2, -1067
+i0000000223:	srl                 t1, s2, a7
+i0000000224:	srai                a0, s11, 30
+i0000000225:	srli                a3, s3, 7 
+i0000000226:	andi                zero, s8, -1773
+i0000000227:	sltu                a6, t3, a7
+i0000000228:	srl                 s3, t2, t2
+i0000000229:	sra                 a1, s8, s8
+i000000022a:	sltiu               s8, s8, -884
+i000000022b:	sub                 s8, s9, t0
+i000000022c:	sll                 s8, t3, a5
+i000000022d:	sltu                t6, t0, a6
+i000000022e:	srl                 s5, s8, a0
+i000000022f:	srl                 s9, s1, gp
+i0000000230:	sra                 s3, a1, s1
+i0000000231:	srl                 a0, s11, a7
+i0000000232:	ori                 s3, s8, -426
+i0000000233:	sub                 a0, a0, s3
+i0000000234:	sll                 a4, s8, s8
+i0000000235:	addi                gp, a3, -1586
+i0000000236:	andi                a0, s3, -9
+i0000000237:	or                  a0, s3, s3
+i0000000238:	addi                s3, zero, -125
+i0000000239:	xori                s10, s8, -1718
+i000000023a:	or                  a0, s6, a7
+i000000023b:	xor                 s1, s8, a0
+i000000023c:	xori                a3, s3, -470
+i000000023d:	sltiu               a0, a0, -1024
+i000000023e:	srl                 a0, s3, s3
+i000000023f:	slt                 t3, tp, s4
+i0000000240:	slt                 s3, t5, s1
+i0000000241:	andi                s8, s8, 1207
+i0000000242:	lui                 s8, 25130 
+i0000000243:	auipc               t3, 483696
+i0000000244:	or                  s3, s0, a1
+i0000000245:	sltiu               a0, t6, -21
+i0000000246:	ori                 s8, a6, 170
+i0000000247:	srli                a0, s3, 12
+i0000000248:	ori                 s8, a0, 831
+i0000000249:	sra                 s8, s8, s3
+i000000024a:	andi                s2, s11, -101
+i000000024b:	lui                 s3, 37184 
+i000000024c:	slt                 a0, s1, s1
+i000000024d:	and                 s2, gp, a4
+i000000024e:	sltiu               s8, a0, 1477
+i000000024f:	addi                s3, s11, -686
+i0000000250:	and                 s8, a0, a0
+i0000000251:	xor                 s8, a4, t1
+i0000000252:	slti                a0, a0, -1342
+i0000000253:	add                 s11, s5, s5
+i0000000254:	addi                s2, a4, 821
+i0000000255:	slt                 s0, a0, s8
+i0000000256:	srli                s3, s3, 15
+i0000000257:	and                 a7, a4, s5
+i0000000258:	addi                s8, a3, 727
+i0000000259:	slli                a3, t1, 9 
+i000000025a:	sub                 s8, s10, gp
+i000000025b:	addi                a0, t5, 830
+i000000025c:	sra                 a0, a0, a0
+i000000025d:	or                  a0, s8, s3
+i000000025e:	slt                 a1, a2, a1
+i000000025f:	sll                 s3, s8, s8
+i0000000260:	srai                s3, s8, 17
+i0000000261:	sub                 s8, s3, s8
+i0000000262:	sltiu               a0, a1, 1910
+i0000000263:	auipc               s8, 367210
+i0000000264:	srl                 t3, s4, t0
+i0000000265:	auipc               a3, 240407
+i0000000266:	add                 s8, a0, s8
+i0000000267:	sltu                a0, a0, s3
+i0000000268:	ori                 a0, s0, -58
+i0000000269:	slti                s8, s8, -1513
+i000000026a:	srl                 tp, zero, t0
+i000000026b:	sltiu               s4, s3, -1617
+i000000026c:	srl                 t0, s3, s8
+i000000026d:	xor                 s3, s4, s5
+i000000026e:	sltiu               a0, a5, 629
+i000000026f:	sub                 a0, s8, a0
+i0000000270:	xori                t6, a0, -213
+i0000000271:	slti                t4, s10, -1631
+i0000000272:	xori                s8, a7, -890
+i0000000273:	sltu                a0, s5, a2
+i0000000274:	sltu                s6, a1, t4
+i0000000275:	or                  a6, s3, s3
+i0000000276:	xori                a0, a4, -1983
+i0000000277:	sltiu               s8, a7, 1144
+i0000000278:	srli                s4, s3, 31
+i0000000279:	srai                s3, s8, 20
+i000000027a:	slli                t4, t5, 19
+i000000027b:	sra                 a0, a0, s8
+i000000027c:	srai                tp, s8, 11
+i000000027d:	sll                 s5, s4, s10
+i000000027e:	lui                 s3, 213059
+i000000027f:	or                  s8, a1, s0
+i0000000280:	add                 s8, a6, tp
+i0000000281:	sub                 t3, a4, t5
+i0000000282:	auipc               a0, 222594
+i0000000283:	slli                zero, t1, 3
+i0000000284:	lui                 s1, 447898
+i0000000285:	lui                 a0, 154116
+i0000000286:	srai                s8, t5, 10
+i0000000287:	srai                t6, a0, 25
+i0000000288:	xor                 s0, t3, s11
+i0000000289:	sll                 s3, a0, a0
+i000000028a:	andi                a0, s10, 1621
+i000000028b:	ori                 s9, t3, 509
+i000000028c:	slli                t0, a0, 17
+i000000028d:	andi                zero, t0, 2041
+i000000028e:	sub                 t5, s8, s8
+i000000028f:	addi                s0, t3, -1710
+i0000000290:	addi                a4, t1, 348
+i0000000291:	srl                 s3, tp, t3
+i0000000292:	and                 s3, s8, s3
+i0000000293:	xori                s0, s3, -141
+i0000000294:	sll                 s3, a0, a0
+i0000000295:	or                  s3, s8, s8
+i0000000296:	sll                 s8, t3, t5
+i0000000297:	sltu                s8, a1, t5
+i0000000298:	xori                s8, s6, -1815
+i0000000299:	xori                s3, s0, -115
+i000000029a:	srai                t6, s3, 13
+i000000029b:	add                 s8, a0, s8
+i000000029c:	lui                 s2, 288837
+i000000029d:	slti                a0, s6, 1520
+i000000029e:	lui                 a2, 35683 
+i000000029f:	sltu                s2, s8, a0
+i00000002a0:	srl                 s3, s10, s10
+i00000002a1:	slt                 s8, a4, s10
+i00000002a2:	sltiu               s3, s0, 558
+i00000002a3:	sll                 s8, t4, t4
+i00000002a4:	sra                 s8, s3, s3
+i00000002a5:	sub                 s8, s8, s3
+i00000002a6:	andi                s8, a4, -1713
+i00000002a7:	andi                a0, s3, -1042
+i00000002a8:	slt                 s3, a6, s2
+i00000002a9:	sll                 s8, s7, t6
+i00000002aa:	andi                t4, t0, -1090
+i00000002ab:	srai                a1, a6, 24
+i00000002ac:	slt                 s3, t1, a5
+i00000002ad:	sll                 s8, a0, a0
+i00000002ae:	slli                s6, t6, 3 
+i00000002af:	add                 s3, a0, s8
+i00000002b0:	sra                 s7, s8, s3
+i00000002b1:	sltiu               a0, s3, -409
+i00000002b2:	sll                 s8, a4, a2
+i00000002b3:	addi                s7, a3, 6 
+i00000002b4:	slli                a0, s3, 21
+i00000002b5:	sltiu               s3, a0, 392
+i00000002b6:	sra                 a0, s9, a4
+i00000002b7:	lui                 t4, 423300
+i00000002b8:	andi                a0, a0, 1696
+i00000002b9:	slt                 a7, t5, tp
+i00000002ba:	andi                a3, t5, 899
+i00000002bb:	sltu                a0, s3, s8
+i00000002bc:	sltu                s3, t2, t6
+i00000002bd:	sltu                t6, s3, s3
+i00000002be:	srl                 s3, gp, zero
+i00000002bf:	srl                 s9, a6, s7
+i00000002c0:	xori                s3, t1, 1130
+i00000002c1:	srl                 s3, s10, s9
+i00000002c2:	add                 tp, s7, t6
+i00000002c3:	xor                 s9, t4, t3
+i00000002c4:	xori                t6, t2, 992
+i00000002c5:	slli                s8, s9, 17
+i00000002c6:	lui                 t3, 351264
+i00000002c7:	srai                s8, gp, 2 
+i00000002c8:	slt                 s3, s4, a2
+i00000002c9:	or                  s5, s10, a2
+i00000002ca:	addi                s8, s0, 1934
+i00000002cb:	slt                 s0, t1, s10
+i00000002cc:	slti                s3, t0, 544
+i00000002cd:	srli                a0, s1, 21
+i00000002ce:	ori                 s8, s2, 1235
+i00000002cf:	lui                 s10, 58952
+i00000002d0:	xor                 s8, s7, s7
+i00000002d1:	srl                 s5, a0, s3
+i00000002d2:	and                 s8, s3, s3
+i00000002d3:	auipc               s2, 154659
+i00000002d4:	sub                 a0, s3, s8
+i00000002d5:	slli                a0, a0, 30
+i00000002d6:	and                 s3, s3, s3
+i00000002d7:	addi                gp, a7, 821
+i00000002d8:	add                 s3, s3, a0
+i00000002d9:	srai                a0, s8, 16
+i00000002da:	slti                a0, s1, -630
+i00000002db:	xor                 s8, s3, s8
+i00000002dc:	add                 s3, s8, s3
+i00000002dd:	xori                s0, s1, 7 
+i00000002de:	srai                s8, s6, 22
+i00000002df:	slti                s3, s0, 1157
+i00000002e0:	add                 s8, a7, zero
+i00000002e1:	slli                s3, s8, 24
+i00000002e2:	xor                 a0, t6, t5
+i00000002e3:	sra                 t5, s8, s3
+i00000002e4:	srl                 a3, a2, a1
+i00000002e5:	slli                a0, a4, 8 
+i00000002e6:	sltu                s1, s3, s8
+i00000002e7:	and                 s3, s3, s8
+i00000002e8:	slti                a3, a3, 1888
+i00000002e9:	or                  s3, s2, t2
+i00000002ea:	or                  t5, a0, a0
+i00000002eb:	xori                s8, a0, 1130
+i00000002ec:	srl                 s1, s3, s8
+i00000002ed:	slt                 s8, t3, t1
+i00000002ee:	sub                 a5, gp, a3
+i00000002ef:	srl                 zero, s8, s3
+i00000002f0:	srli                s5, s2, 0 
+i00000002f1:	auipc               a5, 344354
+i00000002f2:	lui                 s5, 10829 
+i00000002f3:	or                  s8, s3, s8
+i00000002f4:	sra                 a0, s3, s8
+i00000002f5:	srai                zero, a0, 18
+i00000002f6:	andi                s8, s3, 1210
+i00000002f7:	srai                s3, s8, 21
+i00000002f8:	ori                 s7, a0, 1499
+i00000002f9:	srl                 s8, s8, s3
+i00000002fa:	slt                 a1, s0, t5
+i00000002fb:	srai                s8, t6, 25
+i00000002fc:	srl                 s0, s7, a1
+i00000002fd:	sub                 t2, s5, s11
+i00000002fe:	andi                a0, s1, -901
+i00000002ff:	slli                s8, s6, 6 
+i0000000300:	sltiu               a6, a3, 1197
+i0000000301:	ori                 s8, t0, -1583
+i0000000302:	sll                 s2, a1, tp
+i0000000303:	xori                s3, a0, -312
+i0000000304:	sra                 gp, a7, a3
+i0000000305:	and                 s8, a7, s2
+i0000000306:	srl                 s8, a1, tp
+i0000000307:	auipc               s8, 94135 
+i0000000308:	add                 a2, s5, t6
+i0000000309:	auipc               a0, 372128
+i000000030a:	srai                s8, t5, 27
+i000000030b:	srai                a0, a0, 10
+i000000030c:	slti                a0, a2, 24
+i000000030d:	srai                t2, t3, 12
+i000000030e:	xori                t3, a4, 1094
+i000000030f:	sll                 s5, a3, s11
+i0000000310:	and                 s10, s1, s0
+i0000000311:	sltu                t3, s9, s7
+i0000000312:	slt                 s5, s4, s6
+i0000000313:	auipc               s3, 313541
+i0000000314:	sll                 a5, t3, a3
+i0000000315:	xor                 s8, a0, s3
+i0000000316:	sltiu               s3, s8, 1082
+i0000000317:	srl                 tp, t4, a4
+i0000000318:	sll                 a0, a0, s3
+i0000000319:	sltu                a0, s8, s8
+i000000031a:	xor                 a0, s8, s8
+i000000031b:	xori                t6, a0, 416
+i000000031c:	slti                s3, a0, 1161
+i000000031d:	srai                s8, s3, 16
+i000000031e:	slt                 a0, s4, a5
+i000000031f:	slli                s7, s0, 19
+i0000000320:	lui                 a1, 182813
+i0000000321:	sll                 s7, s10, a5
+i0000000322:	sltu                s8, s8, s8
+i0000000323:	addi                a1, a2, -1764
+i0000000324:	sra                 s3, s3, s8
+i0000000325:	srli                a0, s5, 5 
+i0000000326:	slt                 s8, s4, s6
+i0000000327:	sra                 s5, s3, a0
+i0000000328:	addi                s3, a0, 1734
+i0000000329:	sll                 a5, a0, s3
+i000000032a:	auipc               a5, 421239
+i000000032b:	slti                s10, a2, 1509
+i000000032c:	andi                s7, a1, 499
+i000000032d:	ori                 s5, s8, -127
+i000000032e:	sra                 a4, s3, s3
+i000000032f:	xor                 s1, s3, a0
+i0000000330:	slt                 s8, s3, a0
+i0000000331:	sra                 s7, s9, s5
+i0000000332:	add                 gp, a3, s7
+i0000000333:	and                 t0, s3, s8
+i0000000334:	sltiu               s3, s3, 719
+i0000000335:	addi                a4, zero, 1716
+i0000000336:	sll                 a2, s10, s7
+i0000000337:	xori                a0, a0, 259
+i0000000338:	slti                s10, t4, 655
+i0000000339:	add                 t0, s8, s8
+i000000033a:	sll                 s8, t4, tp
+i000000033b:	sub                 t6, a5, a6
+i000000033c:	slti                t3, a7, -715
+i000000033d:	slt                 t2, t3, s5
+i000000033e:	add                 a0, s3, s8
+i000000033f:	sll                 a3, s9, s2
+i0000000340:	and                 t1, t3, a6
+i0000000341:	andi                a0, s8, -862
+i0000000342:	xor                 s7, s4, t3
+i0000000343:	sra                 t6, s5, a2
+i0000000344:	lui                 s3, 119815
+i0000000345:	xor                 s4, s9, s10
+i0000000346:	ori                 s3, s3, 1618
+i0000000347:	sltu                s8, a3, a3
+i0000000348:	and                 t1, a0, s3
+i0000000349:	srai                t4, t1, 11
+i000000034a:	sltu                t0, s8, a0
+i000000034b:	lui                 s8, 459449
+i000000034c:	sltiu               t1, s10, -1956
+i000000034d:	slt                 a2, a0, s8
+i000000034e:	sltu                s10, a7, a1
+i000000034f:	lui                 a0, 515819
+i0000000350:	ori                 s6, a0, 198
+i0000000351:	lui                 gp, 34498 
+i0000000352:	srli                t3, a7, 16
+i0000000353:	ori                 gp, t4, -382
+i0000000354:	slti                gp, zero, -1009
+i0000000355:	sltiu               t4, s3, 541
+i0000000356:	and                 tp, t5, s0
+i0000000357:	srai                s3, s3, 21
+i0000000358:	xor                 s10, a0, a0
+i0000000359:	srai                a0, s10, 0
+i000000035a:	xori                t5, gp, -1086
+i000000035b:	xori                a7, s3, -4
+i000000035c:	srli                t4, s8, 15
+i000000035d:	sra                 zero, a3, s7
+i000000035e:	slti                s8, s3, 135
+i000000035f:	srli                s3, a0, 15
+i0000000360:	or                  a0, a0, s3
+i0000000361:	srai                s8, a0, 30
+i0000000362:	xori                s3, s3, -468
+i0000000363:	auipc               a2, 155136
+i0000000364:	slt                 s0, s3, s3
+i0000000365:	slti                a0, a0, -1701
+i0000000366:	xor                 s8, s3, a0
+i0000000367:	andi                t0, a2, 518
+i0000000368:	auipc               s8, 283122
+i0000000369:	sub                 s8, s6, a6
+i000000036a:	sll                 s4, t3, s9
+i000000036b:	xor                 a3, s3, a0
+i000000036c:	srl                 s10, s3, a0
+i000000036d:	xor                 s3, s1, t2
+i000000036e:	srl                 s8, tp, s11
+i000000036f:	sra                 gp, t6, a7
+i0000000370:	or                  s8, zero, t2
+i0000000371:	lui                 s11, 417470
+i0000000372:	sltiu               t0, s4, 1131
+i0000000373:	slli                s2, a4, 12
+i0000000374:	xor                 a4, s3, s3
+i0000000375:	slli                s8, gp, 9 
+i0000000376:	lui                 s3, 510085
+i0000000377:	sll                 t2, a6, t0
+i0000000378:	or                  t1, a0, s3
+i0000000379:	slli                s6, s2, 16
+i000000037a:	xor                 s8, s3, a0
+i000000037b:	addi                a0, a0, -1207
+i000000037c:	andi                s3, s3, -76
+i000000037d:	slti                t4, a0, -661
+i000000037e:	sub                 zero, s3, s8
+i000000037f:	or                  s8, t4, s0
+i0000000380:	or                  s8, gp, s10
+i0000000381:	addi                s8, a0, 2027
+i0000000382:	addi                a7, t2, 191
+i0000000383:	xori                a7, s3, 1123
+i0000000384:	ori                 s3, s0, -803
+i0000000385:	xori                a0, s11, -1300
+i0000000386:	ori                 s8, tp, 254
+i0000000387:	sra                 s8, s3, s3
+i0000000388:	sll                 s8, s8, a0
+i0000000389:	sll                 a0, s8, s3
+i000000038a:	andi                t0, t1, 287
+i000000038b:	sra                 a0, s3, s8
+i000000038c:	addi                a0, tp, 1356
+i000000038d:	auipc               gp, 380249
+i000000038e:	slli                zero, a0, 19
+i000000038f:	addi                s8, s1, -659
+i0000000390:	xor                 a7, s3, s3
+i0000000391:	slli                a5, s6, 25
+i0000000392:	sub                 t1, a0, s3
+i0000000393:	addi                a4, s3, -813
+i0000000394:	addi                a0, s8, -736
+i0000000395:	srl                 s8, a1, s7
+i0000000396:	slt                 a3, a0, s8
+i0000000397:	srai                a1, a4, 11
+i0000000398:	andi                s9, s5, -304
+i0000000399:	auipc               zero, 473345
+i000000039a:	ori                 s3, a0, 912
+i000000039b:	xor                 a0, t4, t1
+i000000039c:	andi                a6, a0, -456
+i000000039d:	and                 t5, s0, s4
+i000000039e:	slli                s3, s3, 30
+i000000039f:	andi                s0, s9, 1184
+i00000003a0:	srl                 a1, s9, a1
+i00000003a1:	slli                s9, s8, 31
+i00000003a2:	xor                 a6, s3, a0
+i00000003a3:	srli                s1, t6, 12
+i00000003a4:	and                 a7, tp, s5
+i00000003a5:	srli                t1, s3, 30
+i00000003a6:	srli                s3, s2, 22
+i00000003a7:	sra                 s3, s8, s3
+i00000003a8:	ori                 a0, s9, -1036
+i00000003a9:	srl                 a0, a0, s8
+i00000003aa:	ori                 s3, zero, -1961
+i00000003ab:	addi                a0, t5, -2019
+i00000003ac:	srli                s3, a0, 4 
+i00000003ad:	or                  a0, t4, a2
+i00000003ae:	lui                 s3, 284328
+i00000003af:	slti                a0, s3, -19
+i00000003b0:	xori                a1, s3, 1392
+i00000003b1:	srli                a0, s3, 16
+i00000003b2:	srl                 s8, s3, a0
+i00000003b3:	srai                s8, s4, 29
+i00000003b4:	andi                a5, s7, -390
+i00000003b5:	sub                 s3, s3, a0
+i00000003b6:	ori                 s3, s8, -841
+i00000003b7:	or                  a2, s8, a0
+i00000003b8:	lui                 s8, 371360
+i00000003b9:	sltu                a0, s8, s3
+i00000003ba:	slli                a0, s8, 22
+i00000003bb:	srl                 s8, a0, s8
+i00000003bc:	srli                s7, a1, 28
+i00000003bd:	xor                 s5, s3, s8
+i00000003be:	sll                 t0, s3, a0
+i00000003bf:	or                  t6, s3, s8
+i00000003c0:	lui                 t1, 117648
+i00000003c1:	auipc               t4, 376196
+i00000003c2:	addi                a0, a0, 1670
+i00000003c3:	sll                 gp, s3, s8
+i00000003c4:	slt                 a0, t2, s9
+i00000003c5:	xori                a0, a3, 1943
+i00000003c6:	sra                 s8, a0, a0
+i00000003c7:	sltu                s3, a7, a7
+i00000003c8:	srli                s3, t4, 22
+i00000003c9:	addi                s5, a2, 1546
+i00000003ca:	sll                 s3, t2, a2
+i00000003cb:	ori                 s3, s11, 917
+i00000003cc:	srai                a4, s8, 24
+i00000003cd:	xor                 t6, s9, s10
+i00000003ce:	sltu                t5, a0, s3
+i00000003cf:	ori                 t4, a2, -1477
+i00000003d0:	add                 tp, a0, a0
+i00000003d1:	auipc               a0, 423590
+i00000003d2:	addi                s8, t2, -1816
+i00000003d3:	slli                a0, a5, 17
+i00000003d4:	srli                a6, s3, 21
+i00000003d5:	lui                 a0, 499903
+i00000003d6:	srai                s8, s3, 5 
+i00000003d7:	addi                a7, s8, -1895
+i00000003d8:	srl                 s1, s4, s1
+i00000003d9:	add                 s11, s3, a0
+i00000003da:	lui                 t5, 248965
+i00000003db:	sra                 t2, s11, s1
+i00000003dc:	srai                s3, s7, 13
+i00000003dd:	sltiu               a6, s3, 1108
+i00000003de:	ori                 a0, s11, -95
+i00000003df:	sltu                a0, t3, s10
+i00000003e0:	slti                s6, a7, -88
+i00000003e1:	sra                 a0, t0, t5
+i00000003e2:	sltiu               s5, s10, -1064
+i00000003e3:	slt                 zero, s3, s8
+i00000003e4:	srai                s3, s3, 14
+i00000003e5:	or                  s3, a0, s8
+i00000003e6:	slt                 a4, s3, s8
+i00000003e7:	ori                 t4, s8, 1474
+i00000003e8:	add                 s0, a0, s8
 				post_program_macro            
 				j                   write_tohost        
 
@@ -1165,2053 +1165,2053 @@ write_tohost:
 	.align 1
 	.globl begin_signature
 begin_signature:
-	.dword              0x65bdeb9102f02a71
-	.dword              0x07ef027d868361e0
-	.dword              0x265d1756031eaddc
-	.dword              0x348b0852804986bb
-	.dword              0x4807f2fb48e36338
-	.dword              0x145edf1657692e0b
-	.dword              0x10518399d8b2d385
-	.dword              0x6a3ada606f120af6
-	.dword              0x08faf060ff866a7d
-	.dword              0x4442e17834fecc3e
-	.dword              0x698f131fc847b5cb
-	.dword              0x2854285f419a6048
-	.dword              0x6c08f492ae578d09
-	.dword              0x5b86a0d5b086e5bc
-	.dword              0x6fcd948ab9fbe928
-	.dword              0x3771952f80d49823
-	.dword              0x20fc9854fc5c9e59
-	.dword              0x479104ef5c4fe1de
-	.dword              0x69f31bb7ffc17f59
-	.dword              0x25440e47f7ca8205
-	.dword              0x462812381b9f2e1c
-	.dword              0x6f072143e56cbe5a
-	.dword              0x3a027736b7966ece
-	.dword              0x7492ed3c925f91d5
-	.dword              0x4afa6b8b310e8dd1
-	.dword              0x65ff1066a7330d71
-	.dword              0x2dcb43cb5c20d1e1
-	.dword              0x51a345e4a50f8a52
-	.dword              0x51c715d179fe7f2b
-	.dword              0x56b177d0da4420ab
-	.dword              0x3136bc8d8b881afc
-	.dword              0x44e0c5c7640a459f
-	.dword              0x4fd472ad03d18217
-	.dword              0x6898b225472734ea
-	.dword              0x5290eff7cf071324
-	.dword              0x4472bfc259989813
-	.dword              0x5fc1b48298927720
-	.dword              0x37169089d6563322
-	.dword              0x3ad2c8df1b887659
-	.dword              0x536c22aafb0a3f06
-	.dword              0x6301f4da036b31bf
-	.dword              0x65e356acc6cdda83
-	.dword              0x019e385e1b714024
-	.dword              0x13c742dd4dc82942
-	.dword              0x6d4701da402041a6
-	.dword              0x08e1a79cba3e4d7c
-	.dword              0x2dc5264cc43f9f02
-	.dword              0x7ff6a27647b3f9a2
-	.dword              0x5b2d485ad8c2eec1
-	.dword              0x714adddd802c195c
-	.dword              0x2793c042030c1090
-	.dword              0x08d2953abaf66ef1
-	.dword              0x132312c657afb74a
-	.dword              0x2ef842af1aeec08f
-	.dword              0x49cf36040ba6076e
-	.dword              0x30a3bfeb5405e905
-	.dword              0x094101f1be964d9a
-	.dword              0x6d539f85d25f66c3
-	.dword              0x2a4498cc4eb5ccd3
-	.dword              0x12ad1fb592264d4f
-	.dword              0x2d79fc143ad41d01
-	.dword              0x600054d5b911c432
-	.dword              0x4ae2d232ecc6a71a
-	.dword              0x1921cb7922ff1779
-	.dword              0x09859f4609ce8e66
-	.dword              0x7ef855d45d127d28
-	.dword              0x7d9c47e7a9ea5d68
-	.dword              0x1687c90b28a23a5d
-	.dword              0x5df318c534ccf2fe
-	.dword              0x70639fbdc387203d
-	.dword              0x38351e89e258eb9b
-	.dword              0x4858277d6dadaefd
-	.dword              0x14a43bc47023295b
-	.dword              0x6958f053d6e205a2
-	.dword              0x3a5de4341b8088ea
-	.dword              0x7f39d35bddf9b18f
-	.dword              0x38ea37804d779810
-	.dword              0x7fa82e4fc555c85c
-	.dword              0x720aa7690dbe8e1e
-	.dword              0x1aa5cb8113d6020e
-	.dword              0x0726c8372666a8bb
-	.dword              0x6244d9042eb769c7
-	.dword              0x6bae1659788ce431
-	.dword              0x3877e3f3ad392864
-	.dword              0x1c68cb6ea5352258
-	.dword              0x6a2d782c437e443a
-	.dword              0x5f131d957330b804
-	.dword              0x1eee5bf3358416a7
-	.dword              0x5f257d7990892fea
-	.dword              0x19cce0a8d7ee213d
-	.dword              0x74c59af9380ef1a1
-	.dword              0x62cdcb88e4c1f396
-	.dword              0x3cdaea39cbfba0a6
-	.dword              0x2bbd4e8619dc8294
-	.dword              0x55fcc50f5533e11e
-	.dword              0x1759adf9b4034dd5
-	.dword              0x7d00ceb0bc975b20
-	.dword              0x01f75d834554b9b5
-	.dword              0x1967fd9ed95015ae
-	.dword              0x5db663bb2862799a
-	.dword              0x16c6120993cd388d
-	.dword              0x57ca50aba35afcf8
-	.dword              0x467d16828e595f02
-	.dword              0x1e1679fe20ee97ef
-	.dword              0x3dd370ceaea2879d
-	.dword              0x5183c295028041d6
-	.dword              0x4ff771e1764d7590
-	.dword              0x473945db00fc6ffb
-	.dword              0x75984830e5db4215
-	.dword              0x5d4dbce08396873c
-	.dword              0x6a5dd0ca821d2d1e
-	.dword              0x20d6396cab816f9c
-	.dword              0x542ebd9a9d2dac9b
-	.dword              0x1d713cae34fbafbb
-	.dword              0x164e116f1770db68
-	.dword              0x54617b2edab3eb6d
-	.dword              0x7038cad9aa7437d7
-	.dword              0x5d8bedeade3ca0ac
-	.dword              0x09e49b09ffb1f1ad
-	.dword              0x3c08e7d1905846af
-	.dword              0x4770dd8937262bb4
-	.dword              0x629ede336e00b7ff
-	.dword              0x79eca42a8921b9b0
-	.dword              0x427cf9eb44e5655f
-	.dword              0x641c93285d4bd64a
-	.dword              0x1135196a47b0d31c
-	.dword              0x3f968e74e2055f68
-	.dword              0x1099ef269f7e8f4f
-	.dword              0x1f735ca246d19f9e
-	.dword              0x1d300c4829e1869d
-	.dword              0x78352deeb5d394a0
-	.dword              0x22cea80cc36ca45f
-	.dword              0x58926f179fcb72a2
-	.dword              0x174dea4fb6f8f833
-	.dword              0x19d9fd3c33b826f3
-	.dword              0x2e5228220b4fa667
-	.dword              0x04d4bcfe7d6a21c5
-	.dword              0x619fd89c7ddc2b5a
-	.dword              0x7cb4b9b16862114f
-	.dword              0x0a762e5534037495
-	.dword              0x6423323dcc0bd013
-	.dword              0x76b036b27f4766c6
-	.dword              0x307ac40657859c64
-	.dword              0x2ea7f290937d9e91
-	.dword              0x56e523684d000cc5
-	.dword              0x4c4ac7af25f34686
-	.dword              0x1cff409924d5fcfa
-	.dword              0x2eeebce6cc815ea2
-	.dword              0x69b15baddaaf30b4
-	.dword              0x59b2c7eda2d872bd
-	.dword              0x13077af495726dfd
-	.dword              0x75f814b5909435ef
-	.dword              0x44b13f95e015597d
-	.dword              0x60293616c1060a0f
-	.dword              0x15c1323ef8aa60cb
-	.dword              0x6fb62cf105c4f733
-	.dword              0x797bf208b2132ee9
-	.dword              0x4e7bcf6f9f80723e
-	.dword              0x79dc51ee7afeab82
-	.dword              0x6841e718bef8d4ad
-	.dword              0x799ba693bd913b85
-	.dword              0x42a0263e627732ea
-	.dword              0x35c4206356f5f354
-	.dword              0x330b0256b2ec4deb
-	.dword              0x41fe76210a8f4b76
-	.dword              0x30824e2d7f3ea36b
-	.dword              0x5e17b0b559615bf9
-	.dword              0x3de8ff396a608d42
-	.dword              0x57d7cd1d8ba35059
-	.dword              0x63ec8fe5d2514701
-	.dword              0x571b2c6da6ad5ca3
-	.dword              0x20fa832ec791b771
-	.dword              0x3e041a694d200ea4
-	.dword              0x2c6ce438b8a6192c
-	.dword              0x5ff03efa46d47f5e
-	.dword              0x0231ce24c27788ff
-	.dword              0x2569527a8207f75e
-	.dword              0x48a7aa1149696cde
-	.dword              0x622c71ea57327c6d
-	.dword              0x510d291de46fff0d
-	.dword              0x4f2642cff6483866
-	.dword              0x2c8040d1902097a6
-	.dword              0x3e752477e4be5b11
-	.dword              0x727044dee144d7cf
-	.dword              0x0f021a6ffd298270
-	.dword              0x4b87c644fc8fe42c
-	.dword              0x7e226358184098ea
-	.dword              0x276d5bac3a5194f6
-	.dword              0x105d9d353fb0781b
-	.dword              0x78dde78c713238ff
-	.dword              0x58d8af42ea4eca9a
-	.dword              0x5df7bad5ab07f0aa
-	.dword              0x3d3372d50ac50158
-	.dword              0x16ba677b8d378b4c
-	.dword              0x3ab0867719aff887
-	.dword              0x7c81d651324c33c9
-	.dword              0x34976d605bbfea92
-	.dword              0x09a8df541f63233c
-	.dword              0x6ae9f01bbcc515d5
-	.dword              0x622d5fe501712ce1
-	.dword              0x7dcddac517e32d62
-	.dword              0x55f05128e7fef09a
-	.dword              0x581ee6b177d377a7
-	.dword              0x7d38f8c247381f4e
-	.dword              0x237785d3d080049c
-	.dword              0x0ef46b1f4bed097f
-	.dword              0x758902802b8b8c3c
-	.dword              0x1a485ebfdeda1393
-	.dword              0x68c4e4629c0b75a1
-	.dword              0x62024fd70014d3eb
-	.dword              0x3056dd4d769d8fc9
-	.dword              0x5837a37de1849c4d
-	.dword              0x268345f66f03dc46
-	.dword              0x6c642c29790df88e
-	.dword              0x04db2d5374dbe740
-	.dword              0x1b1043bf332560ea
-	.dword              0x20791e2fdd32c7b4
-	.dword              0x652b779c6e49f7aa
-	.dword              0x75c98c7c2f6562c1
-	.dword              0x2cfb96dcff055400
-	.dword              0x6c9ff589c80c4268
-	.dword              0x56e7cc6c179ddd39
-	.dword              0x585452bb59088d1c
-	.dword              0x081b9cce8fbf16ab
-	.dword              0x56cc74501d44f566
-	.dword              0x32db3db615ef746f
-	.dword              0x52d17299635dbf36
-	.dword              0x4a5563330a414231
-	.dword              0x3e48b76f47295e69
-	.dword              0x3e80e846d5fe28b1
-	.dword              0x75108316da65ce5b
-	.dword              0x0c97f0e4609c1295
-	.dword              0x083ddb2d58c30ddf
-	.dword              0x2870460e4e4199c6
-	.dword              0x56b1d5b829e1e780
-	.dword              0x0d1eb344de8cae01
-	.dword              0x72de00e240627778
-	.dword              0x5a0b35aff597f973
-	.dword              0x133a27b7906ef43b
-	.dword              0x02a21c92b71818e2
-	.dword              0x16f97c29f9a3ed42
-	.dword              0x3d6f6db267b97be9
-	.dword              0x7805af634eadeabe
-	.dword              0x741aef15ec07a30f
-	.dword              0x46a2a43d0c970f15
-	.dword              0x1115bd5c136e93b5
-	.dword              0x22a0413b73f87e27
-	.dword              0x416005c28fae4c7c
-	.dword              0x037790d44703a2f7
-	.dword              0x54a94834f6cd3783
-	.dword              0x74adebc792149651
-	.dword              0x17272b7519fe1f93
-	.dword              0x4a8b2eb3ffaef2ef
-	.dword              0x66f2a95bbbf264b7
-	.dword              0x2c0295c7d0ab7d40
-	.dword              0x12bf4d3671147a36
-	.dword              0x2c6ca240f4b2f073
-	.dword              0x2e591899c73ebcb2
-	.dword              0x60097518a3de802c
-	.dword              0x4df2c1c96cf07ff5
-	.dword              0x6b02df7c2ded392d
-	.dword              0x6e60993ec520bf98
-	.dword              0x19a851a743c6a6ec
-	.dword              0x728f5c5e64e8f188
-	.dword              0x382825d13a67cf91
-	.dword              0x3d02826e67e6ebdc
-	.dword              0x4b9f9267e72262fa
-	.dword              0x34e546b30a35746d
-	.dword              0x1f2985370e031af6
-	.dword              0x1053b4510e42a332
-	.dword              0x54b51050f15b5f31
-	.dword              0x64f4daf6643cb34f
-	.dword              0x3fd9c73fe516a0c0
-	.dword              0x2e4d9094ae6b8bab
-	.dword              0x33c05622ae24aebb
-	.dword              0x290458fde824a16b
-	.dword              0x4e32636653cc8326
-	.dword              0x78ae66f879fa8da6
-	.dword              0x4ffee525ab4de685
-	.dword              0x0a4143f8a5d041b4
-	.dword              0x464a8a6018fb5761
-	.dword              0x706ee866e29ff6ac
-	.dword              0x4d0838e300a9b46c
-	.dword              0x4fe5cd9b2cd8318a
-	.dword              0x6ff20792212da0ee
-	.dword              0x52e82d1ffda42f15
-	.dword              0x497361c9e216ef20
-	.dword              0x5913c295d3fe268f
-	.dword              0x211f7d45a018f796
-	.dword              0x23e443fb49779310
-	.dword              0x0a4a6c9746d55926
-	.dword              0x186edba3b0a796ec
-	.dword              0x523d42d79663ca6c
-	.dword              0x18074741b8ff7b46
-	.dword              0x0b5b61bb3a40b7a3
-	.dword              0x0303c27b8b8a2627
-	.dword              0x3440d504ed221747
-	.dword              0x6b12c91a3fcf7e65
-	.dword              0x1f64577492253ed0
-	.dword              0x66f3beb8b79bc464
-	.dword              0x5b7ce7b60871722e
-	.dword              0x2a061178535db737
-	.dword              0x052db8ddd85174cb
-	.dword              0x70d64d98f30cdeeb
-	.dword              0x37afdf9eb96846ef
-	.dword              0x213632a6f44b9099
-	.dword              0x7783049bb3d4559c
-	.dword              0x76a19ba1318f326c
-	.dword              0x3236b72fbd0c2a87
-	.dword              0x6900ffabacb7be8d
-	.dword              0x2ee3ed1b2295d098
-	.dword              0x371b30146451329c
-	.dword              0x6e28e983d4d975ed
-	.dword              0x29d618f0fda549ee
-	.dword              0x1119fc32e1c948f8
-	.dword              0x7c352f50f91ba7e3
-	.dword              0x288f0eb92f48ad82
-	.dword              0x6c2a6ad05efa0930
-	.dword              0x514f5be7cb63a81e
-	.dword              0x49ae3a1b58fc3524
-	.dword              0x2c188d638ce6fcb8
-	.dword              0x4e013330060a3ccd
-	.dword              0x1f786b0adfc19604
-	.dword              0x54579c06a17bbce9
-	.dword              0x2d2cc57201cea371
-	.dword              0x4de4913c26aa562d
-	.dword              0x1290361f3e3f7df0
-	.dword              0x545fd34707c4bc26
-	.dword              0x23dd81ef0658085c
-	.dword              0x18d73050312aca2b
-	.dword              0x65d20977b359c6d4
-	.dword              0x7d4fce0911968408
-	.dword              0x758fb72d69abdb1c
-	.dword              0x72246a4fb9769484
-	.dword              0x24eab4cbfd4feb71
-	.dword              0x42ff6219aab9354a
-	.dword              0x798c6c374f4a86ee
-	.dword              0x41c2d864bf38a18c
-	.dword              0x552f1615f0aec0ba
-	.dword              0x64c35399ea06853e
-	.dword              0x7dfb329298090b17
-	.dword              0x0558b76a52573b57
-	.dword              0x79b261c9b68535a9
-	.dword              0x451d19af45d9d2c9
-	.dword              0x6e39305e56f9effe
-	.dword              0x06be47a7aef77a95
-	.dword              0x6aed2df82a5f940d
-	.dword              0x6db9eb1834b54838
-	.dword              0x124e57a2b80c58d8
-	.dword              0x515e2189ddde1629
-	.dword              0x197871840538124b
-	.dword              0x2eba353580eb2d92
-	.dword              0x6c72cd4c9e09bd47
-	.dword              0x5d6a0833eef3e9de
-	.dword              0x6357c86f0c951963
-	.dword              0x0114ca6143161b99
-	.dword              0x60d804e3e34568a4
-	.dword              0x64a1819a477c8594
-	.dword              0x429de4c38667c35a
-	.dword              0x77e7dcf740602552
-	.dword              0x41314001cff4351f
-	.dword              0x7dac6844c4f4686a
-	.dword              0x27abf9b280a0c0c3
-	.dword              0x13dbd5e3f79a3757
-	.dword              0x39e9a5a1f908b2ec
-	.dword              0x02036c0f2515e80b
-	.dword              0x654d5fbfbfe68f0c
-	.dword              0x6f27c2d8e4b054bb
-	.dword              0x4f0d045c6994ee22
-	.dword              0x0491babb209b2ac6
-	.dword              0x20cf2d5c913f25b9
-	.dword              0x1d65875f1acd7c9d
-	.dword              0x759d40cd725bfa1f
-	.dword              0x6a5c8783fa8a8c57
-	.dword              0x4734bd97d7e50102
-	.dword              0x29f8af822774c8f8
-	.dword              0x3c40de10ca4bd91e
-	.dword              0x38e6d98d4c93ecf4
-	.dword              0x309fe9fe82206d5c
-	.dword              0x62c87da77733da97
-	.dword              0x37770874a6cfc3b0
-	.dword              0x284f0e9381b98924
-	.dword              0x3d897ccbdca4cf62
-	.dword              0x645e34dd6e1599ed
-	.dword              0x3104365c6bfdcd4e
-	.dword              0x4834436a164fc5b8
-	.dword              0x403a633659deb2f0
-	.dword              0x63d55b3ecc49bdc2
-	.dword              0x02d4b92579a044fa
-	.dword              0x4f0062b95cd2d0e3
-	.dword              0x14871dd3194e6b72
-	.dword              0x06983fc149443a00
-	.dword              0x21ce0f59ca1f5e70
-	.dword              0x39eee0466250754a
-	.dword              0x65abe6a5ecc81c78
-	.dword              0x2d6d4ec3a548794c
-	.dword              0x02654b6b2872f5f5
-	.dword              0x5b664f8e04f0270c
-	.dword              0x2e383fb8452f1ef1
-	.dword              0x307f7e856ef0de14
-	.dword              0x2d2b8a7666bf6fd1
-	.dword              0x2b5eb26028bf1f40
-	.dword              0x5e2b8b9f5d57b3db
-	.dword              0x5f65c8ea7dcde045
-	.dword              0x455b80d2202ecd8e
-	.dword              0x3d064b6b86936bcf
-	.dword              0x04897628fc933da2
-	.dword              0x0a918f4becbd60da
-	.dword              0x02c7a531f8d5b793
-	.dword              0x3fba0a632caeda5c
-	.dword              0x62db5001c016da6d
-	.dword              0x09ac153e5a72e846
-	.dword              0x5442da6a96b8f537
-	.dword              0x5737b5089276a8cd
-	.dword              0x14a18718514b2d15
-	.dword              0x06d46222ac7b80c5
-	.dword              0x651b8499e86197a3
-	.dword              0x77b7089d257f05ea
-	.dword              0x46ac5fa382f5abb7
-	.dword              0x0176268baba0f540
-	.dword              0x6bf2da0afac02a6d
-	.dword              0x735ceff96ce59650
-	.dword              0x194467eb5476d071
-	.dword              0x61dd75a50971856d
-	.dword              0x56f2cc42969cdb4c
-	.dword              0x1be2fca6b6e58da2
-	.dword              0x09a37d4254e5269f
-	.dword              0x4e2f3ee1350b4e94
-	.dword              0x4da506e38c83326f
-	.dword              0x7a485cb356fc5d7b
-	.dword              0x3d5ea673ee60af77
-	.dword              0x58e47fc6b4f590aa
-	.dword              0x3b7d92221e054e90
-	.dword              0x508b0e162030c028
-	.dword              0x4b9643eed6a4b48c
-	.dword              0x31ab75e06967973b
-	.dword              0x24f203bf33882d9e
-	.dword              0x271c674839cd5fc2
-	.dword              0x1a89cc3894d566cb
-	.dword              0x1c1f8d34d6e4950f
-	.dword              0x6dc21d562d658260
-	.dword              0x08e925b41aedb087
-	.dword              0x154e9ce4e23d98e2
-	.dword              0x57f665fcb73876a8
-	.dword              0x546eb8bf5b3ad15b
-	.dword              0x41f0d7bc8fbe74da
-	.dword              0x3e8c5d4d73489eb5
-	.dword              0x340e5fb4d4303a63
-	.dword              0x30b316d5527aa62b
-	.dword              0x1b9433f718497162
-	.dword              0x28ee5f249c7bc31a
-	.dword              0x67295504af603048
-	.dword              0x58b897008c37566e
-	.dword              0x5efff30bce112b64
-	.dword              0x025bb3825f92df16
-	.dword              0x1a5072760edf8e0b
-	.dword              0x27253ab66fa6abe8
-	.dword              0x46dcaecc94494f67
-	.dword              0x1124639e8cee7472
-	.dword              0x2dc13c11712e4e99
-	.dword              0x08474c8f0a9a0e52
-	.dword              0x5bf96282cd3edae0
-	.dword              0x06dc1d406ee6a5a2
-	.dword              0x0f6eacde3b42e55c
-	.dword              0x36f3a1612e4a5dee
-	.dword              0x59e2ed789091bd7f
-	.dword              0x763a6c85424c0b23
-	.dword              0x6269ce94e03174af
-	.dword              0x5dff135f3568828f
-	.dword              0x38c7f615ae89b223
-	.dword              0x1413319ba5cd85cd
-	.dword              0x5b837e76bac7b7e1
-	.dword              0x2b223896dfea9551
-	.dword              0x119368a88cdea848
-	.dword              0x6195cbb244d27f9d
-	.dword              0x426449993a446113
-	.dword              0x417a04506f87c7e3
-	.dword              0x4724834393cef6a2
-	.dword              0x700b75120759e887
-	.dword              0x25dd03bc1894b764
-	.dword              0x667d68fa77097ee9
-	.dword              0x333586828d97ab3e
-	.dword              0x06e49114562a346f
-	.dword              0x7331f9256d6686b9
-	.dword              0x339b1907e2a98a75
-	.dword              0x33688917bd092626
-	.dword              0x486708e753e7252e
-	.dword              0x778d2e5dd99d8c48
-	.dword              0x030fd6da191e38fe
-	.dword              0x733fe147bbe95a07
-	.dword              0x31fdbe9121e881a6
-	.dword              0x5c1913e9f3e740f5
-	.dword              0x2264972406689e26
-	.dword              0x13e855e9e56c5828
-	.dword              0x4a1b5c5d4c289760
-	.dword              0x3b563987cfd62e2f
-	.dword              0x55207e2faea102f1
-	.dword              0x4b3a699e7b277b59
-	.dword              0x7252b16aaea02ec5
-	.dword              0x3b2bd43ae0268708
-	.dword              0x2f090f51f4e7d09e
-	.dword              0x0a6d989c82a5c601
-	.dword              0x63300a1cf42c6d2d
-	.dword              0x43249b393fc50f5d
-	.dword              0x5d14e347622b67da
-	.dword              0x1f2272dfeb24da00
-	.dword              0x2f67e4c25515829d
-	.dword              0x254dbea9101bb7f8
-	.dword              0x6fcd537bac1dde51
-	.dword              0x1ba37517b9e3cae9
-	.dword              0x4c9112f361e92d09
-	.dword              0x3bfe6efec5f93d58
-	.dword              0x17a7d3ca7dc85561
-	.dword              0x3f24730ad8e5fbfc
-	.dword              0x2bdeb1bf523177b0
-	.dword              0x485d0bea627df871
-	.dword              0x25b43dd2643a0db3
-	.dword              0x3b83c960fe1121f5
-	.dword              0x52d2f6bad331ca32
-	.dword              0x4bf2eda83a5b5e3a
-	.dword              0x05efdba66cc08903
-	.dword              0x77b2e20b436193ee
-	.dword              0x7609ace5ca6336a4
-	.dword              0x497389da81c8ae9d
-	.dword              0x03cbf335cf4efca5
-	.dword              0x52db4fe65602665f
-	.dword              0x191006dbcc9ed5e3
-	.dword              0x7ee7ff21aabaed16
-	.dword              0x153fef7a27e88d6b
-	.dword              0x75fc4d08f1688668
-	.dword              0x75f836116a42224a
-	.dword              0x731db69dfa963d46
-	.dword              0x05e02838d85c38e6
-	.dword              0x1368674d89d2bfa6
-	.dword              0x2390637f9dab6384
-	.dword              0x39b738b080f73c36
-	.dword              0x5737242b24825dcf
-	.dword              0x2e1d8b612371078f
-	.dword              0x53f60314a9657187
-	.dword              0x048e853191076f24
-	.dword              0x40865f9395790f95
-	.dword              0x4e87a0f548a04594
-	.dword              0x1418c1dd9db5fe54
-	.dword              0x78fb6c9219fc8b23
-	.dword              0x0c83fc4c122401da
-	.dword              0x669ea3e8b41b4385
-	.dword              0x54717eb527f8dc3d
-	.dword              0x5546e716bf1bcc15
-	.dword              0x1f47217544cb8d3e
-	.dword              0x0f1a2ffd6eb000d3
-	.dword              0x71a9158c2fb61b90
-	.dword              0x3d3d580a09e54214
-	.dword              0x6604cb1288404ecc
-	.dword              0x686503aa2f9ce32e
-	.dword              0x11cc12476236d3c9
-	.dword              0x2c997c9cf33207b8
-	.dword              0x56bd781d19d44c80
-	.dword              0x7615bc69da3a7a31
-	.dword              0x7c8fc068cdf74ac0
-	.dword              0x7103991f5b119ae9
-	.dword              0x743249ca7537bb7b
-	.dword              0x1ec17e292442d531
-	.dword              0x23a6d4be855856b9
-	.dword              0x502580ebda0cedf3
-	.dword              0x3226d6d098dac8bb
-	.dword              0x1c18be6c5b0b0217
-	.dword              0x1105beedc2e0a74f
-	.dword              0x4455c5d2e740a120
-	.dword              0x6af578303e78afe7
-	.dword              0x37050c3d9bcb6c99
-	.dword              0x5f4b833523618049
-	.dword              0x501ad8e1143ea8aa
-	.dword              0x722cee8647667666
-	.dword              0x0aefaad0a49fb84f
-	.dword              0x75b401af3498c48d
-	.dword              0x3205d5c61d8fdd71
-	.dword              0x7f621d080670bcf6
-	.dword              0x46203ae65a21fb43
-	.dword              0x557c3f37db4b1ab8
-	.dword              0x580be8a5dae8a8bd
-	.dword              0x283e1154d39057ee
-	.dword              0x24e59cf571094206
-	.dword              0x508d136013bd47db
-	.dword              0x0522a1bf2e20ef13
-	.dword              0x64c2913951ea06a5
-	.dword              0x09ab04a40b264208
-	.dword              0x1d9aa6007c8c3801
-	.dword              0x0172b3ff60f58294
-	.dword              0x44dda3045f70d3a0
-	.dword              0x39d90650554dd6b2
-	.dword              0x56553d2866450bd7
-	.dword              0x6153823bcdb38433
-	.dword              0x063d2d89b3344ce3
-	.dword              0x5a996402882ccc01
-	.dword              0x0f414ce5e18546c8
-	.dword              0x6f68a8083b0ca2b1
-	.dword              0x202944eccc885c07
-	.dword              0x756cc6d6714c6294
-	.dword              0x65cf408cd9822fdc
-	.dword              0x0f1e579bac054750
-	.dword              0x2a40daffd1bd8236
-	.dword              0x7cd341839474a185
-	.dword              0x41d6a5dfd6c0c98d
-	.dword              0x79b6249cb0b9ec7b
-	.dword              0x2ca124b7bb200ab9
-	.dword              0x7faca112133391d1
-	.dword              0x7e4336bdfaa824f7
-	.dword              0x3a5abb5524cb9d59
-	.dword              0x235f68c7e7fb7597
-	.dword              0x70f51f099382a744
-	.dword              0x59b169b905268591
-	.dword              0x0bcc14a0eb823c92
-	.dword              0x0684b53d7b6a8247
-	.dword              0x19623ad177763498
-	.dword              0x7922ebae5ad17e4a
-	.dword              0x10bfcf976cb44343
-	.dword              0x3030d21c7426976b
-	.dword              0x1e4a1cb993cea194
-	.dword              0x69bfb4713b668643
-	.dword              0x4480524d5df92dc0
-	.dword              0x0170411e60254952
-	.dword              0x573a5e2d6dde0b26
-	.dword              0x444053f9882d578d
-	.dword              0x652accb3f74530d2
-	.dword              0x21d7e6ca101e2c6c
-	.dword              0x1daae359650ebfda
-	.dword              0x2141b09035e380d2
-	.dword              0x0dbfc06b673c3a6a
-	.dword              0x3bc971e9e8f66358
-	.dword              0x76cd44be99a41c42
-	.dword              0x63d065bcaac873cf
-	.dword              0x652b8040a2ce4829
-	.dword              0x019ee572f3ff8594
-	.dword              0x7a56632b699e08b5
-	.dword              0x0451660e4b1c30d1
-	.dword              0x3c65a195cb5bfb3d
-	.dword              0x381158bb3962e033
-	.dword              0x512430a98f2a9aea
-	.dword              0x58f81f96ada90d3f
-	.dword              0x187e90f391497ef4
-	.dword              0x4edcb766d13f0a7c
-	.dword              0x2f8da711cc20119c
-	.dword              0x6fdd7e901952894f
-	.dword              0x70972b0d92aac3da
-	.dword              0x34ee52ba87d05eda
-	.dword              0x5292a3f22a50bfde
-	.dword              0x5b8d1b94bf9e2bb7
-	.dword              0x61831e624b1698e8
-	.dword              0x1b46d6fc1616d0c2
-	.dword              0x12c7b9d34cafc46c
-	.dword              0x7dca757d44a5a3f4
-	.dword              0x506c8a41f9f70e18
-	.dword              0x467a915c0eb1765c
-	.dword              0x210d33411b536050
-	.dword              0x6fed5afc24bcd477
-	.dword              0x6f73b28e617712a8
-	.dword              0x6c470cb0d67f3a35
-	.dword              0x12a0f03c8e1d43f2
-	.dword              0x454a5c90522723db
-	.dword              0x4015f4105825aa74
-	.dword              0x29b7cda941e483b2
-	.dword              0x19490b03093b0dce
-	.dword              0x371a9d1d3bb2f23a
-	.dword              0x62cdb46f81308260
-	.dword              0x5ef5724396739c7b
-	.dword              0x42522988edefa96b
-	.dword              0x49e3ef8007209ce8
-	.dword              0x6db05fa7942102b0
-	.dword              0x08dd13ff35287d1a
-	.dword              0x0744c97cf454c506
-	.dword              0x266dc1744d2e421c
-	.dword              0x5b77b837dccbaebc
-	.dword              0x1052b0fe6f890015
-	.dword              0x71e1e78e5ce38f8b
-	.dword              0x70d67069d9cf02e9
-	.dword              0x2731c3217fcbfafe
-	.dword              0x3eb79c1f7531a2dd
-	.dword              0x428b12d6d3a309ce
-	.dword              0x22dedbe593da8edc
-	.dword              0x1f6a7c5651e17239
-	.dword              0x065323b1155c86e6
-	.dword              0x742366f8c6e60fbf
-	.dword              0x42d1091d05639941
-	.dword              0x26a52953fac7eec7
-	.dword              0x358eb38f25a760c5
-	.dword              0x156f243bb357781f
-	.dword              0x5dccb37af8e38543
-	.dword              0x3b0be3b7b833246c
-	.dword              0x0bf819e8e937c411
-	.dword              0x11c6fcf3e95d2d73
-	.dword              0x2b664390b0416aa1
-	.dword              0x4bbe810e08e5b6e7
-	.dword              0x00a982da04e11510
-	.dword              0x13c9771f6401bf80
-	.dword              0x35b30abb917cbfc0
-	.dword              0x6f9a49fdc8d14831
-	.dword              0x7c19a3246ae8b8a7
-	.dword              0x65c06ccff3abcd80
-	.dword              0x248cd3951283c8bf
-	.dword              0x5877f79a14f02b76
-	.dword              0x287454a6bf6f2029
-	.dword              0x2aa5e191e42ee2ba
-	.dword              0x4cfafab64b87e202
-	.dword              0x5906e34f276fae64
-	.dword              0x5f097e24e2cbb04d
-	.dword              0x11a8a352baf3644b
-	.dword              0x1b20368f9b94a15a
-	.dword              0x1a1ffaefd5cb565b
-	.dword              0x51604eed57f25ae2
-	.dword              0x4f457e682833e030
-	.dword              0x2c989fb29099f494
-	.dword              0x487b561f901f2096
-	.dword              0x6ba5a6a1e972687a
-	.dword              0x578b2951320fbbab
-	.dword              0x41f68f7bcc99a172
-	.dword              0x42aa273a2ecca0f5
-	.dword              0x1b60987b6977d7a5
-	.dword              0x4a9420769d6c9c93
-	.dword              0x1806f9adfa6e1d7d
-	.dword              0x7398127543e1d04b
-	.dword              0x3995b49b90a28404
-	.dword              0x4f59de585c126d28
-	.dword              0x664c00a0a56e2b5c
-	.dword              0x497f20b7b43c50af
-	.dword              0x450129513f64da61
-	.dword              0x1c214cccce0fe091
-	.dword              0x215cf4abfa6c1f1f
-	.dword              0x23e6743912748b95
-	.dword              0x37fbce3e642cd407
-	.dword              0x1fe042a9ff4ddf8b
-	.dword              0x4ffa3421247d6a81
-	.dword              0x3669058f6df56668
-	.dword              0x7973b8b8b458992b
-	.dword              0x5e6a828c8038e454
-	.dword              0x4263a93ce656e48c
-	.dword              0x1fba34380fbaa534
-	.dword              0x17fbf232b6a571d3
-	.dword              0x4d0cd5fa2ec350b0
-	.dword              0x2df5d8e419e99589
-	.dword              0x77c87d271c67b779
-	.dword              0x10e6e7f8378b0838
-	.dword              0x7ba86a6999d4d3ff
-	.dword              0x6687985e7f502055
-	.dword              0x44fac85daf5afc13
-	.dword              0x0c9469ac12709e6b
-	.dword              0x6d8c42efc9a38d99
-	.dword              0x7db2071292b7bd34
-	.dword              0x5e763c45127b6e6b
-	.dword              0x3fa95524dfbf00c7
-	.dword              0x4ed4c4f433cb6d6e
-	.dword              0x4f269e80bda3479f
-	.dword              0x41f21430ad53aadd
-	.dword              0x31bad0f429831224
-	.dword              0x73b40d2878f3fb1e
-	.dword              0x5f3a6a57210daefe
-	.dword              0x054488a6ae6572a0
-	.dword              0x08f5affc28f816a0
-	.dword              0x27645e8f6b9c316e
-	.dword              0x3f6b82404e025461
-	.dword              0x3a4d01b231666dcc
-	.dword              0x7998e5ca2296fd91
-	.dword              0x5e718611cd0bd695
-	.dword              0x6216ccfe4bebaf6d
-	.dword              0x4a4d888a24ed8b04
-	.dword              0x0e20c2d10f7fc26d
-	.dword              0x4c6f22dc6532cdbb
-	.dword              0x3b36fed042eb4e43
-	.dword              0x1a67bb72e8c12090
-	.dword              0x158e21ce161a805b
-	.dword              0x3195a490572e0dc2
-	.dword              0x6d1cee6dee51a17d
-	.dword              0x3b14287857458099
-	.dword              0x79df2eacd87d9443
-	.dword              0x25c780f373206933
-	.dword              0x44c2221050a3819b
-	.dword              0x1fce8b1b0c5246fe
-	.dword              0x7ec6ff26245f0e20
-	.dword              0x041262deed46c3d8
-	.dword              0x223121c513b5d288
-	.dword              0x0a0be09085a1a22f
-	.dword              0x336693803bb88583
-	.dword              0x091734ce1b2de7b5
-	.dword              0x0a2ad1da3119f9d0
-	.dword              0x6a35499119fcafb5
-	.dword              0x519888f9df4c06ef
-	.dword              0x4f99a49e9e6d8af8
-	.dword              0x7a759d40d36152da
-	.dword              0x36fcd0a786ca5946
-	.dword              0x629603217f67780e
-	.dword              0x006f5bc8a951aec4
-	.dword              0x7cf2874a22ffaeb4
-	.dword              0x6eeec1e7f838edfa
-	.dword              0x4c4d6840b05b701b
-	.dword              0x72ce5e1fe97fb344
-	.dword              0x01100c1165b8513b
-	.dword              0x20e95a220b9b47b8
-	.dword              0x343c8644c597b3f1
-	.dword              0x1cd1b15ed4560d77
-	.dword              0x10b0dab42425dd84
-	.dword              0x5a197fdf099a4faf
-	.dword              0x756737da9ea7b20e
-	.dword              0x040858e0c0f00bbe
-	.dword              0x03f8a44d7c46aee7
-	.dword              0x5a0931b88e86e79b
-	.dword              0x117464c0e1b0eba0
-	.dword              0x7487e8ee0e9cc4ab
-	.dword              0x18b131280db39893
-	.dword              0x57d1f9102d2bea0b
-	.dword              0x13b6a3e1c06526d6
-	.dword              0x624063d67aa27892
-	.dword              0x3e7e1e16069d540f
-	.dword              0x42a1ee7f6c6581ea
-	.dword              0x340d39fca519fac7
-	.dword              0x446b169099615389
-	.dword              0x5c45fe1f6a5321fd
-	.dword              0x5caa31a80113099a
-	.dword              0x5a4b94799cb3299e
-	.dword              0x0a155829db8c0d57
-	.dword              0x14d8ee25ce9e1933
-	.dword              0x5c5f37dee08eb974
-	.dword              0x6269dd5cb4c7d6d2
-	.dword              0x66da8bfa499c84f4
-	.dword              0x19951b1a97008abd
-	.dword              0x3cf3c6e89c61c584
-	.dword              0x51a54a0fd5373b6b
-	.dword              0x0bff74013b2e0c02
-	.dword              0x47a29191e5cfb63d
-	.dword              0x768aa3a6891a39de
-	.dword              0x6d30f79956614e65
-	.dword              0x20f311ae8554c39e
-	.dword              0x75c27fb5f3043e32
-	.dword              0x705558a60c05a691
-	.dword              0x6987e52677403119
-	.dword              0x38d7c0d8ce0739f3
-	.dword              0x5b0c26a80496be21
-	.dword              0x707dcf046578b968
-	.dword              0x7f0bd60f27ff7fbc
-	.dword              0x1b72ea21e2ddf645
-	.dword              0x72fd1f88da51dcf1
-	.dword              0x33fe54890132ebf8
-	.dword              0x48e84125839963eb
-	.dword              0x2f2f027b70cd17a7
-	.dword              0x1351902b9638ab88
-	.dword              0x5a905d3db79a9c47
-	.dword              0x568a44e2840027c1
-	.dword              0x1d8abfaf67361fb0
-	.dword              0x0dafca856a45cab8
-	.dword              0x35fb7678e3510792
-	.dword              0x4f37eff1b29efa11
-	.dword              0x20df6791e524e337
-	.dword              0x1a6f0ace1b244d4a
-	.dword              0x0a27a660200ce6f7
-	.dword              0x3f8318a22661a31c
-	.dword              0x3dae07e4b62b2494
-	.dword              0x725b3fcecb39f2c4
-	.dword              0x50076782a69e711b
-	.dword              0x4836b17b6b37a458
-	.dword              0x6a8f3d1e948d869c
-	.dword              0x60c05aeececb3fb1
-	.dword              0x2302bff86fe3570e
-	.dword              0x7bafcc0b596671c7
-	.dword              0x2f71e195026a48a1
-	.dword              0x238f96f313c51443
-	.dword              0x328683e71689a4ce
-	.dword              0x539694ee16b8b311
-	.dword              0x63a8da4a14f9abe0
-	.dword              0x241e04fa0061cf18
-	.dword              0x124bf03f39d48276
-	.dword              0x2f4aba52c9f20657
-	.dword              0x68231c71dfaecf34
-	.dword              0x2ec6fe3ee7694af5
-	.dword              0x074a5215096e7382
-	.dword              0x1da7c32870fd562a
-	.dword              0x66ca00306726049b
-	.dword              0x1188afe40da2c32a
-	.dword              0x4d8e1f0792e2838c
-	.dword              0x4bc43956f9a46dc6
-	.dword              0x4993a882bed44240
-	.dword              0x5c8cab3bb8b6ea59
-	.dword              0x60e7c157f1d0d8c0
-	.dword              0x137c85254782f415
-	.dword              0x72a0f5ffb5e48a2b
-	.dword              0x7c8c859d53ff3b1b
-	.dword              0x476ae8a6b91c4d13
-	.dword              0x06f1f5783ba9e745
-	.dword              0x1a809a3b34471f7a
-	.dword              0x0bee104c401c6323
-	.dword              0x362ad703b85a73a6
-	.dword              0x5599dd88ad9105af
-	.dword              0x7f4b8205a93a5a5b
-	.dword              0x4158ed5f737a2e4d
-	.dword              0x7ff4a7d2633e3900
-	.dword              0x3cf03fc8e060aeb8
-	.dword              0x10204e0a83aca200
-	.dword              0x3cba751ae0ae8e03
-	.dword              0x1df6a2ce489af9d7
-	.dword              0x46fb72846a70a9c0
-	.dword              0x676ec6bfaa45133f
-	.dword              0x43c8e7e4bb4012e6
-	.dword              0x6979f1f25f271cb9
-	.dword              0x51b8a05aa9cf2af3
-	.dword              0x3308f44376fa03ad
-	.dword              0x3f56301a1c27cf81
-	.dword              0x714de86cb6db3445
-	.dword              0x75e8635b2c12ae01
-	.dword              0x663651d65731ed27
-	.dword              0x049a9065a36599d4
-	.dword              0x3357ded3285fe2f3
-	.dword              0x2f49c6c3cabf25c0
-	.dword              0x260ee55174a43b57
-	.dword              0x30f403a42644ee70
-	.dword              0x2454fadda9406151
-	.dword              0x6b529cd86fce66a4
-	.dword              0x421f1c0cedb4a1de
-	.dword              0x1ff7031cbe1746f8
-	.dword              0x00f9922bc486fd1a
-	.dword              0x54450d63a84de627
-	.dword              0x31a7b0af840755ed
-	.dword              0x2eaff0ca49ecfa58
-	.dword              0x7cd56996d7d8d4f8
-	.dword              0x2bb2a331d48df9b0
-	.dword              0x15c0e01fee050997
-	.dword              0x59c333e1854e2968
-	.dword              0x54a97029f52687c7
-	.dword              0x038ed292dbf3aaa9
-	.dword              0x5b9707469a63b9f2
-	.dword              0x40b1cd6d532c8bee
-	.dword              0x2401bfc28f7e3bfa
-	.dword              0x5e687ce454051265
-	.dword              0x43ad5e96f4ba9150
-	.dword              0x2097a61ae9b1ec9e
-	.dword              0x5ab0dbb5ca308665
-	.dword              0x57d9b5b11b4cc7f2
-	.dword              0x72d8fda92411e1da
-	.dword              0x34b3ba1ee7bcba7a
-	.dword              0x1f2f17dded8c2304
-	.dword              0x4fe27346e676a8d8
-	.dword              0x57b0fcd628ffc480
-	.dword              0x67d8536ffb4ba508
-	.dword              0x39b3952775d548ac
-	.dword              0x0136c36cb97bf2af
-	.dword              0x771854a9d6fd6e6f
-	.dword              0x50953b8e17a7a94f
-	.dword              0x01e77a59bc997124
-	.dword              0x366dd4987d1e33a0
-	.dword              0x6eef923fe056177c
-	.dword              0x1c7fad151a088aa4
-	.dword              0x70d7b56c9c5fd534
-	.dword              0x138e8f851a330bc0
-	.dword              0x619c20489c55daf1
-	.dword              0x1b401b790f0c5bee
-	.dword              0x2bfed59f966181b4
-	.dword              0x00e789748ed5f92d
-	.dword              0x4a88cf8daadf7c95
-	.dword              0x165716ddb63820f0
-	.dword              0x5aef73bbcb88d22a
-	.dword              0x4d57448cd705fbc6
-	.dword              0x0299c15ebed99553
-	.dword              0x5411d93eea0202ed
-	.dword              0x3c3e85f8688a6b26
-	.dword              0x3bc83b1bb992c357
-	.dword              0x0118dec58a14e598
-	.dword              0x42018e7898064945
-	.dword              0x77945cf29b0023da
-	.dword              0x3d840b8eac641ed9
-	.dword              0x08d0cd2d7929f465
-	.dword              0x724591bfa861a693
-	.dword              0x3720bf7ac317a183
-	.dword              0x06b8f57c5aaa1a27
-	.dword              0x2e00f7f7ada23051
-	.dword              0x7b235a995580ee57
-	.dword              0x2520f3ac23b59677
-	.dword              0x7ee55e9fd740e1ca
-	.dword              0x50294e82bb77620e
-	.dword              0x32c44b032346ecde
-	.dword              0x1e729ed28c4f79b9
-	.dword              0x641377c4e61f32fb
-	.dword              0x1c9010fb08b38b97
-	.dword              0x6709f9f1f17e2703
-	.dword              0x527d9943053755e7
-	.dword              0x467a9f9cd02061f9
-	.dword              0x4281d512cababd27
-	.dword              0x249512c36b80ca96
-	.dword              0x523ce27e23ded116
-	.dword              0x311614253d4f208b
-	.dword              0x25382769fdc0680c
-	.dword              0x05e1adf3e42a29ee
-	.dword              0x46989d5a543f3819
-	.dword              0x3668851f768c4ab6
-	.dword              0x6b76b7e3ccfe0ec4
-	.dword              0x2780416f21a261ed
-	.dword              0x234053cfd224bc76
-	.dword              0x707d184cc7ffe60a
-	.dword              0x6f3a89a6545c5f2c
-	.dword              0x247331bfba9bb507
-	.dword              0x2b34b76afb11dbb8
-	.dword              0x0c4607e57ba662d1
-	.dword              0x4e686a58462536ce
-	.dword              0x22e16bd45b56df63
-	.dword              0x4caed0983e5c2017
-	.dword              0x35bc1492b33d78ab
-	.dword              0x4c68b3f8e6c94428
-	.dword              0x280cfafb7accc9cf
-	.dword              0x1f89f28101f84f03
-	.dword              0x540b929748a85d28
-	.dword              0x6a80924d61286b5f
-	.dword              0x7b532407d5b20614
-	.dword              0x34443d0a8cda8a43
-	.dword              0x2cfe1a774ba58750
-	.dword              0x13f04be727bbf317
-	.dword              0x4ccb6afe5b78c23e
-	.dword              0x54258be59dfdea29
-	.dword              0x4f90db4690e41126
-	.dword              0x1e16f2239740e602
-	.dword              0x0551f84ba9854db8
-	.dword              0x6ea92f9d6ceee208
-	.dword              0x42e53ef2d1023f8c
-	.dword              0x77856d3c0963aedd
-	.dword              0x167a602691ee704a
-	.dword              0x790bc2d276b89b3d
-	.dword              0x738c8c901b555244
-	.dword              0x099173487dc899be
-	.dword              0x4956410053b2b746
-	.dword              0x5399513a54fe33c9
-	.dword              0x498927fd4dcb209b
-	.dword              0x4afc82d31ad6aa46
-	.dword              0x62b0d2f718cd2963
-	.dword              0x2c3c875caaa03642
-	.dword              0x688e9f8113e99209
-	.dword              0x46422ff7f6de30d8
-	.dword              0x24f1d59cdda639df
-	.dword              0x76c81cb08d83e12a
-	.dword              0x5a94baea19022871
-	.dword              0x38a1e5405e15d5a1
-	.dword              0x6743a23e928e7299
-	.dword              0x49586a47d9b8f42c
-	.dword              0x6502717ae66d0591
-	.dword              0x76d6f6afb821cd88
-	.dword              0x030c91ba008e2956
-	.dword              0x3ab465c64ea9409f
-	.dword              0x2495433f6b922837
-	.dword              0x504b5e910d791bfc
-	.dword              0x3d83ae44a76bed4c
-	.dword              0x320ccfd486c134b4
-	.dword              0x780fe08e08bec6f6
-	.dword              0x48759cb8d13ee300
-	.dword              0x2eec35bb78015c25
-	.dword              0x077670f13ed13c8d
-	.dword              0x2b327276b66ba98e
-	.dword              0x4032f54be1012b78
-	.dword              0x0e6f787cf212f2e1
-	.dword              0x7370032ac1c7b699
-	.dword              0x757379ba241f967f
-	.dword              0x4b841302f0e32b54
-	.dword              0x76d730099cbf6794
-	.dword              0x18c32f245f38d41d
-	.dword              0x5ce994f830566cf7
-	.dword              0x21c743672ac1d82a
-	.dword              0x4ab74a3879a03699
-	.dword              0x58063f7d16c741de
-	.dword              0x13ccb50e4acc1164
-	.dword              0x1be0a3ea8459e97c
-	.dword              0x65078cdf9b656f39
-	.dword              0x1266ed0957863fdf
-	.dword              0x6cd60c2e31962bea
-	.dword              0x6364a9785bee9174
-	.dword              0x216fd20473e94bb6
-	.dword              0x78639e03db0a0de7
-	.dword              0x00dc9596e5a569c8
-	.dword              0x033aaada7961ca83
-	.dword              0x4ae7b376b28014b4
-	.dword              0x75fda28807e29a96
-	.dword              0x0b58d8d7892cddf9
-	.dword              0x10dbab3a9837ffb4
-	.dword              0x5822e2e4cd254626
-	.dword              0x684a06e6da586715
-	.dword              0x245e25d24bb3a3b3
-	.dword              0x61ec857a952dd7d0
-	.dword              0x7381ec7dce3874da
-	.dword              0x5bc40012cc19a09c
-	.dword              0x2836b8ec0d2d3954
-	.dword              0x30a8993240f51d38
-	.dword              0x34f16ec015759619
-	.dword              0x2aee625673b2d1b0
-	.dword              0x316550b16cf91634
-	.dword              0x6a06beb07433b3c8
-	.dword              0x55c41d74615ffc3b
-	.dword              0x210dc2d97f87c18d
-	.dword              0x18c6c09f4e9daaa7
-	.dword              0x3b20a06a58f27551
-	.dword              0x4894cd39be92d6c8
-	.dword              0x0f8953ccfaa44cf5
-	.dword              0x26744cde82d06982
-	.dword              0x6f413e049e1d2341
-	.dword              0x1ba1aa0e40cbdc3c
-	.dword              0x0590fbff130365f7
-	.dword              0x2a72856285b94027
-	.dword              0x10de8bb3f1d83585
-	.dword              0x1e4d79b8f7a76173
-	.dword              0x17914b17e836c200
-	.dword              0x633bf54f8392ebbe
-	.dword              0x2373e5eee975cfaa
-	.dword              0x12093baf499d043f
-	.dword              0x374b2357231a89e4
-	.dword              0x5fb8c5864ffd56b0
-	.dword              0x43ed48ec744e64bc
-	.dword              0x64c0aac3883d0a49
-	.dword              0x60e7cbcc29362352
-	.dword              0x5a286685b87c4842
-	.dword              0x27b9efe9e62c6f3b
-	.dword              0x250555ad1c457467
-	.dword              0x37d2b72baaf36d47
-	.dword              0x446e0444b54fffa0
-	.dword              0x2d6fb3acf29b1e9d
-	.dword              0x5e1f6d880c81af05
-	.dword              0x1eed9474ff0bb3ef
-	.dword              0x69a735be91fe2dc2
-	.dword              0x06c7e4e54945466e
-	.dword              0x20fc427021991bba
-	.dword              0x2cb2af9d4bae9489
-	.dword              0x29143c9e4fd11384
-	.dword              0x69054dd2fea23a6a
-	.dword              0x6be99d55d0770f0e
-	.dword              0x22faf62f5feb6b6b
-	.dword              0x4d3ed8ec01eaf3e8
-	.dword              0x396b903439309840
-	.dword              0x1067e51b8f3fba35
-	.dword              0x0990cb86398d1c18
-	.dword              0x064e816c18dcb2e2
-	.dword              0x16efadfd4ad4180e
-	.dword              0x4e91651f60d7ec88
-	.dword              0x49c24cfa3bcb37f0
-	.dword              0x0b9372f8286aaea9
-	.dword              0x66e2194a0e31611f
-	.dword              0x2f932a96030b12ba
-	.dword              0x33aa84a29d34019d
-	.dword              0x1245cf7bd1445ee1
-	.dword              0x57c21dbc6386728d
-	.dword              0x11096d466afaead8
-	.dword              0x024cd2c1bdb8cd97
-	.dword              0x0c1f35a6fee6cf42
-	.dword              0x1d20f9f77a1ff08e
-	.dword              0x031d60a154ab8f34
-	.dword              0x4125f9b4388766a0
-	.dword              0x0de2db2a0ff31f30
-	.dword              0x2af33f5752d62c74
-	.dword              0x5edee004c8713ece
-	.dword              0x737e78241b0a3eb2
-	.dword              0x5c903544b71db7f2
-	.dword              0x4923cce1693cde6f
-	.dword              0x0a2a3470958254d3
-	.dword              0x70c872916cf92123
-	.dword              0x2eb940912a2b8209
-	.dword              0x6e4484954effd9bb
-	.dword              0x759237c8cdee4f7c
-	.dword              0x11e0b5387cc1a341
-	.dword              0x293b8ce10335b869
-	.dword              0x32fad50213252e94
-	.dword              0x0f2fa654e69971e2
-	.dword              0x6a2a5ef28da17646
-	.dword              0x2a47a263b1016053
-	.dword              0x23fc37b77e60012b
-	.dword              0x2947c9e43de1749c
-	.dword              0x529fefec252165fa
-	.dword              0x78d7a33956c1b79f
-	.dword              0x3ec4cfece7e79b34
-	.dword              0x037f378dec267bed
-	.dword              0x48c0efdcb53253a1
-	.dword              0x182a4c00b2e8496d
-	.dword              0x73a8b046d45ad475
-	.dword              0x5763bc6407218748
-	.dword              0x66550a23df11d97b
-	.dword              0x7191455e6ed1f04b
-	.dword              0x3a247c9fa07d024d
-	.dword              0x59f37fe490c5e37c
-	.dword              0x56e8f80619aa7611
-	.dword              0x46d903da7016149c
-	.dword              0x149739ca7fa1c1a5
-	.dword              0x17722a7f9c4432ed
-	.dword              0x76d7fc6dfccfe3a6
-	.dword              0x30c3ced6205fdad2
-	.dword              0x4d3ecd44cb473889
-	.dword              0x7012bcfde208a2cc
-	.dword              0x3010970ee30bd445
-	.dword              0x231567972554345b
-	.dword              0x58ec0a9418350174
-	.dword              0x5b6b6d719e6429df
-	.dword              0x04281e21caa05e1c
-	.dword              0x75e70e4db9ff0c1f
-	.dword              0x30a406ee99b96c2f
-	.dword              0x67020e38ddb93329
-	.dword              0x0c47e0f0d8b2a98b
-	.dword              0x54b8bcfa1b9d5306
-	.dword              0x0eb2cee5aa09a08d
-	.dword              0x662e065a8cf26ebb
-	.dword              0x6bbe4ddb308baa23
-	.dword              0x07b55aa784339dfd
-	.dword              0x698a2dcf333674a4
-	.dword              0x06606d9e2569f9cc
-	.dword              0x27f9f97f55aa4e88
-	.dword              0x033dad29acf407c6
-	.dword              0x7238d85005519872
-	.dword              0x11e08a458f2a449a
-	.dword              0x43afcb90c5a7f82d
-	.dword              0x30c9997b1e08af8c
-	.dword              0x17b9e26ca40a03ef
-	.dword              0x2a2c7642020c6719
-	.dword              0x7706a25e46322a65
-	.dword              0x2813791ba5ba7acf
-	.dword              0x4cd987dc4a39d668
-	.dword              0x0bb13b176ad81d18
-	.dword              0x37eccd0836458d76
-	.dword              0x177daf46aaf6cd23
-	.dword              0x6e80cc65430ecef0
-	.dword              0x0d9d239cc68187fb
-	.dword              0x76975d61f75f2b0f
-	.dword              0x409fa929df8f63b9
-	.dword              0x22616ff6b68b02ad
-	.dword              0x0d7e5732c60d519d
-	.dword              0x7fe32028f1fb2f82
-	.dword              0x11231a5c146beaa4
-	.dword              0x0f1bda7f2cf8cc81
-	.dword              0x1182099d6beeb4a2
-	.dword              0x684af82be1f154a6
-	.dword              0x46354fdf38e54965
-	.dword              0x12b95f441c281530
-	.dword              0x22f9534ff26ad610
-	.dword              0x49bfef525ff32aa2
-	.dword              0x6dd0eb5026ec73f4
-	.dword              0x3d92f1c24eea9211
-	.dword              0x12c56771c7e79f67
-	.dword              0x00189813dd0145d7
-	.dword              0x60c136a05688fb1a
-	.dword              0x5d07f9326905aba6
-	.dword              0x3f02b08924bf3a3c
-	.dword              0x2e46b348d77b9952
-	.dword              0x231a0c22afe7199a
-	.dword              0x57a3e6f32b6cd925
-	.dword              0x7a64d975496de071
-	.dword              0x0b0e29dc9d82bcbd
-	.dword              0x52170fc23bb019ff
-	.dword              0x156434e47476761c
-	.dword              0x6d7d1b28c4250bda
-	.dword              0x69c654c1ae6313ec
-	.dword              0x6a6c16a5824e76eb
-	.dword              0x7529dec3e1d293c0
-	.dword              0x651e64838c14e9c2
-	.dword              0x0c32e7072027d660
-	.dword              0x6a190b0dd451b6ca
-	.dword              0x2ee9cfda4df382e5
-	.dword              0x72b814bb8a1188aa
-	.dword              0x44f03b996afc6c37
-	.dword              0x21e0f004b09e035f
-	.dword              0x4ce748c9a60055bc
-	.dword              0x2ccc5d00755e15b3
-	.dword              0x64270f275996960d
-	.dword              0x1e013a27dd6a25b6
-	.dword              0x01eb1aa4e9a5ae73
-	.dword              0x35032d17267c344d
-	.dword              0x6d0d0f95f6b1a337
-	.dword              0x0ba9a2fd2e1ad9e3
-	.dword              0x45d28f48eb06855d
-	.dword              0x00b71a348bee3377
-	.dword              0x0b5b87772c5f617f
-	.dword              0x78b1d60296eb0ccd
-	.dword              0x312bee4655e4bfe7
-	.dword              0x63e9c46a4f3a34e0
-	.dword              0x77d7e3d497aa717b
-	.dword              0x5dc45f3c68d48ff6
-	.dword              0x7f1d184830ace069
-	.dword              0x11c664e6373880b4
-	.dword              0x42d117d1dee50109
-	.dword              0x754465dda66ada6e
-	.dword              0x3d4319768114c336
-	.dword              0x3b733eb20636539f
-	.dword              0x5fc9c0b8c780e55e
-	.dword              0x439148d87aefb8b1
-	.dword              0x183a61675aad6e79
-	.dword              0x2c8bd8509f142704
-	.dword              0x7efddc6be9e640d8
-	.dword              0x73c1df1dd59da071
-	.dword              0x36af3f120f72fec3
-	.dword              0x580ba6ffd7481bdd
-	.dword              0x54762f695a027ca7
-	.dword              0x371d2a9baa8d66ae
-	.dword              0x5178b428b61a2851
-	.dword              0x085d23c85417ddd8
-	.dword              0x5c8d8ce5ff1b1bd3
-	.dword              0x047e47cfe945de37
-	.dword              0x36476e8625841636
-	.dword              0x2b4fecf292ef52a1
-	.dword              0x28995f8568206851
-	.dword              0x3df8c0f7eeb8da5f
-	.dword              0x1aab1703b00e29d1
-	.dword              0x1a52f98077d837aa
-	.dword              0x0963ea9e40915764
-	.dword              0x19f1d15a9081d094
-	.dword              0x260f76cc8797abae
-	.dword              0x3d3ec9c67c57d635
-	.dword              0x7a880114190d279a
-	.dword              0x3613830634ca8b02
-	.dword              0x77441cf95797d51c
-	.dword              0x1efafdcceba9cc96
-	.dword              0x05bb757b0f17de7b
-	.dword              0x2bd544d94bfa1ec1
-	.dword              0x65941464f7b93b79
-	.dword              0x7a61cbb463b10224
-	.dword              0x44e18e2a8242f6cb
-	.dword              0x721ea773bee378c1
-	.dword              0x19c33f8f4c526a52
-	.dword              0x70b04b31feeecaff
-	.dword              0x2a1769fa29720b88
-	.dword              0x479df188caae1ab9
-	.dword              0x5db362f161c904e1
-	.dword              0x713a87bcdca54d9a
-	.dword              0x7f9e56782c038beb
-	.dword              0x365b0355b73bf8e8
-	.dword              0x1265c19c5d4680ea
-	.dword              0x04e9ee6c9502716c
-	.dword              0x525c693cf6c7cd74
-	.dword              0x6c2368afe1af7167
-	.dword              0x22606b1b0b09ebab
-	.dword              0x02cd6aaa8d4de245
-	.dword              0x4d8dac8f94e4b863
-	.dword              0x04f8db9410f95083
-	.dword              0x3be00ec3af359186
-	.dword              0x43aeb51463880298
-	.dword              0x6be32704020fad7d
-	.dword              0x714efc32a9c55768
-	.dword              0x50ef6a9fadc8aa66
-	.dword              0x14be59e153d516ff
-	.dword              0x07912c76802b6210
-	.dword              0x3acb8c86dc876208
-	.dword              0x51c3c45797525579
-	.dword              0x5766dd93dccbbd27
-	.dword              0x2e5559f1cf5f8304
-	.dword              0x5426ba9eae143f85
-	.dword              0x71c57411d792056c
-	.dword              0x273a1426320fa228
-	.dword              0x47ecd7749bb7f98b
-	.dword              0x2d22810f0396d400
-	.dword              0x4199719d849bb5bb
-	.dword              0x3451fcd5deb3932d
-	.dword              0x36479f276a3b409a
-	.dword              0x4cf6cfabef46357e
-	.dword              0x47ca8234c740a0c7
-	.dword              0x6ec51ef28cee1283
-	.dword              0x1d58b06ab58ca1dc
-	.dword              0x562941f5b25d4a09
-	.dword              0x1d97d1221597811d
-	.dword              0x18676c0d8382ec84
-	.dword              0x612ceb425834095d
-	.dword              0x151cdd838195f14c
-	.dword              0x59b1903507c63729
-	.dword              0x3ec94045dba04676
-	.dword              0x175d8cc88e50140e
-	.dword              0x15ed4122cd8e09b3
-	.dword              0x4374666d9cc35d04
-	.dword              0x649872882d601c0c
-	.dword              0x38e7d9275b318c78
-	.dword              0x2e7ecc758b585800
-	.dword              0x7e1ad44afd2ae62a
-	.dword              0x392b77aada242a0f
-	.dword              0x0555fbd3708060ed
-	.dword              0x75152e0f840ac585
-	.dword              0x4d441bb58b7f3776
-	.dword              0x7c0980cad1fee257
-	.dword              0x4e567ca8a338c740
-	.dword              0x2640644db3c7bc1b
-	.dword              0x4358afda40613154
-	.dword              0x5f1e105ea959038a
-	.dword              0x38a821e097a4e681
-	.dword              0x7dcc90726e39f2d2
-	.dword              0x7a76bad1513d12ce
-	.dword              0x57c99f29b88e6a48
-	.dword              0x29454872f1b12d0e
-	.dword              0x055dad76e264ac93
-	.dword              0x38832291f1d973cc
-	.dword              0x68f87c548c2f5aa0
-	.dword              0x1f129f47addd0b80
-	.dword              0x4cebe2728a22b0b3
-	.dword              0x649703f5dbbdcf28
-	.dword              0x2d80c76cb7c23b8d
-	.dword              0x4cb944008e1ecd88
-	.dword              0x3b3df65ad3f2b885
-	.dword              0x32c4ba4b6ac057d2
-	.dword              0x06c2409609d11079
-	.dword              0x2018d9a7026fc365
-	.dword              0x280ef629b9f53bdb
-	.dword              0x52509f17076a3ee2
-	.dword              0x7868efde466ce087
-	.dword              0x0892aced045dd61d
-	.dword              0x03867dd5905df6ab
-	.dword              0x08f269e1edaf5548
-	.dword              0x24f00b0e77fc325d
-	.dword              0x16931a47e1d80d95
-	.dword              0x5d193599c658e8ee
-	.dword              0x13548753040b95af
-	.dword              0x30b23abc1f5ff3b2
-	.dword              0x5205fa2acf53b20c
-	.dword              0x566f8761d50b72fc
-	.dword              0x34261eeac1b15166
-	.dword              0x17ebe834d3e9911a
-	.dword              0x68546a2ad0accd2f
-	.dword              0x6aeb23ab67357246
-	.dword              0x75bf802dbce9c9c9
-	.dword              0x630461a1a69d7e7f
-	.dword              0x4574cf5b8e881476
-	.dword              0x11bc8f62bcd5b8da
-	.dword              0x5c2e440791c2acf8
-	.dword              0x42ff68b4f984e836
-	.dword              0x21de4ee2d8039411
-	.dword              0x6a470d8b97054f84
-	.dword              0x759f64c1ee57b93c
-	.dword              0x31d27244b7978f63
-	.dword              0x7153ad2e37a74d01
-	.dword              0x5d29ee1b6290353c
-	.dword              0x011ee6400d3e1b44
-	.dword              0x74df0f5b45c17cbc
-	.dword              0x15297135974c9caf
-	.dword              0x53ac9b6c6b891ce1
-	.dword              0x34d73f84f9dae7a3
-	.dword              0x35ee1cd8520dc9e8
-	.dword              0x3feebba0622b2b7f
-	.dword              0x76f57bfddaeb9cf6
-	.dword              0x22e53037df2fa9fa
-	.dword              0x13c5501bbeda533e
-	.dword              0x47bbe818018e1de9
-	.dword              0x2cdb627af66be79e
-	.dword              0x214c851205b3cd98
-	.dword              0x18cabeafb0d0b632
-	.dword              0x647fdc848f9a8fae
-	.dword              0x4a3569d691fee239
-	.dword              0x2d1d477d9ce67b74
-	.dword              0x12c29439e417f5b6
-	.dword              0x638c6a43ebaebf3f
-	.dword              0x4b060013338185c8
-	.dword              0x711a7abaf4abd010
-	.dword              0x7788973d783464b5
-	.dword              0x487c633c685ba37a
-	.dword              0x27f4c6395d5a2734
-	.dword              0x18fa98aa562e764d
-	.dword              0x36b78553ae8a7913
-	.dword              0x5cbce9007da71631
-	.dword              0x7bbba7875b15cfe0
-	.dword              0x43e261a0794e722c
-	.dword              0x236bcab39cc9dede
-	.dword              0x1c203101f188bf4e
-	.dword              0x0043c806739cb31f
-	.dword              0x5f1e5a54d35458ff
-	.dword              0x13dac36dfe34320d
-	.dword              0x470b912caa3767a3
-	.dword              0x028ec84c1309bd63
-	.dword              0x0e302dbc36a3a0e8
-	.dword              0x0eb4e9dbe927033f
-	.dword              0x7ce3289f61b5684e
-	.dword              0x5bf80023332e39dd
-	.dword              0x0ed78ee2d843e24e
-	.dword              0x19db072b84093bac
-	.dword              0x4d0e8621ef25fb07
-	.dword              0x1400f9b3fbb29aee
-	.dword              0x543f37f756b27c76
-	.dword              0x0bb154ac4abc31bb
-	.dword              0x7e01994cbc06d265
-	.dword              0x0d5ccac0b0b69ff4
-	.dword              0x33073d960699bce8
-	.dword              0x74900411c11d349b
-	.dword              0x312b62fcfd9b6025
-	.dword              0x4392ec4399c43a98
-	.dword              0x4d4a31b44b28757e
-	.dword              0x78b4f2e3428cd3ec
-	.dword              0x629ac5e2fea188db
-	.dword              0x186ccbb4e281ca0f
-	.dword              0x438ae4a94b009a17
-	.dword              0x6ea1f45768e93281
-	.dword              0x2ae8351199a8e628
-	.dword              0x07533f24b53e883c
-	.dword              0x0408cd3dde94a49c
-	.dword              0x6369a5df78a8e77e
-	.dword              0x01c2ace9610e2eaa
-	.dword              0x4f478337fe84ad6d
-	.dword              0x6c1b631eaf210832
-	.dword              0x203e38c9daeed339
-	.dword              0x0a89b6f73a3bb62a
-	.dword              0x65c246eee283d751
-	.dword              0x53eb351b74c6ebf0
-	.dword              0x4fb0f92751ef9b98
-	.dword              0x4c5f6130c41c7f55
-	.dword              0x75f10d0b8b03bf7c
-	.dword              0x755842d450d4813d
-	.dword              0x7ce3cd621a9a6372
-	.dword              0x0735920a27375733
-	.dword              0x74bd7f8ee275893e
-	.dword              0x09cc470230e2b18c
-	.dword              0x428ccc054c12dfbb
-	.dword              0x0e19f249878c4f11
-	.dword              0x1fda82b87cc5708e
-	.dword              0x671dcc3398dde0ea
-	.dword              0x38926d1fb4d3147a
-	.dword              0x4bf280b5154697d2
-	.dword              0x03ae14fb8cbdee6c
-	.dword              0x7859ad7af9b45a40
-	.dword              0x5924828a6637afec
-	.dword              0x4aa2b54cac133db9
-	.dword              0x2efc076b29ecb7fb
-	.dword              0x687c730583084736
-	.dword              0x21353986f1ddd417
-	.dword              0x71e4a29c7d8f2053
-	.dword              0x5d2cbe3247fc0297
-	.dword              0x41100345f0a832b9
-	.dword              0x2dda0a8c3cf8b60e
-	.dword              0x6b74c13cc3aed29d
-	.dword              0x05ade7624fcdd1ab
-	.dword              0x71a4806ec3f734ab
-	.dword              0x1e41a5922a5c42a7
-	.dword              0x30cc7f4f4c777f84
-	.dword              0x1e8920a2658d38f9
-	.dword              0x4dada89c3a4f893e
-	.dword              0x71b74b5de9d9e026
-	.dword              0x0a7c4dac37974b96
-	.dword              0x6e8dd38a767eeaff
-	.dword              0x619874e28c30b93c
-	.dword              0x593e950696cd9127
-	.dword              0x78413dd183a616b0
-	.dword              0x435cb2e4d06e5881
-	.dword              0x6822ad830068c3d5
-	.dword              0x6b8a58a1642fd425
-	.dword              0x634347473f8ac19c
-	.dword              0x7a7a6492c69b95ba
-	.dword              0x7d2143ff00981722
-	.dword              0x50feb7ede6891c13
-	.dword              0x7977bb714ceaacd2
-	.dword              0x15106a2e938adcca
-	.dword              0x782a2096749898cd
-	.dword              0x017ea16b807ec932
-	.dword              0x034f3c871727fc45
-	.dword              0x4882c3b46b3a5979
-	.dword              0x259f06207510d13d
-	.dword              0x08c4b00de3c16eb5
-	.dword              0x732a4c2ccee8d7b2
-	.dword              0x5c2be66a65c99ef2
-	.dword              0x65aa8ae2d3630391
-	.dword              0x1f8e5060aa03e3bc
-	.dword              0x3af3d9add53c3f5e
-	.dword              0x2f759022ad6c5858
-	.dword              0x786ee0ddbb5718ae
-	.dword              0x47d66348310d0389
-	.dword              0x3811ebd2567185ee
-	.dword              0x14a0a65e9b048fde
-	.dword              0x0409e9e6e7087728
-	.dword              0x420764d17d385256
-	.dword              0x3d052f8e340c70ee
-	.dword              0x718405841c03f33a
-	.dword              0x213b84e02f9ad51d
-	.dword              0x49694cbdb8720da4
-	.dword              0x573128bff8aed886
-	.dword              0x44e1d2236fc9d6de
-	.dword              0x7ebfc53e3f27945b
-	.dword              0x20a3c767afe44970
-	.dword              0x23ee9dba2aeea057
-	.dword              0x034fd15ade8e7ba7
-	.dword              0x71b6fd6b8a84e61f
-	.dword              0x0b333eaf6596bd09
-	.dword              0x7947b579c8a97a31
-	.dword              0x09ba070e9515ad3e
-	.dword              0x64593260cd7a22c2
-	.dword              0x02840a6249ce03fb
-	.dword              0x08e86214db183383
-	.dword              0x0ffc4dbd12123873
-	.dword              0x2df02b173d90f775
-	.dword              0x2906f1e21a692f72
-	.dword              0x786e3335e3438476
-	.dword              0x356349682b7d86ea
-	.dword              0x7af233f828230001
-	.dword              0x26e7355221d975f4
-	.dword              0x0b1aa7ceafa5a74d
-	.dword              0x484f7676c491ce03
-	.dword              0x779aeb5e93b1280c
-	.dword              0x3e9bd232034c3357
-	.dword              0x0927c4a136776c21
-	.dword              0x2265af35537a870a
-	.dword              0x69bc1db1d46bbde6
-	.dword              0x5062547a9e753431
-	.dword              0x0d6c4dd28ac47419
-	.dword              0x511f9bade540bdbf
-	.dword              0x7d29e6e36188e21a
-	.dword              0x0e8ec8d328ecd806
-	.dword              0x6ab89817e75b35e2
-	.dword              0x57235597f78905ed
-	.dword              0x7cf8e8eab7b33160
-	.dword              0x44946b7398ee0f00
-	.dword              0x0323606e9a85fa11
-	.dword              0x3e8aae24bddc05a9
-	.dword              0x4d17a1f8c59fcd60
-	.dword              0x33f85e72616a990b
-	.dword              0x7ddfcedad2ee8e05
-	.dword              0x18dc2565e1d82624
-	.dword              0x448ba50e69520ef1
-	.dword              0x2abe54c9fe80b6d2
-	.dword              0x681ecf719313d1fd
-	.dword              0x2f831707cc3ddd0c
-	.dword              0x1ed9bef10c27b014
-	.dword              0x117f85f0f918ab4a
-	.dword              0x495c519306971ae6
-	.dword              0x50c7bb4dad5afd8d
-	.dword              0x470cb876e0bc1b9e
-	.dword              0x13d289cf23a7e095
-	.dword              0x035d7323c384e610
-	.dword              0x0ed904af78455a59
-	.dword              0x65becc852b4aaa71
-	.dword              0x5e84d88b7d7c1e79
-	.dword              0x2f0cf37c95d8dcde
-	.dword              0x2f006e8569646661
-	.dword              0x0e0943509a0da65c
-	.dword              0x188a1392871d0bb8
-	.dword              0x77ffc7cdf32ce4f3
-	.dword              0x34010b1414379fb4
-	.dword              0x72102729f99fee91
-	.dword              0x78c78d9f1f6e4bcb
-	.dword              0x36fc20edf8f5f388
-	.dword              0x619f3349fada0a84
-	.dword              0x0d31f0f510efd8c3
-	.dword              0x3407f053350f7918
-	.dword              0x06d977ec1fdafe70
-	.dword              0x408a649a76decbbc
-	.dword              0x09e29e606e6fe92a
-	.dword              0x2987efd4ca90ea1b
-	.dword              0x68da7fc479308ad1
-	.dword              0x133d4a3a44b95998
-	.dword              0x1477da906109780d
-	.dword              0x145189c1938e5c31
-	.dword              0x7f320cb200dd1766
-	.dword              0x599f2d2e22b4c7b7
-	.dword              0x23268b7300a809a0
-	.dword              0x75cbb1e98db94cb2
-	.dword              0x0e46d882763086c7
-	.dword              0x1c17e593d0a41c82
-	.dword              0x68b4531ca10a6cab
-	.dword              0x20f46b8780c3f2bf
-	.dword              0x2cefbd964e864fe6
-	.dword              0x1ccaeddc18f5ae4a
-	.dword              0x0443edf51040bf3e
-	.dword              0x783591eda9e16d37
-	.dword              0x074ec2f4598383af
-	.dword              0x3dc66eed15c944b3
-	.dword              0x0534fa9a7006a140
-	.dword              0x39616fc458bf1ca8
-	.dword              0x454960cd0af32ae6
-	.dword              0x2b633247e94a8435
-	.dword              0x03110991c1fb6d52
-	.dword              0x4b22ed6830f184a2
-	.dword              0x058205b74f69de50
-	.dword              0x163aa2b3f4ce06e1
-	.dword              0x46c08beba342b2ef
-	.dword              0x6c0aa5649b8d6ee5
-	.dword              0x0e6fae20fd8da4b9
-	.dword              0x60d4a5eba1f9507d
-	.dword              0x046c6681065bffec
-	.dword              0x0f76cf3f6504e4d3
-	.dword              0x7cd165a92fc78632
-	.dword              0x247257072dac12e7
-	.dword              0x588e042ef3cad45d
-	.dword              0x560cc61fbbc484d6
-	.dword              0x67a5418637c6c279
-	.dword              0x54ef9c544f7d917b
-	.dword              0x58b62a4651cb9b7f
-	.dword              0x1944b8f91bf7aa73
-	.dword              0x47d2725ef23ae714
-	.dword              0x72804286ef5874c7
-	.dword              0x14cb5faddaa01321
-	.dword              0x7c4fa0dd82367270
-	.dword              0x5d01e705f4057139
-	.dword              0x57d214e50cf0431a
-	.dword              0x76715a317a736fcd
-	.dword              0x18a2b70ea33109ff
-	.dword              0x4eb0b2c62fbadbe9
-	.dword              0x16c1d8e2cb797134
-	.dword              0x59a8e6cdcafe8cd7
-	.dword              0x04b527bc0058e16b
-	.dword              0x4efb7864ef941964
-	.dword              0x35003dc57ba72930
-	.dword              0x1ed39ed3d2f576df
-	.dword              0x7b9bb3b1424a4672
-	.dword              0x0379ae9a0f0e9c98
-	.dword              0x62cdf91b68f25e9d
-	.dword              0x10759739995ef97d
-	.dword              0x798d9087b1aab280
-	.dword              0x249766441a12b114
-	.dword              0x3b78fd71981211c8
-	.dword              0x347234feb0948aef
-	.dword              0x06bbde7566315dc1
-	.dword              0x3f21aac8f5aab716
-	.dword              0x58ed9680915a7bea
-	.dword              0x47e693265a59c50d
-	.dword              0x7b12e34ded6bf09b
-	.dword              0x4436a5a572259393
-	.dword              0x5488ea534297dddf
-	.dword              0x363e672e10256911
-	.dword              0x63270fe9bc43865f
-	.dword              0x40c08219d91b552f
-	.dword              0x56a29869adc343df
-	.dword              0x55d0b073bd2822fe
-	.dword              0x7870eeea99ae090c
-	.dword              0x48a999403082a906
-	.dword              0x60559f382057d58b
-	.dword              0x28f8a0af4d3c4e3f
-	.dword              0x0621c9b0d9ece754
-	.dword              0x7363495b13ef4f59
-	.dword              0x0a2225c3a92e481f
-	.dword              0x32ae9c5965c908c4
-	.dword              0x054c5d758bb08f0b
-	.dword              0x5e797b218a477fbf
-	.dword              0x79dee083a40ec6ff
-	.dword              0x33b71f4c33ea0d7c
-	.dword              0x78389ca833030722
-	.dword              0x25c65695511c72df
-	.dword              0x1ae2e4df8cdc8f60
-	.dword              0x5bd22cf28c71228c
-	.dword              0x3859e1072f878db5
-	.dword              0x5fbe4bcf5e04c961
-	.dword              0x24154e3cf9ddb403
-	.dword              0x55d5eec1d15adb8b
-	.dword              0x0577eea6210cf9b8
-	.dword              0x10bdff479b4fd271
-	.dword              0x64672f01ebb070c9
-	.dword              0x167791021c6e88b0
-	.dword              0x379fb2bb5307bbc1
-	.dword              0x0a71e3d2273a33f1
-	.dword              0x3de1c876c8857da5
-	.dword              0x7c60772c9c6a1f64
-	.dword              0x35faebf3db566a55
-	.dword              0x0deebd64c3d30b8b
-	.dword              0x6385f16b908b659c
-	.dword              0x71372e4dae451814
-	.dword              0x2e2508a4acfc23b8
-	.dword              0x3961551c1f0a7a42
-	.dword              0x55da5f33addf8b3f
-	.dword              0x7ca3c4279511bde3
-	.dword              0x6cc1be3bef453a8c
-	.dword              0x2ccf928c13a42434
-	.dword              0x4802ed5ffa39f115
-	.dword              0x6075866cce23b9db
-	.dword              0x200d778e8daf2d1a
-	.dword              0x3db8489b5f07547d
-	.dword              0x32dc1ca345ec9b64
-	.dword              0x084171828a8e2c1f
-	.dword              0x4e6be2825f5c1e85
-	.dword              0x3d5de91a020e103e
-	.dword              0x1ed2be7446b45499
-	.dword              0x3e25aa00f2a81a0e
-	.dword              0x632a43bd73a3440a
-	.dword              0x1c5d1fd29fc46eea
-	.dword              0x3b5f28eaf8254aea
-	.dword              0x5b605adf1ced61ee
-	.dword              0x2162f771ba51234f
-	.dword              0x7622d394c7831528
-	.dword              0x7e0c0aae8342372a
-	.dword              0x1e9608f0f6b003bb
-	.dword              0x1c72db6b110c7574
-	.dword              0x1a6831f6770dc75c
-	.dword              0x0ce6f93101a01e50
-	.dword              0x594475be6443fc78
-	.dword              0x2f258bcf60e0ef10
-	.dword              0x77c77cf6834b6b2c
-	.dword              0x495227f86b704f59
-	.dword              0x056b8c94d6e0019c
-	.dword              0x3f8ced4eb91e307a
-	.dword              0x4031b2021584b775
-	.dword              0x2e9b5a412170857a
-	.dword              0x50090bb524c2ebbb
-	.dword              0x4758324e4f178d77
-	.dword              0x21f2604541b0ea48
-	.dword              0x47834220d3406d43
-	.dword              0x52bb99efc1fa6178
-	.dword              0x67c29ba68256cacb
-	.dword              0x26e6ee40729916ad
-	.dword              0x143704ed75ce4161
-	.dword              0x0bad43e2cec13376
-	.dword              0x1467d9ddb33788eb
-	.dword              0x779b485ddce574fd
-	.dword              0x490a10ea694f79d7
-	.dword              0x193e5fa7a9cd1d18
-	.dword              0x34954ba161516d9d
-	.dword              0x2a09726d51ae2f6c
-	.dword              0x0b758d4996f877bb
-	.dword              0x5845d85a3618c773
-	.dword              0x3106165038f79dea
-	.dword              0x4bafdc0eb918ca7e
-	.dword              0x382d7e2b8cf01f89
-	.dword              0x05ce7e4ffd7d49d2
-	.dword              0x4f7e48a143eee129
-	.dword              0x5d2b063ee715d32a
-	.dword              0x47e43a613cccc908
-	.dword              0x41bba59c132aa111
-	.dword              0x716770359209ec8e
-	.dword              0x51b5e9c4fdc9de59
-	.dword              0x42af14aedbf715b3
-	.dword              0x104b1d5102bece13
-	.dword              0x32712368fd47535f
-	.dword              0x157aac700c7156a9
-	.dword              0x2414d14a013c46a9
-	.dword              0x3755f924406c632a
-	.dword              0x1b7f1df0017b2905
-	.dword              0x66487ea273a37e50
-	.dword              0x3be0865b357d8b88
-	.dword              0x60d0175707305b7c
-	.dword              0x49a9c84ed3322325
-	.dword              0x72088eecb389eefb
-	.dword              0x0594a1d61b237abf
-	.dword              0x491c4e74bc3fa06d
-	.dword              0x12c5b93e3cd12165
-	.dword              0x6dfd84551e21523b
-	.dword              0x49bc24acfbdd3350
-	.dword              0x59a6d3b98f0dbd23
-	.dword              0x141d74da4a676f70
-	.dword              0x362bbbe83d883b80
-	.dword              0x7f8698e9491f2744
-	.dword              0x5090485f7a5ac0ea
-	.dword              0x6f54abe49d94c7ea
-	.dword              0x01d3506af554619b
-	.dword              0x1198ee8d8047874a
-	.dword              0x54d735bc87c9cd6b
-	.dword              0x5a9bf331093490da
-	.dword              0x731f47b26a939272
-	.dword              0x3100d3e28af4391c
-	.dword              0x5bfe9d4581ba5bf0
-	.dword              0x1a8bfed4d657fc16
-	.dword              0x5ed5410c32731a59
-	.dword              0x6a2a2e38b2b56c5d
-	.dword              0x312432046cf3660a
-	.dword              0x6100eea1085f4bbb
-	.dword              0x7a3f49df8e06153a
-	.dword              0x10da8993714b863b
-	.dword              0x0577b385a0c43936
-	.dword              0x4df47ff87519c0f1
-	.dword              0x6dc8164a680a7047
-	.dword              0x4b1a28eb96d3f3b5
-	.dword              0x4ddffbf99625ce34
-	.dword              0x633399304b77bec7
-	.dword              0x0bc4583f3b963b64
-	.dword              0x041424dee6c0638a
-	.dword              0x01b40c6bb3eb6a26
-	.dword              0x58bb905d8fa1bc22
-	.dword              0x0e04515d660e9bc1
-	.dword              0x20cc6e6f33111f9b
-	.dword              0x7c43a3d1d80ed3fa
-	.dword              0x18a3c321a314bc9f
-	.dword              0x09df711a18060301
-	.dword              0x31a73eaaeb4d7d9b
-	.dword              0x14e49863ad7dce56
-	.dword              0x4680db69425e1aa4
-	.dword              0x283921bee2e43eba
-	.dword              0x13d4fee6dd4eff76
-	.dword              0x45df9862326f8cd6
-	.dword              0x12ed637a15a19e85
-	.dword              0x5e0b28e35bf8fc8b
-	.dword              0x530a200503a1b2fb
-	.dword              0x729198c758009661
-	.dword              0x74b8a448990204e1
-	.dword              0x62b287bf31ebc542
-	.dword              0x77f350c13327c511
-	.dword              0x48d9b438a8da6bc8
-	.dword              0x0fe774e47c60f8ca
-	.dword              0x169060f384d046bc
-	.dword              0x286ef85fb32b4e9e
-	.dword              0x016ad6e45ee4de1d
-	.dword              0x70fd85f84c910b13
-	.dword              0x7fe81258c4b7be5c
-	.dword              0x445d466c22ba0fdd
-	.dword              0x1588740e1b216be6
-	.dword              0x3bafb629c3f81bb1
-	.dword              0x3e27906626b5490e
-	.dword              0x7a221435493eca98
-	.dword              0x7917947b066b3d7f
-	.dword              0x6c3e6da5362795d9
-	.dword              0x55cdb321b1b476ea
-	.dword              0x1bd97fd7a831ba28
-	.dword              0x7753846f11174a93
-	.dword              0x4385949cd516945c
-	.dword              0x0d1624f97a672ad7
-	.dword              0x3dc51e4fb212036c
-	.dword              0x518ade38936791d5
-	.dword              0x5f17c86e9155b2e2
-	.dword              0x1d3413de6a726dbe
-	.dword              0x458b9292effee1e9
-	.dword              0x678a4104147e8203
-	.dword              0x5e1324bc572c347d
-	.dword              0x0860198049c52cee
-	.dword              0x46443a186b6b3a71
-	.dword              0x32acffd82ccb8c02
-	.dword              0x73f5739673bc5b83
-	.dword              0x418db1461a608abf
-	.dword              0x75f8808746233ffd
-	.dword              0x320d1c32b9a246cd
-	.dword              0x5c30d349d0cb3d3f
-	.dword              0x4649f326a19de698
-	.dword              0x7cd1730c77974cf6
-	.dword              0x735996b064ef017b
-	.dword              0x2743e90e7180d169
-	.dword              0x423a8d5c59830d08
-	.dword              0x38dfee204b41709e
-	.dword              0x22d9c70448634d24
-	.dword              0x1dace24345aa454c
-	.dword              0x66606c187d88f1ef
-	.dword              0x3c92b462c4b85520
-	.dword              0x4521432805b829f7
-	.dword              0x353c13bc055d29a6
-	.dword              0x5716889dd09e6b3b
-	.dword              0x6e53d1278d32ab6a
-	.dword              0x4c08ce22ab47f60e
-	.dword              0x026ded5d02dbca9c
-	.dword              0x0c4e1822d4e199be
-	.dword              0x25b154bf28754a0e
-	.dword              0x49aa0d07a1ff19bb
-	.dword              0x41889a73ef7bd9c9
-	.dword              0x524ce8465edca212
-	.dword              0x0365a40c65496ed5
-	.dword              0x62fd0c81d97d9711
-	.dword              0x31164aa8fa441d96
-	.dword              0x6795f022a71400c6
-	.dword              0x6b54dbfd65cf814d
-	.dword              0x053c59f552ac21fe
-	.dword              0x351154ca465718ef
-	.dword              0x65b82a98cce7a430
-	.dword              0x14f4ba4584cd2903
-	.dword              0x4b86e4475792eae7
-	.dword              0x15938225b9ac95e2
-	.dword              0x7b59154f5bab7c84
-	.dword              0x5c17eb192829500b
-	.dword              0x1517856b0fc4e897
-	.dword              0x28609154c0a5a53b
-	.dword              0x6fa506bad4bb95b3
-	.dword              0x33317eb4816a12c7
-	.dword              0x140da76378df114c
-	.dword              0x7c32334df1e93cbc
-	.dword              0x73df3fb7e972abcb
-	.dword              0x2e67ff8160c1b5df
-	.dword              0x0995b9901cc3d8e7
-	.dword              0x1e7d80f7d9bf6f83
-	.dword              0x74c2b3de1dfcd08c
-	.dword              0x020e46d69be3f955
-	.dword              0x2b242b80cddc695a
-	.dword              0x52a85f33bdbb985f
-	.dword              0x055e82601524b55c
-	.dword              0x1e001dd83ebc2285
-	.dword              0x3dd9265dcb75dd97
-	.dword              0x44d1a54b391ce687
-	.dword              0x21c655e92998998a
-	.dword              0x7e0e3030a072e8f2
-	.dword              0x3a335ec10d4accdf
-	.dword              0x1c5f79f02e982912
-	.dword              0x6fe56cb0be28d8df
-	.dword              0x5ef1b8fd79c1c1d8
-	.dword              0x0499a409f7a409ad
-	.dword              0x7f040614aafdf904
-	.dword              0x37ec5ca01342e68f
-	.dword              0x3732c7503415c80e
-	.dword              0x4f136b44eab596ce
-	.dword              0x1072bd8954a56ecc
-	.dword              0x19c4cea388ad74a3
-	.dword              0x14165435e8d7abb1
-	.dword              0x3f2b82febf95e5e7
-	.dword              0x26045cdd6060b268
-	.dword              0x3e2e018d62be2945
-	.dword              0x0d992b76da63dd41
-	.dword              0x47ef4a7a73b7d5d2
-	.dword              0x085a6a91bd33b7ff
-	.dword              0x451fbef9efe0eddd
-	.dword              0x60c47e5b06cef8b6
-	.dword              0x332479de74a163cc
-	.dword              0x43d0d0c76f454eef
-	.dword              0x0bdb321089f4421f
-	.dword              0x4bd61b35e15eafb2
-	.dword              0x01cf0090ec50ad8d
-	.dword              0x7b7691b6c6972138
-	.dword              0x34acd704eb017779
-	.dword              0x1f00c31117c04258
-	.dword              0x2d9570d926c45fbd
-	.dword              0x5e3251a7fd6a22ee
-	.dword              0x49c2038ab147c452
-	.dword              0x33b05f502d2c2c5d
-	.dword              0x79eefb74d3d04f34
-	.dword              0x72404ffc4f3c7f34
-	.dword              0x09840e6e6b0bb611
-	.dword              0x224d084dee757ef4
-	.dword              0x7c3e01bf81f76c9f
-	.dword              0x258f51e7296aeeb0
-	.dword              0x3a3d64bd749fa1e1
-	.dword              0x31ce99e3330888a7
-	.dword              0x6ea595c9e312b257
-	.dword              0x10c89bf0b019a572
-	.dword              0x6dbfc9f6ec2428de
-	.dword              0x4c6b4818a04a6b7e
-	.dword              0x572697b12dabc93e
-	.dword              0x63f4cd39fffaab94
-	.dword              0x252dab1cdbdeb8be
-	.dword              0x6989ebe246617226
-	.dword              0x76fdc600b4c43228
-	.dword              0x4bb69f6010a71890
-	.dword              0x495ca557d8f0ce40
-	.dword              0x5b55318b9edf5a5d
-	.dword              0x58ae87ef25747344
-	.dword              0x52da7d33d4bb60dd
-	.dword              0x4e7ce585f0fe47a7
-	.dword              0x21cf11e8925a559d
-	.dword              0x41252472a283a703
-	.dword              0x6fb535a50251c6cd
-	.dword              0x674d7ae55e290b41
-	.dword              0x3ce2748877ed898f
-	.dword              0x68a61559aca6b27a
-	.dword              0x3387ca9d65caa0f1
-	.dword              0x3076c15c397a7401
-	.dword              0x3cab17a3f108e5ae
-	.dword              0x2acfa5f20bc00e7d
-	.dword              0x2f8f0745b310105f
-	.dword              0x4f131573b7cbea8e
-	.dword              0x302ac92821e22bb9
-	.dword              0x4c38238c7f09fe77
-	.dword              0x75607ebf5c7fea52
-	.dword              0x560078cd01bbd738
-	.dword              0x47019355367f7ebc
-	.dword              0x5e8c583b9dd5b158
-	.dword              0x64634b4f7e6c0733
-	.dword              0x3864c4edb0e38305
-	.dword              0x41ef4f33dac6d434
-	.dword              0x0e35334495f55794
-	.dword              0x12c0d846e3b73489
-	.dword              0x50abb52c43b972c8
-	.dword              0x2b80a08d64ea15ea
-	.dword              0x427bdbe9d19138b4
-	.dword              0x0f0539e5e25c0b5f
-	.dword              0x62a7671c063e1685
-	.dword              0x1ddecf840ad52e67
-	.dword              0x6bb5071101c23934
-	.dword              0x7055a987c277efbc
-	.dword              0x3c6ff9da43ed1ae5
-	.dword              0x53d592ee46e8c684
-	.dword              0x217e214e5f274302
-	.dword              0x36c58e221f8365ef
-	.dword              0x0695f833f453aa0e
-	.dword              0x7f09446b2328bd6e
-	.dword              0x76b79bcde59c7d88
-	.dword              0x61b9e0f13499c3f0
-	.dword              0x76160fd44a3186da
-	.dword              0x05699bfc3fd3ace5
-	.dword              0x466abb6af2fae1bc
-	.dword              0x68e380ba881ac2c6
-	.dword              0x65824da1e2f7ca7a
+	.dword              0x69db647d56c806c6
+	.dword              0x69f65d1d7c9efd40
+	.dword              0x0efa8152aabb6eb3
+	.dword              0x5a5edc2ec145d8fe
+	.dword              0x45d080678be87532
+	.dword              0x3721b1840f2a7826
+	.dword              0x49735f4c66da58f7
+	.dword              0x2d7fe0f997fcd544
+	.dword              0x7c6334eee2a74e8a
+	.dword              0x38c872ece275d3ed
+	.dword              0x7a9064fb4437b505
+	.dword              0x0fee79801286fa8c
+	.dword              0x054678811c797064
+	.dword              0x1ba6d0eb9b3d2be2
+	.dword              0x613b1c8e1e0a468a
+	.dword              0x01938749034e9084
+	.dword              0x5ac081041e31bcf9
+	.dword              0x33d27bf689183c6d
+	.dword              0x54f2ca184536b4d7
+	.dword              0x0ed22b98e4180548
+	.dword              0x79aa7f9f9d682dd2
+	.dword              0x7062f2fc141cab8d
+	.dword              0x0f0571e3500efcbb
+	.dword              0x52de06f0437d4cba
+	.dword              0x21394bbf7b63322a
+	.dword              0x34dcef0f20196998
+	.dword              0x5bea43ed0f37450d
+	.dword              0x06b4b28d95c6a97f
+	.dword              0x4d6cddec9f15a993
+	.dword              0x27ee6c9949654945
+	.dword              0x648e790ba7d4e2f9
+	.dword              0x0166f0e9e40cc588
+	.dword              0x116b3fcb2908f389
+	.dword              0x08101ca6c8e3921d
+	.dword              0x799b37b5dc45b042
+	.dword              0x0fc4d4cac165fbf2
+	.dword              0x7e1184454f7c61fd
+	.dword              0x7b2c08a3d55c0bd7
+	.dword              0x67c12f78ae41efd0
+	.dword              0x741ceef7bce05b61
+	.dword              0x3fa4e96b04d833d8
+	.dword              0x3067ceef05dcb2d6
+	.dword              0x1bcee613124f3962
+	.dword              0x30256c42435ca993
+	.dword              0x475baaefdab1c930
+	.dword              0x1578a2724c71b488
+	.dword              0x128c4a3325eef866
+	.dword              0x0f5b91c7106caeec
+	.dword              0x2d9b0f8f3977b7bb
+	.dword              0x4dbbb6a5c71ecc36
+	.dword              0x6b187e0d45edf187
+	.dword              0x54541cff48b54be6
+	.dword              0x016b95c3cd68dbb6
+	.dword              0x6e6cd48bb1f76bb2
+	.dword              0x74c2e1ffe6cda8ca
+	.dword              0x164ef1c2a8507d2c
+	.dword              0x113b1541b383bb56
+	.dword              0x36f131b874d2bee6
+	.dword              0x51af64ad64dd6396
+	.dword              0x1149559d79fde246
+	.dword              0x4de7c080004d773a
+	.dword              0x51b0700ac33ba548
+	.dword              0x211406f0f4cd67e4
+	.dword              0x3405ece511a8e030
+	.dword              0x5b82e11776837af6
+	.dword              0x7ab3dfdb6a579f9f
+	.dword              0x5b518c9f54d51cb6
+	.dword              0x5316435193f224af
+	.dword              0x69f8c8b1734aa3fa
+	.dword              0x687d88425282d6ac
+	.dword              0x7e058e63165ee222
+	.dword              0x3dec48deb5b49bfb
+	.dword              0x13443e68ecd594cc
+	.dword              0x47dffe0deff31009
+	.dword              0x6ebd8e4e51b6e5c8
+	.dword              0x2d1c9afd6b8fe2ef
+	.dword              0x1ace592058c50420
+	.dword              0x6c19976df983e868
+	.dword              0x146f295234192db0
+	.dword              0x247d99afb482991f
+	.dword              0x7fc16e6b102be2aa
+	.dword              0x7fc8f44244ede158
+	.dword              0x62350cbb404c4f41
+	.dword              0x5a7cc8bcdb5357cb
+	.dword              0x2a04098da8864ade
+	.dword              0x722c149dbae49fe1
+	.dword              0x3905b1b19afb1189
+	.dword              0x190c9742ac68c132
+	.dword              0x07ef35dc326b9288
+	.dword              0x0c3ec144ae10be08
+	.dword              0x47adc1e9e4065549
+	.dword              0x4aa8c9fab9de7c2b
+	.dword              0x22c5cb17ea541d86
+	.dword              0x5589a6090723747b
+	.dword              0x341c9d80f659defe
+	.dword              0x67d2a4784579cbea
+	.dword              0x052db1aa6b61d4ac
+	.dword              0x351f9a0e67bd747d
+	.dword              0x440ada2aeab46942
+	.dword              0x1359939de05e0388
+	.dword              0x7d0c5d226d79b085
+	.dword              0x49345b1d2983814d
+	.dword              0x61ae12342cbdf63d
+	.dword              0x088a4aeccad963b7
+	.dword              0x5d68f658c679b935
+	.dword              0x02ff12ddb14356cd
+	.dword              0x0f87abcb38f664bb
+	.dword              0x392bca00899c2b7e
+	.dword              0x523864e83fbb930f
+	.dword              0x00c812a6c22afe63
+	.dword              0x28f3b95cfe7c4257
+	.dword              0x1a59b7b6a9d4087a
+	.dword              0x7153466dd3e939b3
+	.dword              0x0970734a99418783
+	.dword              0x1a93ab9b7cfdaf7e
+	.dword              0x5080d46f82ab40fc
+	.dword              0x794de4b67b708be1
+	.dword              0x106f34b6bfc96f05
+	.dword              0x2180838091b2f8aa
+	.dword              0x6143b1036fc00d94
+	.dword              0x69bc4fd129a5bf43
+	.dword              0x0e511c0e5d97387f
+	.dword              0x705b63f916aaef3f
+	.dword              0x5113a46189befb73
+	.dword              0x6ae1488183881123
+	.dword              0x5d678ad7ae35f42c
+	.dword              0x4b9f11b105e333b8
+	.dword              0x1f5c659908bd2d2f
+	.dword              0x4d679a4b3d379715
+	.dword              0x075f59df301a4014
+	.dword              0x247f29b6a5378a84
+	.dword              0x3d1f530a63a1c2c8
+	.dword              0x2084bd71ffd43a55
+	.dword              0x552bc517a83770c2
+	.dword              0x0329c8518558ca9f
+	.dword              0x3010f0a8b44fdb9a
+	.dword              0x410591539d05c3bc
+	.dword              0x720e40dd6a5b9d2e
+	.dword              0x20f3959c177eab75
+	.dword              0x1dd45411f2223f40
+	.dword              0x463b7b64113ff91e
+	.dword              0x2ee13ddaae5db901
+	.dword              0x45095a576ef75103
+	.dword              0x495c8a1f2241294f
+	.dword              0x724065b20642212d
+	.dword              0x15e5b273976d3561
+	.dword              0x22474d1c499166e4
+	.dword              0x4620c12ba09e24e7
+	.dword              0x6d39ec5da9c9410e
+	.dword              0x29f590a036f90f0e
+	.dword              0x554fe9db9ad5ecef
+	.dword              0x3443270c0f95de55
+	.dword              0x4c673b2444d0e03f
+	.dword              0x4ea6ba31da2416a4
+	.dword              0x1950ce61863a4f90
+	.dword              0x6664299753776b8c
+	.dword              0x3f01e2337e349244
+	.dword              0x01e319f2ba614443
+	.dword              0x2f9ab1a48d24f3d6
+	.dword              0x703d0105bc9891fe
+	.dword              0x11fcaa9a7f00e6ab
+	.dword              0x2b963086cf089b7e
+	.dword              0x03052c80002e8569
+	.dword              0x2f8f02bb343397de
+	.dword              0x4f043b5b62728468
+	.dword              0x0f025188a82d6699
+	.dword              0x002a3168963640eb
+	.dword              0x6caa56c5bf8dfde4
+	.dword              0x6656d5941a0fd8a6
+	.dword              0x71c03b90c661fa50
+	.dword              0x73c3c506b4e44170
+	.dword              0x61e878cc7d16056e
+	.dword              0x79eb1e2a1df26d85
+	.dword              0x02e5a44830d81163
+	.dword              0x7c62123dc1cfb4ec
+	.dword              0x6c1cb7afa4c5b514
+	.dword              0x0e575fb8cec2d8fb
+	.dword              0x07e5f4406a3133d0
+	.dword              0x659b247aadf7b6b1
+	.dword              0x23b9769d49805d52
+	.dword              0x4a6372df5874c46d
+	.dword              0x4bcf1dbc97b32760
+	.dword              0x6e379acd6176fc89
+	.dword              0x6694fd3d20b90413
+	.dword              0x7de956169dde4107
+	.dword              0x73c73413e1e52abf
+	.dword              0x67b0a0a6deb5757a
+	.dword              0x43d0da3327e5eb72
+	.dword              0x408c1d2519b73472
+	.dword              0x3ab610351b61cb7c
+	.dword              0x4141367d7618d797
+	.dword              0x6bb3910e775b3b2c
+	.dword              0x211949a6a045b2b5
+	.dword              0x711315f843a4f925
+	.dword              0x4b83cf0b58af5488
+	.dword              0x02364b1bfa2a750e
+	.dword              0x6793766f6aefacfb
+	.dword              0x6fa38755aeb2ac15
+	.dword              0x6a6c8d8e0a6e3909
+	.dword              0x79eb71b6ef467e80
+	.dword              0x3f73e48b6d22c4f1
+	.dword              0x25ae93a32310582b
+	.dword              0x47b5f13bfc872f02
+	.dword              0x5e52a17cd070d596
+	.dword              0x2ea9bb5cd14fbfb7
+	.dword              0x06774024a560be3e
+	.dword              0x718e5d40c1717b96
+	.dword              0x08bf268dc9377d91
+	.dword              0x2d90d07c1454c615
+	.dword              0x1e8f4cd41c370b08
+	.dword              0x3f23c589d923617f
+	.dword              0x29cd5d37f1cd50d7
+	.dword              0x27020a8b0aa9374e
+	.dword              0x174bc500096ad8ed
+	.dword              0x0b86528bd1308f5a
+	.dword              0x10f5c648a100c4f4
+	.dword              0x7bc10dd5260f0c49
+	.dword              0x74d38f8508907605
+	.dword              0x2daad63a3b097792
+	.dword              0x0e0ab4ed7f0459e8
+	.dword              0x736a07e35c483b9b
+	.dword              0x611c02b16ad1b70a
+	.dword              0x31dce465b5d40273
+	.dword              0x1ddd30d0f18b09d4
+	.dword              0x1c9424d45595737f
+	.dword              0x22f9ac88da0a6097
+	.dword              0x411b3c0099c7a6f7
+	.dword              0x5b90a435c4e067c7
+	.dword              0x301fbade7f7f3003
+	.dword              0x56037a09951d84b6
+	.dword              0x5e2d53ce2c472e12
+	.dword              0x7453c289411f7c04
+	.dword              0x656b4e914073540c
+	.dword              0x41afdca71c671bbd
+	.dword              0x5fb2a4d306935d12
+	.dword              0x4c8d2364e822e1fc
+	.dword              0x019e0b47ab9af3e8
+	.dword              0x77bcc41fd95bbd4c
+	.dword              0x5b7574f5f178752c
+	.dword              0x44ede06a2676b93d
+	.dword              0x4c5f1e0ebd31223d
+	.dword              0x3784a3842290a5ef
+	.dword              0x1d5a6f294b4675d2
+	.dword              0x6dfef892f86d36e4
+	.dword              0x2da7983501aa0001
+	.dword              0x3cb3b92812945797
+	.dword              0x7e27fc27bac4946c
+	.dword              0x018432f5ca4c6e5e
+	.dword              0x2d9ab8b167ab3cdc
+	.dword              0x4cbd8f7744efda0f
+	.dword              0x0772b141ecdf073c
+	.dword              0x1b3fc92e53b6c787
+	.dword              0x17054d88f6ba6d2a
+	.dword              0x381c994377ad8474
+	.dword              0x03a8a22dc368adc6
+	.dword              0x36ba5e73ed6f15f5
+	.dword              0x1870a2629129c0f7
+	.dword              0x542c75ddec6cb81c
+	.dword              0x353f2796b049a394
+	.dword              0x50b6f724dbfd497f
+	.dword              0x6c2535f09f89d983
+	.dword              0x09493b2d50ee713e
+	.dword              0x27cabe5d56b43041
+	.dword              0x25c419387971253e
+	.dword              0x29d3add5de61ce7c
+	.dword              0x682ac2a40fec079b
+	.dword              0x604e746243802d79
+	.dword              0x02e079186cbc9cca
+	.dword              0x7166298c84358ea8
+	.dword              0x775b2349bd9b2290
+	.dword              0x1e0683c752cd4e62
+	.dword              0x1cc5b8b6acf4ad17
+	.dword              0x19f64c1f2c4c2311
+	.dword              0x0751e2bed193bf23
+	.dword              0x3122b6a4c6b42c51
+	.dword              0x46c7d3c74462d3a8
+	.dword              0x4d4f1f992c33081e
+	.dword              0x25412c57adfa0627
+	.dword              0x64c5e3bb137fa9ab
+	.dword              0x737cdb6820f8c4a9
+	.dword              0x7fa1db824ba0efe0
+	.dword              0x66d8d38b855f8772
+	.dword              0x683efa78ec1c0a7c
+	.dword              0x1fe2752c48958713
+	.dword              0x71e8f07f13fc0795
+	.dword              0x6ece192bc5000510
+	.dword              0x07579b9a7807ec31
+	.dword              0x22d8aa57bbdeafb2
+	.dword              0x128c95e5f968bca7
+	.dword              0x0e0e0c25d21dff6d
+	.dword              0x7e35b827d7520e02
+	.dword              0x605f386e9cdff783
+	.dword              0x4a96f2e498b53597
+	.dword              0x2ae70b3e1f99ae0b
+	.dword              0x1b78d6068620ae8b
+	.dword              0x35188fafe01da056
+	.dword              0x471337ab4b4a4de1
+	.dword              0x2e8026109a0046a7
+	.dword              0x3351f3ffcaa1c7e1
+	.dword              0x35adba921450a832
+	.dword              0x53d8a4248159481d
+	.dword              0x5a153f456996e34c
+	.dword              0x3bbf915646ef8eca
+	.dword              0x1bc6d45734bb2307
+	.dword              0x34e96ce6c299c782
+	.dword              0x01319315bc55c721
+	.dword              0x05aff1f88d65879f
+	.dword              0x25354c8fab1810e9
+	.dword              0x545fd27c15794dcf
+	.dword              0x7adb369f51bcd2d9
+	.dword              0x423003140a37c6d9
+	.dword              0x64d587bb04b898b1
+	.dword              0x4bf96e5696360aab
+	.dword              0x2c2c053d743c0ad2
+	.dword              0x469b93b991990f5e
+	.dword              0x35680f9f9b288324
+	.dword              0x4e608dd4deb2b386
+	.dword              0x1c1090b81131807a
+	.dword              0x110833602b1a232f
+	.dword              0x6130c47db8db5b37
+	.dword              0x12ba66df9aa751a9
+	.dword              0x67e1ff7198f43fa9
+	.dword              0x1e4298be2249a600
+	.dword              0x464f80cbd41feb01
+	.dword              0x792161c18c312277
+	.dword              0x65747fde8d59449c
+	.dword              0x553a25306a674d48
+	.dword              0x1c03b3c85c5f2b69
+	.dword              0x3ddfa88addf0d801
+	.dword              0x585f2ec32c4e7989
+	.dword              0x667f1c7c81dcb1cf
+	.dword              0x44e499e873cf8364
+	.dword              0x4cbb4e2366bc7048
+	.dword              0x3f8ccf7fbd5d461b
+	.dword              0x67e20fca9a00df42
+	.dword              0x53ab7053d77a0694
+	.dword              0x13f7cf97eb668dea
+	.dword              0x0333498232c1e2d3
+	.dword              0x1aca4b2178146da6
+	.dword              0x17da5c6920915c53
+	.dword              0x7bcf31fbbd2524e1
+	.dword              0x384af1d5d779d43c
+	.dword              0x1667e979b3fc9d25
+	.dword              0x3f92df603853bdbf
+	.dword              0x670a10e95395e796
+	.dword              0x4e63a5967fe405f4
+	.dword              0x20cdec5a416c1c73
+	.dword              0x3a8cb35ef2cd82ab
+	.dword              0x1aece159421fd307
+	.dword              0x5309b4cd5ea65de4
+	.dword              0x413ebe18667bb5d2
+	.dword              0x06b31f989ef0b105
+	.dword              0x758403945b0728aa
+	.dword              0x12792c4aaeda2924
+	.dword              0x23d6ceca555cd4ca
+	.dword              0x433b95fcb578fc53
+	.dword              0x2e5dc767ddf5220e
+	.dword              0x78bb67b323a9f281
+	.dword              0x12e4581cd27a8d0e
+	.dword              0x5e981e15357be4e6
+	.dword              0x79c2d3734e017f25
+	.dword              0x517a1698476d6448
+	.dword              0x4f10fdfdb23d2430
+	.dword              0x75cb856f0b5b17dd
+	.dword              0x2cf33cb67716402b
+	.dword              0x0819526087a70f8a
+	.dword              0x5ebbd932872bba8f
+	.dword              0x4e0f4c0e725c8dbc
+	.dword              0x41be494f1325cd8f
+	.dword              0x7209504f73950649
+	.dword              0x13b09be2e3a95772
+	.dword              0x57d0ab47c76ffe39
+	.dword              0x69929bf437993a29
+	.dword              0x76006b13dbcf7aaa
+	.dword              0x083579fe810ab0d0
+	.dword              0x6a0f324a369d0058
+	.dword              0x3258a3f86887657d
+	.dword              0x5164e380e54106b3
+	.dword              0x732573528effc0d0
+	.dword              0x14698af3bcf9ceed
+	.dword              0x6d186f77ad9c1cc7
+	.dword              0x3ca7b9dfe5ecae50
+	.dword              0x1565d8e4f2730e34
+	.dword              0x796fc681629c088b
+	.dword              0x11ccfa51375c6506
+	.dword              0x058218166cff58f7
+	.dword              0x74aadd8f3d4f7d47
+	.dword              0x4b4052dbcb9dccd4
+	.dword              0x2957f4cc91cd1bf1
+	.dword              0x23bd83021abb334a
+	.dword              0x402537d94418c44c
+	.dword              0x06058abb32b6a4ad
+	.dword              0x00724b3e89fd9f24
+	.dword              0x0b638916fb41e5b5
+	.dword              0x26afdcbd6a41350b
+	.dword              0x6b59cf0422acc9bb
+	.dword              0x7585335dcd36e31f
+	.dword              0x23fd927ddce99c44
+	.dword              0x08ee1469b42d6748
+	.dword              0x7e7e7518acaeb9c7
+	.dword              0x12cf39077a214bb5
+	.dword              0x4c4c0d957119dd91
+	.dword              0x0cd77dca54dc9f60
+	.dword              0x7682d6fe1afe4208
+	.dword              0x7ec8e1af23291bae
+	.dword              0x2280b1e04cf169d3
+	.dword              0x5e5814f8087f8c5d
+	.dword              0x005915dc620acdae
+	.dword              0x44514680bff79c43
+	.dword              0x477536e2b256ec7f
+	.dword              0x42e4bee99f05c4c8
+	.dword              0x31c3570dcaa226db
+	.dword              0x2f4224efcf321103
+	.dword              0x0c1a9f197fb7d8af
+	.dword              0x063f7801a712b4f3
+	.dword              0x3aad5a27a209d47b
+	.dword              0x2e373a35c1746631
+	.dword              0x6c3e3e72feabed77
+	.dword              0x10f9d28e5a10e314
+	.dword              0x784d665337f12d4c
+	.dword              0x6592c21594651542
+	.dword              0x1c5745a8d04f9acd
+	.dword              0x7be242e6167a0211
+	.dword              0x33e8505168f9470d
+	.dword              0x5ac8e844e33e2de7
+	.dword              0x40d51e8f3beafd3e
+	.dword              0x6c4834af96bf114c
+	.dword              0x569a85378cea4c55
+	.dword              0x164be150b6523fe0
+	.dword              0x64625d0c23d3a07b
+	.dword              0x1049c8d23b46dcd8
+	.dword              0x5131466e493d6025
+	.dword              0x68d2e031a2cc1976
+	.dword              0x65c56335615f4b1c
+	.dword              0x32bad1de1af627fe
+	.dword              0x43cfa6151266992d
+	.dword              0x66978aceaa8817db
+	.dword              0x37d258797683d7a6
+	.dword              0x45c6aebcb6ec45e7
+	.dword              0x5efd3a51bdb6c3eb
+	.dword              0x4f3843a9ff5e9623
+	.dword              0x27aee08e79e1225b
+	.dword              0x7cf3feb3d69705ac
+	.dword              0x4a1848bcbebd3927
+	.dword              0x489923e3f0bed9fd
+	.dword              0x179509291345bf2a
+	.dword              0x33ca1ffc46c1072b
+	.dword              0x1aaa858e4f0ce1d5
+	.dword              0x18c972ee88e7462d
+	.dword              0x6188ffb27e8dc683
+	.dword              0x358ae18428809757
+	.dword              0x4831e9ef5e113fae
+	.dword              0x6a1e2ceb95911e97
+	.dword              0x323de824dc84d0bf
+	.dword              0x52da69712beb1445
+	.dword              0x769eeb76f11cc27b
+	.dword              0x65476954e1865961
+	.dword              0x0956bd90b35dfa65
+	.dword              0x75b6c3c4179a5ae5
+	.dword              0x004a6841d7d85d22
+	.dword              0x12fcac937ab55053
+	.dword              0x7db97a6a85bdab76
+	.dword              0x5c423b939c612085
+	.dword              0x3eb6c5eb041be560
+	.dword              0x66d254a68ed5a27e
+	.dword              0x2c57d7a374ec9522
+	.dword              0x41b521920798a76e
+	.dword              0x5c829239811361bb
+	.dword              0x2964f8402d220ca0
+	.dword              0x2800d571f02d863b
+	.dword              0x566220809f4b60bf
+	.dword              0x7bd42377323e7f56
+	.dword              0x5ca63abf96a4e1cb
+	.dword              0x7c7ce95f3c1f42c2
+	.dword              0x4be90449604096de
+	.dword              0x3dde877c895baf86
+	.dword              0x6108a1a8580bfc7a
+	.dword              0x787833c385aa1da2
+	.dword              0x66fcb2f5eb88c37c
+	.dword              0x45463a6088c4952a
+	.dword              0x5d660af1650448cc
+	.dword              0x6a210d9f4bfcf3c3
+	.dword              0x7ac76fc2461af7c9
+	.dword              0x5be45a9937552104
+	.dword              0x3043cb1f8588984a
+	.dword              0x161cfaca1f499470
+	.dword              0x5c583e09af024716
+	.dword              0x40a86121bafd995a
+	.dword              0x202a171a6c4a5626
+	.dword              0x71a6dc025fc047a7
+	.dword              0x5eb5d8043144213f
+	.dword              0x4f6225bf9d4932b9
+	.dword              0x5248698f5c601352
+	.dword              0x4f6378497e633993
+	.dword              0x75789c47d480e1d4
+	.dword              0x23457967cde4b401
+	.dword              0x38142b301ac11a8d
+	.dword              0x527add92c75126f6
+	.dword              0x13cbb6e5cdbea752
+	.dword              0x66e452ea86714697
+	.dword              0x47a7439335d93159
+	.dword              0x2694b777f58a5fa6
+	.dword              0x5253e7a4e54a7b8c
+	.dword              0x4d471c28f065d900
+	.dword              0x50531915254886cb
+	.dword              0x43da9be1079abe5e
+	.dword              0x56eebee4d70ea196
+	.dword              0x4578933beb5d1174
+	.dword              0x56c1b3e2fe66a9d2
+	.dword              0x31692169c79c3e0e
+	.dword              0x6ba93e96b024829a
+	.dword              0x786ab0fa620908c7
+	.dword              0x3982423bff0b6504
+	.dword              0x26a15a29ab3e0eab
+	.dword              0x7e42c1f904d3a9e0
+	.dword              0x6af81bd4cebdfeb1
+	.dword              0x7f8e24b0006fd5e1
+	.dword              0x76ed8ec6d1d50814
+	.dword              0x1f42cfa3373e5a15
+	.dword              0x73b710fe890833e9
+	.dword              0x2cf9c4902d851f13
+	.dword              0x512bc69be5830d09
+	.dword              0x3f50d455c32200d4
+	.dword              0x442dd13693f1e08d
+	.dword              0x237f6236af1970d6
+	.dword              0x0cb31176300dbcd0
+	.dword              0x2d4302ec5cf71fd9
+	.dword              0x6d5578ef8aa949fc
+	.dword              0x75193d6ba78387ab
+	.dword              0x6534b589a5a575b2
+	.dword              0x7bd77e22a73f6823
+	.dword              0x0fc9ea47f5bc3dfe
+	.dword              0x017972916f3ed2fb
+	.dword              0x5d34f307223238aa
+	.dword              0x29ef889defed49c9
+	.dword              0x634be8061a71e21e
+	.dword              0x54d726ac0945c6bf
+	.dword              0x55c3d415c11cba6c
+	.dword              0x0ba775785587196c
+	.dword              0x59a81440c7019234
+	.dword              0x49d05ddaa6a63eb5
+	.dword              0x681b34afd4a04c5a
+	.dword              0x5d5c221539d4784c
+	.dword              0x64297909b97626fc
+	.dword              0x4c3e8f910a5f94a6
+	.dword              0x2fe41e20298116cb
+	.dword              0x57dc5fe22ae9319b
+	.dword              0x574fc0ea50b9f11e
+	.dword              0x26ee36616b55ec46
+	.dword              0x3edc37bb6b9b5365
+	.dword              0x1b9cc351ad5d8a21
+	.dword              0x3cb8e3c87568f286
+	.dword              0x1c1572e4791812ab
+	.dword              0x50e26c25265e93b2
+	.dword              0x13bcb0a529619223
+	.dword              0x5b167f14dd8a3b05
+	.dword              0x430934e994041507
+	.dword              0x715ceba94785587f
+	.dword              0x335fdf831113f90c
+	.dword              0x6c1bca5b2ef76559
+	.dword              0x0615e43ba01119b6
+	.dword              0x1ee9a0761e7d5f33
+	.dword              0x6a2e9076603acd16
+	.dword              0x72ba600c380bdc52
+	.dword              0x4533fe72f43336d9
+	.dword              0x261040685abff5c1
+	.dword              0x0aa821f783c82f69
+	.dword              0x6927364bd02d5e24
+	.dword              0x248bff0b653e4317
+	.dword              0x7f25234b01fd6002
+	.dword              0x0b935280ecdc3881
+	.dword              0x6361bc3fa3f6d4f6
+	.dword              0x061181bd2c880c77
+	.dword              0x6d50e063a4058c7a
+	.dword              0x1f2895f9f184dee6
+	.dword              0x235809d0ae3f4c69
+	.dword              0x422813e8b254b8ea
+	.dword              0x76946b58d29464b1
+	.dword              0x559f7e31539f5184
+	.dword              0x3e8dc3305823bb77
+	.dword              0x77a6c4485fa6a940
+	.dword              0x44d682efeed3df11
+	.dword              0x55212187ea379571
+	.dword              0x7ea164640aca17bb
+	.dword              0x4e07c7c63b2adca4
+	.dword              0x7a53f929fbc3dabf
+	.dword              0x2d5e843d430b2724
+	.dword              0x5ca8e8284c90ee8c
+	.dword              0x1648f3ca7f4854e7
+	.dword              0x79b47b4f634f88ef
+	.dword              0x51086c25b4581037
+	.dword              0x4b076af3c8c3d4ea
+	.dword              0x7292fc10afc42c16
+	.dword              0x2c0aa43cd980dbc1
+	.dword              0x6ba23d7be7b3ed93
+	.dword              0x4471ac2c56d521ee
+	.dword              0x22bb6a171455ae12
+	.dword              0x57b57e0a37086d95
+	.dword              0x79e264695e14e4d0
+	.dword              0x72b9c4487f7f4d9e
+	.dword              0x1f015a6a795796c2
+	.dword              0x7dc00242daecc6f9
+	.dword              0x2c4292ab1c992ccf
+	.dword              0x4cbe15d4d86fce5a
+	.dword              0x6e4dfae4c0ac2345
+	.dword              0x63522ae654adac43
+	.dword              0x354b83c43ce61acf
+	.dword              0x1961af06f1c896f3
+	.dword              0x55c900ae8fec1415
+	.dword              0x43002fb5cec7aa80
+	.dword              0x231ac7a73ab834f6
+	.dword              0x195746d378a45210
+	.dword              0x3bc0235f7e2ba2e3
+	.dword              0x64f06e996ea0e264
+	.dword              0x4be82aeb12cc98b5
+	.dword              0x2782b3bc181da12f
+	.dword              0x696c61d79b4e2295
+	.dword              0x53ae6419777cf9cc
+	.dword              0x3fcbfc57e331eaec
+	.dword              0x353bfae6d436e409
+	.dword              0x5b31d6899fb3b06a
+	.dword              0x659e67bc4abce875
+	.dword              0x36de49f8059407f6
+	.dword              0x7da5811a49ed8e07
+	.dword              0x778d93d2e62f4893
+	.dword              0x7df3a75e3fec489b
+	.dword              0x2183a1f6f0640037
+	.dword              0x6d996e2cb370bbf8
+	.dword              0x479bd57445b79fef
+	.dword              0x07e48eff31b17d22
+	.dword              0x57dcb4f254d218b7
+	.dword              0x6cfdfe9417f7e0ca
+	.dword              0x65805b0586a716c3
+	.dword              0x4f874d43bdf4a701
+	.dword              0x48c969e9ec21973b
+	.dword              0x36977ca297ef481a
+	.dword              0x66125ff37576c649
+	.dword              0x2cd3cf7c65b71ad5
+	.dword              0x42a9ebacb8577dc3
+	.dword              0x413827fb5f8fa554
+	.dword              0x53bb6df8051ec636
+	.dword              0x3a29206e4b201510
+	.dword              0x4f094f3918c5d645
+	.dword              0x01105d6e5dc9e124
+	.dword              0x5bf5eacb837fe918
+	.dword              0x42c01d4e18533626
+	.dword              0x2d7ab13f5d34033a
+	.dword              0x59a48a198074c778
+	.dword              0x210070e5af255d48
+	.dword              0x2249ed4b3c2a42b0
+	.dword              0x53e5b39342d6a18f
+	.dword              0x52360ffc9148c3c5
+	.dword              0x7a5b5372c44dab7a
+	.dword              0x318b1c65508f45b5
+	.dword              0x6d38cf31fa0a93cf
+	.dword              0x1f32f47b70a69c6c
+	.dword              0x7bfeeecd3dc53cc6
+	.dword              0x3a8bbfe4b0a96f2e
+	.dword              0x36c87c6496ee7e98
+	.dword              0x221a818520957971
+	.dword              0x550f944776465b07
+	.dword              0x6e537503551a4980
+	.dword              0x60ef515d8b7f714e
+	.dword              0x54bdc35becc706e2
+	.dword              0x0c66cbb384c25cd3
+	.dword              0x777968e2d116de53
+	.dword              0x357e5fd909115aec
+	.dword              0x7bf73e4fc0c01be9
+	.dword              0x140bd4668fced517
+	.dword              0x6b9fa7f4daf28d02
+	.dword              0x3f6b07fa08bc38e3
+	.dword              0x0d4df6490278c614
+	.dword              0x36ede0ef8438a442
+	.dword              0x5e468fe7251dd4cb
+	.dword              0x2ce711cd1193d0eb
+	.dword              0x54122f7ba4343968
+	.dword              0x4a7bef502bf4c707
+	.dword              0x6e3f11f4ec5d8805
+	.dword              0x1822189852f945c6
+	.dword              0x1279380a4dc6b146
+	.dword              0x4498b520d1b4c251
+	.dword              0x258e9771acabf911
+	.dword              0x21730716e640f580
+	.dword              0x65141537c83958ff
+	.dword              0x70ae97e233882fe7
+	.dword              0x485d049bf26e1914
+	.dword              0x707be2a78d665f56
+	.dword              0x4b2c134c1e0fe8a8
+	.dword              0x7984a704f3d03ccb
+	.dword              0x544c19016b6cc157
+	.dword              0x3d119328ecc1efc4
+	.dword              0x46e6bbeab5538882
+	.dword              0x4cf41051a1580ac0
+	.dword              0x392abecd1726b61b
+	.dword              0x3c0dee3cf6e5b746
+	.dword              0x65269df64acdafdc
+	.dword              0x600611d4515cd53c
+	.dword              0x26eaceb3a7908037
+	.dword              0x31cdee94399637cb
+	.dword              0x1ffd1b7996643c23
+	.dword              0x76bd3f592feb7a29
+	.dword              0x59b3b330e733d4fe
+	.dword              0x15ecba1b26c2f292
+	.dword              0x6d8227f10a3ec00b
+	.dword              0x2b85745d3c1685a0
+	.dword              0x7cb2e52baad4bc55
+	.dword              0x7c1fac290af63421
+	.dword              0x4dbe9b844180045d
+	.dword              0x5f3e5fc68f35f20e
+	.dword              0x3a1a7b10174bb5db
+	.dword              0x2a13054e4b4519f1
+	.dword              0x6d4849b4dba4f634
+	.dword              0x64328704ad4a4857
+	.dword              0x002cc47d823d2f8a
+	.dword              0x198aef2ad3bbf4e4
+	.dword              0x2dd83ed6ba181887
+	.dword              0x51833b1c0995badd
+	.dword              0x603a7f3c6a9c4553
+	.dword              0x4fb9825d7640a707
+	.dword              0x2ae8d5b64073bc9f
+	.dword              0x6fb7ddb9c9b90b9b
+	.dword              0x10dfcee38a634819
+	.dword              0x10f90b3d1982ee87
+	.dword              0x703014a6f0edfe8f
+	.dword              0x230aeca9ab9b242e
+	.dword              0x308960e6344cae31
+	.dword              0x248600421e12ec36
+	.dword              0x2d34c79c728c818f
+	.dword              0x43692a23eaec1a66
+	.dword              0x04c50cc59e0fb9bf
+	.dword              0x4d7718919c0e132b
+	.dword              0x25dbb72be2bcff1a
+	.dword              0x5ef996895d0732f3
+	.dword              0x3eb79b626b9b59e9
+	.dword              0x25cc06ba3ed69457
+	.dword              0x767fc76bd004d8ce
+	.dword              0x61ba6f99514c1439
+	.dword              0x0ceeb3e1c6e8b6bb
+	.dword              0x1b59a8c6071697c5
+	.dword              0x13d3b86788589a6e
+	.dword              0x01be29925404aadb
+	.dword              0x1df86faf1a6633cb
+	.dword              0x7b212a07d8631c54
+	.dword              0x59f10ef00576b54d
+	.dword              0x196b00a459fcaa7f
+	.dword              0x2101039420177389
+	.dword              0x33d6ea74c2e21b59
+	.dword              0x35bc7de75657d8f4
+	.dword              0x4122f386e20aa57e
+	.dword              0x7b19adc4565c96ce
+	.dword              0x741bc66d2b574ace
+	.dword              0x076cbede83a4f84c
+	.dword              0x5541c242eb6bd0de
+	.dword              0x154f2a8f86e6e95a
+	.dword              0x516c0aad3e5d6926
+	.dword              0x08bb1901ff78380d
+	.dword              0x624a5c57e3259884
+	.dword              0x1c3fb8af71164c88
+	.dword              0x7abef0956db95474
+	.dword              0x163efd1d5d88c4b2
+	.dword              0x3598e2e2e929faa1
+	.dword              0x7012df676c40d85b
+	.dword              0x7813b58db5c0c8e0
+	.dword              0x0760bcdf292197b2
+	.dword              0x0a13190b129f99ff
+	.dword              0x2456dca8f092ac6d
+	.dword              0x308fb978727a089f
+	.dword              0x0c1273d393268527
+	.dword              0x50d2402f716f932a
+	.dword              0x585794d7def4b35f
+	.dword              0x15230bd48926d100
+	.dword              0x00c76108fbe662b7
+	.dword              0x280ee4148be12573
+	.dword              0x32aa52ad7798a420
+	.dword              0x176e20d9667bf603
+	.dword              0x3d09dc5e10a223fd
+	.dword              0x3b43c249cc0fb7c3
+	.dword              0x76b538a54cfa974f
+	.dword              0x3c03dba42b8d75e1
+	.dword              0x571b0309c5354270
+	.dword              0x2fa7e2b5572b8382
+	.dword              0x22e1cb5ae32faa6f
+	.dword              0x29ee80db3d5bbe7a
+	.dword              0x6a6194ecff031599
+	.dword              0x21ac34f35402f53d
+	.dword              0x22d9b1453c9ad010
+	.dword              0x6501a85716b33890
+	.dword              0x29fbf6d388cf04fc
+	.dword              0x0e09f1eb4b0866f0
+	.dword              0x01a0b073b950758c
+	.dword              0x657b5d6ac4d6e224
+	.dword              0x35cb712b5ab06b4d
+	.dword              0x34271f4748882357
+	.dword              0x75e6d452244201b1
+	.dword              0x77154b0ddc629038
+	.dword              0x0a0095d009ceb2ea
+	.dword              0x6b18fabbd4edd774
+	.dword              0x1ebd7b9747987780
+	.dword              0x68c30a8939e25654
+	.dword              0x3080aac53eb705ac
+	.dword              0x5bdff60ae8df2b56
+	.dword              0x655fed04feecad57
+	.dword              0x15b1ef2ed54c9ddf
+	.dword              0x756618c2a6b3a8d9
+	.dword              0x3b5f8e35e97f3be8
+	.dword              0x28c1fd625da6d314
+	.dword              0x10f3ee30656597a6
+	.dword              0x37d0ae6b59c8ecb4
+	.dword              0x594e7a1084687e76
+	.dword              0x7b9454ccd6145d4f
+	.dword              0x1f25601b36702cc0
+	.dword              0x26198a3ab763bdfe
+	.dword              0x463ee5b94daa9d83
+	.dword              0x73fee6f987585bf2
+	.dword              0x1df3510290d83d4b
+	.dword              0x327e3fcb721a7a0d
+	.dword              0x0df0f191ef209d01
+	.dword              0x41e4dac737aba2b7
+	.dword              0x101b2dc687b78d68
+	.dword              0x00c892222502d365
+	.dword              0x7eaf616cf069b431
+	.dword              0x7917bad846e5f69b
+	.dword              0x16ecb5a84e868293
+	.dword              0x635a9f072fbe0463
+	.dword              0x277174ea8f5648df
+	.dword              0x01e9724a3491a38f
+	.dword              0x75cd16562938aa64
+	.dword              0x7e84e0f55b8c4a3b
+	.dword              0x7cc671ee1586cd96
+	.dword              0x53257f7854aa53a8
+	.dword              0x3bb19b91f78569b7
+	.dword              0x2d593e74f1629139
+	.dword              0x55b107ae7cc39f45
+	.dword              0x1a48acf8c558e32b
+	.dword              0x0f99ab625c01f459
+	.dword              0x469b8dba16680b48
+	.dword              0x38ec8869ee6a96ac
+	.dword              0x2481e9ce621c58b8
+	.dword              0x40f9fc3254902536
+	.dword              0x539b6ba58e5da8b3
+	.dword              0x13d548ec8b22a054
+	.dword              0x2a45ea1d7a7ed769
+	.dword              0x6a5d1cb72fa79716
+	.dword              0x1e0b0dfd64a6e17d
+	.dword              0x108decdf163d38b4
+	.dword              0x33ecf451a62a2775
+	.dword              0x2e058d5d7b365b81
+	.dword              0x4d4dc0770485a928
+	.dword              0x604327dd059d5ce2
+	.dword              0x621eaca22455a5bb
+	.dword              0x2922717c55d51107
+	.dword              0x6c7e391833d24be0
+	.dword              0x44a043d49c363f4f
+	.dword              0x4681e5a0ded69b22
+	.dword              0x3a22b712cb8b8363
+	.dword              0x63bd41027b04a36f
+	.dword              0x477a938967d5dfe3
+	.dword              0x2c56266cffc88d60
+	.dword              0x26d8ed4eabe47fe9
+	.dword              0x64025a4b93052b81
+	.dword              0x623d1cda59ad8020
+	.dword              0x0908aaae776234de
+	.dword              0x6b80ec85f1a70d04
+	.dword              0x67f394b04ac837cd
+	.dword              0x1b8f79b5d8162578
+	.dword              0x0753c3deaa2b5977
+	.dword              0x6641e1efe096f2ff
+	.dword              0x642e034380f24ae8
+	.dword              0x303dffaf93e23fbc
+	.dword              0x38451abf7ed516ab
+	.dword              0x0fdd017568e6f471
+	.dword              0x7419b66cbaaf0736
+	.dword              0x4c7cdebb2b749dd9
+	.dword              0x72ff766266f16bed
+	.dword              0x241c9bf8a139bdce
+	.dword              0x7826fed0dce347e8
+	.dword              0x475cecd965cfb09c
+	.dword              0x4f1ae71493e15b49
+	.dword              0x227341a12b77c701
+	.dword              0x1d2c02d153ead989
+	.dword              0x0a66cc4f97d80fe4
+	.dword              0x32847e2d72138ffd
+	.dword              0x5e6645bb06894fa9
+	.dword              0x41a961b147d416d2
+	.dword              0x607dbefb4d832b4d
+	.dword              0x608af6e657abf1be
+	.dword              0x5fb5e93bacb4e26c
+	.dword              0x6cc8e5f7c72a4d64
+	.dword              0x7349cd7c4631f9d1
+	.dword              0x7458894bc45f23b9
+	.dword              0x78419a21713ed09f
+	.dword              0x0555bb63da2322c9
+	.dword              0x7c4c8d72f99325f5
+	.dword              0x1313f823e0260b64
+	.dword              0x70f333e4ffc5753b
+	.dword              0x76818fdad297c0d9
+	.dword              0x17c5ba029f04fbe1
+	.dword              0x02e5dc41be683788
+	.dword              0x79d965f5ab73348c
+	.dword              0x5487fd14974638e4
+	.dword              0x1c6717bee9a49953
+	.dword              0x62352f43b823ef85
+	.dword              0x292f72e73ddc9b7a
+	.dword              0x1e38f5ab7b7b17ed
+	.dword              0x0a1689f73d760c66
+	.dword              0x529fda29e47b6f6f
+	.dword              0x0412f7139c0950e6
+	.dword              0x4a7a49ac31d0c754
+	.dword              0x10b2e1676804f038
+	.dword              0x427b5e2223c20783
+	.dword              0x1bfba27c35e339d1
+	.dword              0x69887f73a0b83d6d
+	.dword              0x5ebf0e91ba5c8a6e
+	.dword              0x4c87f59044bbf12c
+	.dword              0x415000744fad0e7d
+	.dword              0x0afd3d9035d1695f
+	.dword              0x7083d33d03b1d16e
+	.dword              0x7a7b3191cdfb4a5a
+	.dword              0x04d29fc44518968b
+	.dword              0x58afcbb2de26063d
+	.dword              0x0fc666e779ac6c20
+	.dword              0x2195101ee5e8faca
+	.dword              0x20d6d5010433d99a
+	.dword              0x37e63fec4981fae8
+	.dword              0x21955a1d103771ed
+	.dword              0x17388b6f9b05c9fb
+	.dword              0x661a23af93958ec5
+	.dword              0x0397339532750fae
+	.dword              0x6272188fe3e5deaa
+	.dword              0x59bf93939a7ce2e9
+	.dword              0x18927054eae13f8b
+	.dword              0x3cb0c12e2196b212
+	.dword              0x4f4d2a95d5fd9819
+	.dword              0x6043cec3f782b9a9
+	.dword              0x0ddf3f2949c04035
+	.dword              0x045dbab85fc08ff5
+	.dword              0x0923fecdece94f58
+	.dword              0x699cfd73108ed149
+	.dword              0x0cf694057110f374
+	.dword              0x35f9d8024ffa3224
+	.dword              0x12a4a9d1046ab1e5
+	.dword              0x057b400a7a7184bf
+	.dword              0x332781573bae0c39
+	.dword              0x4a19e63f6fba9188
+	.dword              0x568d4d0ae328fc43
+	.dword              0x7b963648d62e5583
+	.dword              0x641322860ad107b2
+	.dword              0x3986298bcc633710
+	.dword              0x1317145bd46ce92c
+	.dword              0x268e82656d1a167d
+	.dword              0x608c543e7f1c967c
+	.dword              0x051d51c20f8c9051
+	.dword              0x7d91fe8d2d1b164e
+	.dword              0x45ba36d0f9d9691a
+	.dword              0x682c9d558fa5a499
+	.dword              0x3948ddbecb342c7d
+	.dword              0x45b372b1f7ed54bb
+	.dword              0x13e50d6ac051b884
+	.dword              0x661d28ca2b6f6c40
+	.dword              0x4c1160494ced9e45
+	.dword              0x06760b273b554b4e
+	.dword              0x090bec3c0f93472a
+	.dword              0x7b3f82c9d68a0119
+	.dword              0x491d3105b631b643
+	.dword              0x7a5cfe921da2b76d
+	.dword              0x3d314e5bae01cb76
+	.dword              0x5c37c2c102d6b151
+	.dword              0x0f3d1f64b57eb348
+	.dword              0x128ff810fd7a89e7
+	.dword              0x484a19f4933926ce
+	.dword              0x01cda585348a2b3b
+	.dword              0x36f5ea6d6bfbdffb
+	.dword              0x3bc5d3898e85bde8
+	.dword              0x4c72309eeed140de
+	.dword              0x07ab3b5a81efe2ac
+	.dword              0x6788dd0bb8eaec64
+	.dword              0x50b2776629a421e6
+	.dword              0x003892c69ee23011
+	.dword              0x7e8e29ba4c9ca932
+	.dword              0x6ded9535d7b78c94
+	.dword              0x68c82f9da527fc50
+	.dword              0x3226c223ee0b2a5d
+	.dword              0x457a48a6e69122ef
+	.dword              0x2be035376a007824
+	.dword              0x4e21821b75877ebe
+	.dword              0x5634f61eef1ccbc5
+	.dword              0x6d42b6cfc7ef59cc
+	.dword              0x0cda1fc669643dec
+	.dword              0x4c2166f8e06a9b8f
+	.dword              0x28f202dc20db2dce
+	.dword              0x2fcc453f48824af1
+	.dword              0x335b25d4789bf188
+	.dword              0x0367d6c2f42ed1a1
+	.dword              0x135819bb642e73dd
+	.dword              0x5af04e3249da4696
+	.dword              0x30d6faa3d5fa1fb7
+	.dword              0x31c046e61d8bfdb9
+	.dword              0x64c896fdbbb7a05b
+	.dword              0x2bbc1dabd77367dd
+	.dword              0x415a50054982e8b7
+	.dword              0x3535191c336e81f1
+	.dword              0x796130ace238dd7c
+	.dword              0x35c5f8cb50044f18
+	.dword              0x0184a011bf347c9f
+	.dword              0x114e6fedbe550bfb
+	.dword              0x616b63bb5022276f
+	.dword              0x60502d3a79f1b1e9
+	.dword              0x0de8102604de46c8
+	.dword              0x1dc8f4696f173dde
+	.dword              0x6684a58ec0d167a0
+	.dword              0x20c912e3e39a36c9
+	.dword              0x3369d3b0afe76883
+	.dword              0x2ee7cba52efaaa70
+	.dword              0x27bf33c51fb51ca2
+	.dword              0x5f5296c7df211b45
+	.dword              0x6e0a21143906ed91
+	.dword              0x2a6333346562fb98
+	.dword              0x3770d0421082aa4a
+	.dword              0x64bf3c03142f5fd5
+	.dword              0x3d4e8af34db99e39
+	.dword              0x30b50c38be2509a1
+	.dword              0x4d6cb41553be2682
+	.dword              0x46ae8b7cc9521ffe
+	.dword              0x71e8a6f6e90d3f9b
+	.dword              0x43b722aafcb68c42
+	.dword              0x500ce3013e5521aa
+	.dword              0x26bd2ab3b2fd6b11
+	.dword              0x416b4c09d2bb119e
+	.dword              0x5dc96e969073437b
+	.dword              0x7089deeb8da1822d
+	.dword              0x1528e1f5f21ae3fd
+	.dword              0x677ecce214cfd57d
+	.dword              0x7460a30b02d00f49
+	.dword              0x489a71b670e85459
+	.dword              0x217c3960f0c62614
+	.dword              0x7e59f8d280535059
+	.dword              0x0e181cd187d0f5b3
+	.dword              0x33160148a9669df9
+	.dword              0x3c349168b32dc39f
+	.dword              0x37c73a660903a377
+	.dword              0x529ad42dcd1aa87c
+	.dword              0x385cea34c0807274
+	.dword              0x44431f0be384e9cf
+	.dword              0x64e8a76d70ce144d
+	.dword              0x4ca830c5b353767e
+	.dword              0x0d84ac62226848a0
+	.dword              0x2779323fe6ba94ac
+	.dword              0x5b3f1a6b3d60ba32
+	.dword              0x0e2984f5f9bf988a
+	.dword              0x525188ce88d14e91
+	.dword              0x0e31b65f42323f40
+	.dword              0x6867c8e1d36dcbab
+	.dword              0x03d6b0674f3f3477
+	.dword              0x600b435f7d03e4b4
+	.dword              0x591a65fe3ff41564
+	.dword              0x4bb9b91712d74b2e
+	.dword              0x2ce1d328eb92d333
+	.dword              0x59e7e329687f2ca9
+	.dword              0x350c5e730cac74ad
+	.dword              0x6bce358a75448b7b
+	.dword              0x64714d9413edecc8
+	.dword              0x1cf62e5486d164c6
+	.dword              0x3fe25c093aa89be5
+	.dword              0x57196a536f59bc97
+	.dword              0x2bf0140bfc73aa0d
+	.dword              0x29b6858161800298
+	.dword              0x6b511b71244478f4
+	.dword              0x5dd1dc6dad55416c
+	.dword              0x5fe665c24e336f5b
+	.dword              0x4ccf334185b6ff2b
+	.dword              0x3b8bb6b683937159
+	.dword              0x0e994c380e7de181
+	.dword              0x44b7bd3cb636b5cd
+	.dword              0x3f02c76cce10cfe0
+	.dword              0x4b6e1b8c24823da3
+	.dword              0x2fe3099fb3b82b0c
+	.dword              0x463818678b35ab37
+	.dword              0x5c46957a90dfb82c
+	.dword              0x0ad4df3c111d2a8d
+	.dword              0x0d28f36b783223a3
+	.dword              0x5a6586be89f3012d
+	.dword              0x7e8a2f2f57d50fad
+	.dword              0x22b423a6f9b8af6a
+	.dword              0x6058107fd464f0af
+	.dword              0x78e590a3c56bef9e
+	.dword              0x7162a28add4728a8
+	.dword              0x3dc61f69d8e16a1e
+	.dword              0x6515afddc24d86f4
+	.dword              0x0563e9d95e55be9a
+	.dword              0x106d66ac17af7adf
+	.dword              0x4ccbfae4ec05a342
+	.dword              0x1ca41309fc6fbc48
+	.dword              0x0f7e8791053c714e
+	.dword              0x0e525ce98f422a95
+	.dword              0x0e36ab5d349b1538
+	.dword              0x135f9838a202bc73
+	.dword              0x5ec9f88f7c4ea62a
+	.dword              0x146d75388fbccc63
+	.dword              0x1b05f7b0ac2a78c2
+	.dword              0x3d34eff604b50f5b
+	.dword              0x796c2abc677fb8c3
+	.dword              0x5c9a86802054b40d
+	.dword              0x1c89a0ac922a5ddd
+	.dword              0x6040f8fd5f7ba3bc
+	.dword              0x27e3703ea7ba9a5f
+	.dword              0x687df43017d645e0
+	.dword              0x518db12e0100d143
+	.dword              0x149f3f245afa47b0
+	.dword              0x1d58bf79793008af
+	.dword              0x3736105d15984b4b
+	.dword              0x64ef80731f7e11b5
+	.dword              0x511edf522a3b0e9b
+	.dword              0x4a81097054f10dd2
+	.dword              0x60e6f4d4e8424a8b
+	.dword              0x3be0198431e874e3
+	.dword              0x01d164e1a1bd21ab
+	.dword              0x1652bbdf803c8f53
+	.dword              0x24f756702496c59a
+	.dword              0x306f1de22df03d2c
+	.dword              0x11a989c9211e2690
+	.dword              0x345f96f355545a5f
+	.dword              0x036368528de2702e
+	.dword              0x3ce4cc6cde4fef5b
+	.dword              0x0c185f15b56a344d
+	.dword              0x5bdc426b6f3e30c9
+	.dword              0x5c6bb058dc8b408a
+	.dword              0x71928a996d2afbaf
+	.dword              0x4d9aaa9b70543e73
+	.dword              0x5f062363e070e5ef
+	.dword              0x5844abdb16783623
+	.dword              0x242a21161bf52ef3
+	.dword              0x053d904919c1e287
+	.dword              0x4910ba7e46640bbd
+	.dword              0x6f99084db3a1b84d
+	.dword              0x755e8d03a6c67237
+	.dword              0x5efc4ba315705d61
+	.dword              0x7aad062ac07da19e
+	.dword              0x004907b19a1c4b95
+	.dword              0x28028e7ddc54a153
+	.dword              0x571aebba753ba432
+	.dword              0x24c8b2027f393dfa
+	.dword              0x311769638ebc0ecd
+	.dword              0x489333dd39baad15
+	.dword              0x2647bcb06f71d9d4
+	.dword              0x322b0952c88ae3fe
+	.dword              0x14b317625519a971
+	.dword              0x2d65c3dfba324df3
+	.dword              0x0742f73234f141f0
+	.dword              0x3e73cb4a210d5783
+	.dword              0x2031520dd0179394
+	.dword              0x52f6ce0e48a9b0d0
+	.dword              0x7619790bde811e5f
+	.dword              0x774182f90f0cf355
+	.dword              0x14e87440fcc2551c
+	.dword              0x616bd532bb867cf6
+	.dword              0x56e430797aa6d01b
+	.dword              0x471cac4cb9b4dc52
+	.dword              0x363d647d48d9e272
+	.dword              0x108ca25262afdd61
+	.dword              0x76f492402d93a973
+	.dword              0x0c25fc2f44f68c7a
+	.dword              0x2ec78fd892f0a162
+	.dword              0x4e1e6ed9cc64dd3b
+	.dword              0x35e4a8c7f79109d2
+	.dword              0x0ebc48486a980215
+	.dword              0x2e32802da7c34c7d
+	.dword              0x7d46e7cd06b57811
+	.dword              0x437369d2e658081d
+	.dword              0x29fefdf7cc7ddbbc
+	.dword              0x423c12ee9bf49983
+	.dword              0x010ae2e08a79c615
+	.dword              0x7928c9a23758bb9a
+	.dword              0x39145b14a8a7b16d
+	.dword              0x553f848c4388c26f
+	.dword              0x60d46c2a5019d325
+	.dword              0x48f32ca90d96e78f
+	.dword              0x40174053ea3a1189
+	.dword              0x1b5ca826d9bd8573
+	.dword              0x4b28d058adb6f1e5
+	.dword              0x66db85009e7513b7
+	.dword              0x1b8d597581e18f4a
+	.dword              0x5b07d5816ce9e790
+	.dword              0x117072f77fea2008
+	.dword              0x0e897299e6d3233a
+	.dword              0x5731259332c161c3
+	.dword              0x436c6f7a07ad0bef
+	.dword              0x3ea4ec0f43f1c7c3
+	.dword              0x47834d453f1ca2b6
+	.dword              0x39c6c1d1c2305246
+	.dword              0x7f4144a026cb7c99
+	.dword              0x271532d65c867b37
+	.dword              0x2d493c9ee60d164a
+	.dword              0x11282d85f21f15c4
+	.dword              0x1e4eb147cc5f5c11
+	.dword              0x5762eb3816beb7d5
+	.dword              0x431e8ea3bf49abc5
+	.dword              0x1511413731c8fd23
+	.dword              0x6241ef883a9e6994
+	.dword              0x59604bb2183f1637
+	.dword              0x156c5ae88b1d0bb0
+	.dword              0x6e84cf3960e09427
+	.dword              0x480b9ded1eb25027
+	.dword              0x673bf2321eafb69c
+	.dword              0x1a69bf54b06491dd
+	.dword              0x3b070824d72d3708
+	.dword              0x1379a70e8ca1b87f
+	.dword              0x6f81dff53bb64e8c
+	.dword              0x11d5aa75e35a70b7
+	.dword              0x71683e3a43aa487c
+	.dword              0x2a42992bb772541e
+	.dword              0x491291a9f57f3d8f
+	.dword              0x04df32918874e116
+	.dword              0x00023309133d51a3
+	.dword              0x51d90cef5c94eea8
+	.dword              0x5d29cb57e49090c9
+	.dword              0x6af60954fb07d02b
+	.dword              0x3f947581f5facd3a
+	.dword              0x79e571b343c26099
+	.dword              0x2af352d2e32e0029
+	.dword              0x35def0a3bca3de2f
+	.dword              0x632954f35fd999ef
+	.dword              0x0e73301382e018ca
+	.dword              0x0e955885d6bad833
+	.dword              0x0b9d7083c3d9a844
+	.dword              0x01eb2b4c28069ea1
+	.dword              0x6bb014d9f043ff50
+	.dword              0x2d930ec47ed0e3fa
+	.dword              0x13bcb998bb010e50
+	.dword              0x6120ec3965107014
+	.dword              0x6f1119f5da6d0c48
+	.dword              0x4d7eabbde10ac5ba
+	.dword              0x6d144df4bd66cdcb
+	.dword              0x641cf344f0085319
+	.dword              0x775b21773a3a1e1d
+	.dword              0x6a745fe0da7084c7
+	.dword              0x0a6eca0677c39482
+	.dword              0x3e31715963832230
+	.dword              0x1869d5c3e6d0a683
+	.dword              0x649657ec77c1213b
+	.dword              0x1ce8b6f05223517b
+	.dword              0x24f2c0ffcbf398e3
+	.dword              0x44cce8c7ad0ca446
+	.dword              0x281754e4a3bc0df6
+	.dword              0x369e3b4db5f6cccb
+	.dword              0x32cf039deaf772aa
+	.dword              0x0298a8c8ddfcc2c9
+	.dword              0x4ea0c4f338bfa44c
+	.dword              0x364dd38879fa2a1b
+	.dword              0x4df1d64207379b84
+	.dword              0x442550a704a6cb23
+	.dword              0x0040a6adf5d44b56
+	.dword              0x0bb99b690cc2e0fc
+	.dword              0x494650c8f940a97f
+	.dword              0x67cd0ed364811ebd
+	.dword              0x131ea371fe724d19
+	.dword              0x0ed92368ecdf154d
+	.dword              0x78dd8da7ebfa6390
+	.dword              0x2ad0d8b88fdf8c5a
+	.dword              0x65b6330ae481d35d
+	.dword              0x1b10c24e533fb3e4
+	.dword              0x7f2880274378453d
+	.dword              0x2b125b96ca4bf9e0
+	.dword              0x7c079513726c8a68
+	.dword              0x509f1badfcadbef3
+	.dword              0x23052e2122cd7328
+	.dword              0x2b91cf49b063c90d
+	.dword              0x36bb8a832b2ad5ea
+	.dword              0x1c77c46cefb88102
+	.dword              0x0c29fcbd2475e0ba
+	.dword              0x0b2e4b62e6275333
+	.dword              0x1de80d09113260ce
+	.dword              0x27481ecd006c950e
+	.dword              0x5325694daaadacd3
+	.dword              0x06d3e9aee477dbd8
+	.dword              0x74341259deebcc85
+	.dword              0x54001850e55f2e6e
+	.dword              0x16afe30d0095f994
+	.dword              0x5c4cecd00f1709e6
+	.dword              0x4a497c077fb94604
+	.dword              0x67a90a9d492e4fc7
+	.dword              0x1c53d9da2d1ed1b0
+	.dword              0x58c6c6fdccc949dd
+	.dword              0x1e50c5093bff43de
+	.dword              0x031fdbb5d47aa91c
+	.dword              0x1cdc08256acdf6af
+	.dword              0x36ccfd5f6f8ef38f
+	.dword              0x2dc675d07df10200
+	.dword              0x7b8b19595066d9c3
+	.dword              0x40a9393b6aa9ca2c
+	.dword              0x1d6d33b9d2251b31
+	.dword              0x088d7d5b07231c90
+	.dword              0x12330eb4faf3ec57
+	.dword              0x179d763ba1ae64b4
+	.dword              0x625043cbcce1d707
+	.dword              0x410b9b78d7f77ead
+	.dword              0x2cbc5f0aa8acb743
+	.dword              0x25d5be8aa0a683ec
+	.dword              0x16a6d884472a3722
+	.dword              0x6a0dba3f0f0088a3
+	.dword              0x6276133d017089ff
+	.dword              0x15ea997a2ff3b669
+	.dword              0x5466e4e83c9dbafd
+	.dword              0x49001a33bf097d12
+	.dword              0x30dda4c7ca1b542a
+	.dword              0x7f3b9d2c934a1398
+	.dword              0x727e3e21dec483c1
+	.dword              0x3e68a437c101606c
+	.dword              0x0c73ea4a5541e97d
+	.dword              0x5489ce176d876ea1
+	.dword              0x4dbfe3e61ef03d73
+	.dword              0x77a418ce66fb0439
+	.dword              0x1f82cf9c8e2f600f
+	.dword              0x46bbf3f4b707ecbe
+	.dword              0x41a1a5a42148b125
+	.dword              0x24af81439ed8bc1a
+	.dword              0x482ba3fa8ae44bf2
+	.dword              0x110479a77d8fa5ff
+	.dword              0x7ac567a9531901fe
+	.dword              0x59c7c5a2c8e8fc80
+	.dword              0x2354168d79138ac0
+	.dword              0x110b7421e52c7e7f
+	.dword              0x4c4ef4aff84ccda8
+	.dword              0x2cb80c6a3dfe3076
+	.dword              0x4a888aebe20dc792
+	.dword              0x764732ef381ca346
+	.dword              0x17b8bd6017bedf8d
+	.dword              0x1ef2a247db6d2bfc
+	.dword              0x0b4d3a0296716280
+	.dword              0x717ed2f01bb613c0
+	.dword              0x605a04f126d0e178
+	.dword              0x60d4ee01c0b5f13a
+	.dword              0x4beee90f448613b0
+	.dword              0x0491ae796ef9acc2
+	.dword              0x133b19afab6d0b56
+	.dword              0x377a57d7bc8498ee
+	.dword              0x139803c165599150
+	.dword              0x491e38255ba2270f
+	.dword              0x03789da8f30a0ebb
+	.dword              0x079817870923937e
+	.dword              0x15673f5422fd3ca5
+	.dword              0x472daa8561781cf2
+	.dword              0x4779dd419875cc23
+	.dword              0x3272649e6fc9b4bd
+	.dword              0x7c1236ccee415c68
+	.dword              0x3a5fa67bf56a894f
+	.dword              0x202aa14a8876436d
+	.dword              0x5c03f7951e30557f
+	.dword              0x588e7c22630f5374
+	.dword              0x6e99069ed9536e74
+	.dword              0x34e7093bcd67bf30
+	.dword              0x339a6e9af4c6659e
+	.dword              0x1e20f38f99095ae7
+	.dword              0x15f5e1f55dda5bb3
+	.dword              0x22d3b6ad1fe26d2e
+	.dword              0x42370f5fe525e3d9
+	.dword              0x23168d230d491b69
+	.dword              0x71cd5ee8acc1b1c4
+	.dword              0x0efa8c6bd7286289
+	.dword              0x5ba73fe95df83679
+	.dword              0x261ad99837b4417e
+	.dword              0x2b5a80f096fceb07
+	.dword              0x757543dd7370bbf1
+	.dword              0x3aee15fcc58d6bc2
+	.dword              0x2df4d630df317e16
+	.dword              0x4797ec2cc7304e81
+	.dword              0x648d62a65fca64b3
+	.dword              0x67243374d13a920d
+	.dword              0x60c4c13e3ff98fdb
+	.dword              0x57ea69b0fcd663b4
+	.dword              0x7a2f0264bb0626d7
+	.dword              0x74a24acc0a4daae5
+	.dword              0x7772b89fdc8ffe3d
+	.dword              0x7b65923e5810858c
+	.dword              0x02e04f1f976f5681
+	.dword              0x2017f0b4fceca491
+	.dword              0x1f27d68e80e0afe7
+	.dword              0x016361dcbc413c14
+	.dword              0x71ca3002ccd11573
+	.dword              0x04b06e86a40b2ade
+	.dword              0x44d752488b631737
+	.dword              0x6d91de8f56adb1cb
+	.dword              0x47a3a7c04ba7f61a
+	.dword              0x358ac74c257bd3e8
+	.dword              0x7bc9a2b7dbe56f26
+	.dword              0x5b299f0255c6a4bd
+	.dword              0x5f5a71bf2e8fc420
+	.dword              0x4f598bed8f4d1a79
+	.dword              0x5ac74662a9dc99f9
+	.dword              0x6e88c4162a390892
+	.dword              0x15e4abbd73d262d5
+	.dword              0x315143477f6ecc4f
+	.dword              0x5d48beb3f992f354
+	.dword              0x58212f1333c94a9d
+	.dword              0x0e351e5671cf443c
+	.dword              0x6198fb170d7c471a
+	.dword              0x05cb283337583f1c
+	.dword              0x790611846647d520
+	.dword              0x62f11ee2d90c94e5
+	.dword              0x37173d1e46bfb96f
+	.dword              0x3b6ee53d9c072ed8
+	.dword              0x22bd9568f0fc1780
+	.dword              0x29c75395c43668c3
+	.dword              0x187c201a7776caa3
+	.dword              0x7498576ae8789040
+	.dword              0x472aa9b7fa18ec00
+	.dword              0x7fa879efd7aa57b4
+	.dword              0x0b307da5a697f3cd
+	.dword              0x5a8fbafbf8ac1fef
+	.dword              0x0842d338ff8922d0
+	.dword              0x565ee0e77498328e
+	.dword              0x39beee83ebd35400
+	.dword              0x19d9e82f488d7170
+	.dword              0x3c59a5ac3b5302c7
+	.dword              0x2ed3a356e9e98c43
+	.dword              0x19143ffead8dfcbe
+	.dword              0x448941ba9dbbc4a1
+	.dword              0x395e8ff33e7e2a25
+	.dword              0x52554819951bcaf9
+	.dword              0x5a7cd35e4a528ac0
+	.dword              0x6d5d3691f07dddf7
+	.dword              0x3ed8a345ea3a5a17
+	.dword              0x1f636f1e98fc2f88
+	.dword              0x5d345801269752af
+	.dword              0x6400adbf8e941929
+	.dword              0x392ef7f58d121b22
+	.dword              0x0f835b7d29ff17c1
+	.dword              0x77828133f02831be
+	.dword              0x2f404201eab1d119
+	.dword              0x16f83f23dc52c16e
+	.dword              0x6d5bde95327a7ce7
+	.dword              0x027ac8e18f85f209
+	.dword              0x5ec93e134a71ccf9
+	.dword              0x74d983f52a468733
+	.dword              0x288a7cf7cc297b20
+	.dword              0x2a36e955fd625146
+	.dword              0x2ed82f7a2cc89bc2
+	.dword              0x1cf3719898ef91df
+	.dword              0x04de86ef3d2af568
+	.dword              0x6066b2c9dc4a747a
+	.dword              0x2d0cd56e0a6a5e71
+	.dword              0x2bbfd08f1ff7c67d
+	.dword              0x1e9e198bc5b15401
+	.dword              0x40884bb5f7531a42
+	.dword              0x18624ffdd92902e9
+	.dword              0x6d3bd99a7be401a8
+	.dword              0x278d6208076c9619
+	.dword              0x179d99dc7c3e116a
+	.dword              0x6e86b916d7913bf6
+	.dword              0x19e6231fd99baeb7
+	.dword              0x5737b2e8ef379f62
+	.dword              0x02392dab7cd0191a
+	.dword              0x33c10386f9b9aadd
+	.dword              0x4204d0891d6fe6ea
+	.dword              0x6f509793c70a46b7
+	.dword              0x216c72758185d9d9
+	.dword              0x046cfc3cebb85dd6
+	.dword              0x328d78f16a4a1e02
+	.dword              0x5cbb401bb153239c
+	.dword              0x0fe08631daf0a279
+	.dword              0x377df42ea0dbf9d9
+	.dword              0x7e8bc7d5cc73fb0f
+	.dword              0x7065a4212ef6d5ff
+	.dword              0x335ebbbef2857292
+	.dword              0x3ac2e0a61fa2591e
+	.dword              0x4a839514ce1b7717
+	.dword              0x479788818d9a2abd
+	.dword              0x759076dee7042cc5
+	.dword              0x687a75588785f7ac
+	.dword              0x3a6528db023a55ff
+	.dword              0x5f2eca3f2e9f2a8e
+	.dword              0x557c227d51bfd2b8
+	.dword              0x75333df179f52a91
+	.dword              0x25d6d1b8e829258e
+	.dword              0x5962c80b86a0d5b0
+	.dword              0x5f3ba3a48ca7ab88
+	.dword              0x17e3a421d8463cc6
+	.dword              0x604c85ab40fe549a
+	.dword              0x4506b27b845a27a6
+	.dword              0x6a8dacc5673623a9
+	.dword              0x738eb665a379b377
+	.dword              0x369dfa4cc5281263
+	.dword              0x23fdb3d40a49620f
+	.dword              0x134d7f4923802c48
+	.dword              0x46b11cd9d4866b43
+	.dword              0x6db5e81f6c5a52c2
+	.dword              0x7319ae237917f16b
+	.dword              0x4a2c027ad95b5a5e
+	.dword              0x5e716dc25d5e781a
+	.dword              0x1ced13f6ae09791a
+	.dword              0x32cac8c0c802bff8
+	.dword              0x4f7366fcc1677d9a
+	.dword              0x6c82f967ace9019a
+	.dword              0x76071c306fc54e19
+	.dword              0x154fc0890711fcec
+	.dword              0x0a272aae325746da
+	.dword              0x3fe778445043f9c0
+	.dword              0x60f7aa933657915e
+	.dword              0x289716e08187d3bb
+	.dword              0x2cf4b968d81fa31b
+	.dword              0x5f3829b6edd57ca0
+	.dword              0x6ab976e728c3a0e3
+	.dword              0x27aef3e601602c65
+	.dword              0x477d758fbf45d814
+	.dword              0x1aef1df5a42bb98d
+	.dword              0x426c0c4d40468207
+	.dword              0x7a7445ff573719da
+	.dword              0x4a4cddf514d24901
+	.dword              0x6403db27dfdce1bb
+	.dword              0x72b280f44cee3c50
+	.dword              0x2914efb5bc1ac808
+	.dword              0x71982a914560e059
+	.dword              0x61edf11b924d19c3
+	.dword              0x4250cb3fecaf23f7
+	.dword              0x5fee9e1ab2858fea
+	.dword              0x5eca53de7e57cc91
+	.dword              0x67bde90cbc0147a7
+	.dword              0x3b2dee0668ce13ce
+	.dword              0x45485ad9acbd42ba
+	.dword              0x05a564b82d302c83
+	.dword              0x62a584c07036ae40
+	.dword              0x2118ddde9d487a48
+	.dword              0x66b4119fd5a4c3bb
+	.dword              0x6df30ff78c927a50
+	.dword              0x6834e8121c7af5fd
+	.dword              0x3a2c65b5153edc5e
+	.dword              0x68b567b026ec09b4
+	.dword              0x01e627c735818211
+	.dword              0x71abb9397f2ce76e
+	.dword              0x5675d7ef3611d760
+	.dword              0x7318d6ad94ca6885
+	.dword              0x5d0e6d0930edc23e
+	.dword              0x52484dfc6c03d5e4
+	.dword              0x36c996186a6db399
+	.dword              0x3fa7745ecb4e8e5b
+	.dword              0x3521a6691b5e92fe
+	.dword              0x775c28b82834645f
+	.dword              0x5ecc8e0144963555
+	.dword              0x2c8a5dc222c14b45
+	.dword              0x0d5602f2f9684eb4
+	.dword              0x3a11664c6db3fa74
+	.dword              0x5a64f68024f0cfda
+	.dword              0x21e45c36ec156e8d
+	.dword              0x4051cd808c5f1476
+	.dword              0x63acb78d69a7ed8b
+	.dword              0x28a92cab5699de9e
+	.dword              0x10398e52e0badeff
+	.dword              0x79222819f08e2f4e
+	.dword              0x43a93cee50a8442c
+	.dword              0x62dabf6d9685cf3c
+	.dword              0x5a08a70a7c20bea9
+	.dword              0x4c23ebc539688346
+	.dword              0x005be80d06ac1d4b
+	.dword              0x51738f4f59a57424
+	.dword              0x570b3ac502d48a72
+	.dword              0x19196995bf236081
+	.dword              0x50d8a2a97289b67b
+	.dword              0x2e561b396896cf9d
+	.dword              0x207248ef10274286
+	.dword              0x45014370fd4ea757
+	.dword              0x5c46bbaa03fe91b7
+	.dword              0x15903c1949d584bf
+	.dword              0x5e2fdb01ee1e9aa5
+	.dword              0x2c71500130c2eb36
+	.dword              0x26cfb10f73fe47dd
+	.dword              0x07ab12f5680a5605
+	.dword              0x19aaaff2554a2fe9
+	.dword              0x045c2996d4f816c9
+	.dword              0x3f8dc5ef4c14ca74
+	.dword              0x2ae227dcbb4f3eaa
+	.dword              0x5e84d1bed39433c1
+	.dword              0x28d3cce05fb4e6bd
+	.dword              0x21adb9d705f4ab58
+	.dword              0x4c9795645e294417
+	.dword              0x375119d57a87c871
+	.dword              0x1b0614a001d58547
+	.dword              0x40cc209b0dbc4693
+	.dword              0x1409ea91373aff57
+	.dword              0x73869e2800be433b
+	.dword              0x57edd10eb755b154
+	.dword              0x3fd9c2f450b3c6fc
+	.dword              0x79463e676851cb8e
+	.dword              0x5f2ced6e5643d94f
+	.dword              0x5b35ac6fbdf1a0ba
+	.dword              0x7f6dc66049a811ba
+	.dword              0x08e891bff1c21f48
+	.dword              0x1b76f4731207d7f3
+	.dword              0x3ca64aca3aa3a917
+	.dword              0x79832b7d01690dda
+	.dword              0x701dc17d7f636b2e
+	.dword              0x0f24a8f53795c273
+	.dword              0x63d6c71136f97e87
+	.dword              0x55f47d0902ec840a
+	.dword              0x379db85924cf01ce
+	.dword              0x056c8668512effe9
+	.dword              0x72a5153b0397b7a0
+	.dword              0x628a17fa2d090b1a
+	.dword              0x1a795f2afd58476a
+	.dword              0x36d8e6361606ce89
+	.dword              0x110bae1917302f5e
+	.dword              0x3877fe44e72b978f
+	.dword              0x60b4af09248a17df
+	.dword              0x32abbcbb8dcdcf1e
+	.dword              0x782a7a253887a60a
+	.dword              0x6c4488412e4a20b6
+	.dword              0x6933ceae25d8cf6b
+	.dword              0x117a7e6825f42b33
+	.dword              0x0f864f764af16fb8
+	.dword              0x3c77f27ef7a4c8d5
+	.dword              0x52b4c8571c7b63db
+	.dword              0x7312c21f0d5dce2e
+	.dword              0x035245b069f85589
+	.dword              0x5ae72faa3d5029dc
+	.dword              0x30c77566639566da
+	.dword              0x0054c781af214b04
+	.dword              0x5a1009a705a85d62
+	.dword              0x58a8e788fa30a749
+	.dword              0x0c15cc9e4fe47137
+	.dword              0x4acf16aa2d98aa42
+	.dword              0x450ed69d45db79d6
+	.dword              0x30c3d8b9e47ac035
+	.dword              0x67ac80f5bbc770fc
+	.dword              0x220f5cc3c63ba312
+	.dword              0x6b92cd839277e027
+	.dword              0x0559fc2f39772c80
+	.dword              0x48d59d6452c1601a
+	.dword              0x4678a7a1f42ec661
+	.dword              0x1b5c97ace0317353
+	.dword              0x31f2e47509347a4d
+	.dword              0x6738a34080a62448
+	.dword              0x5178b998b34fcc8a
+	.dword              0x7a16e70d27307818
+	.dword              0x0c5a575ff93e3753
+	.dword              0x4acd5fb4ed21eb9a
+	.dword              0x58b38a5dcf277498
+	.dword              0x5e8c18fdf4f39a36
+	.dword              0x6969b1752d669b9e
+	.dword              0x726f74420896bf12
+	.dword              0x75ccf9b3fd5c777b
+	.dword              0x01db5b58cece753d
+	.dword              0x36729d5de307965b
+	.dword              0x1a65d6da29fcc33c
+	.dword              0x3dbd26919e476174
+	.dword              0x3db2b26259108dd1
+	.dword              0x5014ebbfb6a82003
+	.dword              0x02c97ac4c06e3b97
+	.dword              0x006a7b155f127df3
+	.dword              0x72c74eab1b19fc9f
+	.dword              0x7660c3dfc8697233
+	.dword              0x6d4b8889c40fb71b
+	.dword              0x6c1d9c924bafdc3b
+	.dword              0x43b250b42c2a703a
+	.dword              0x6f528856295692f6
+	.dword              0x1d8114e84e316d3f
+	.dword              0x49fb97e7bbb8b510
+	.dword              0x36d0b085c875e162
+	.dword              0x739144986bb62e04
+	.dword              0x2b84b5cd0185c4ac
+	.dword              0x6d893aa987f3aec0
+	.dword              0x5e6a3a5ea2c64db2
+	.dword              0x188f3ef315fd330a
+	.dword              0x2ea3dc6837264f83
+	.dword              0x089c67f179926396
+	.dword              0x235ba6bbd81b5750
+	.dword              0x4dc05e2a067871d4
+	.dword              0x2e55304e44be131d
+	.dword              0x7866988477e66208
+	.dword              0x548b12188cf3d918
+	.dword              0x7b9b9f6cf83386a0
+	.dword              0x5345ff2766e73a47
+	.dword              0x39f29fa990cd45e0
+	.dword              0x265117bbfb9c420b
+	.dword              0x5c4dd355fff6c676
+	.dword              0x0d77d52303d8df6a
+	.dword              0x038bf9d20cf9dfcc
+	.dword              0x2bfd9ee756b77f12
+	.dword              0x053c97f49a1456b4
+	.dword              0x7e0285d4354c1dcb
+	.dword              0x178cb19dfed1c6a2
+	.dword              0x669ed37d8d984d18
+	.dword              0x7030313d60b77aea
+	.dword              0x5b39f5acbef90d52
+	.dword              0x152b6c5f2bdff9c9
+	.dword              0x78e69985c9a1a4cf
+	.dword              0x30b73996c914b0f5
+	.dword              0x039e1e1f6e753677
+	.dword              0x2336227d4381bdb3
+	.dword              0x51d0907170696ccf
+	.dword              0x4db4831c5c93973e
+	.dword              0x28d65da4a79ec22d
+	.dword              0x64640e73c98d489e
+	.dword              0x0ec53d9a66f25bde
+	.dword              0x7662808597d73a94
+	.dword              0x5904793c77f4ca31
+	.dword              0x440eec9ba3a1b5ff
+	.dword              0x7e6470d97f8ab0da
+	.dword              0x52b311c33a7cc287
+	.dword              0x18567abc99bc1b3c
+	.dword              0x6c27b53a2eb8f173
+	.dword              0x0e7754bd673b6d14
+	.dword              0x225a503154222c4c
+	.dword              0x1b01e409b985d845
+	.dword              0x27fb4fef5b1f8098
+	.dword              0x49e38987b35fbc82
+	.dword              0x16150bbbd25b98c1
+	.dword              0x1cab4b305f964304
+	.dword              0x10e5e0221a9eb55e
+	.dword              0x6ed99d4fa403502a
+	.dword              0x20ca3514e130429c
+	.dword              0x4d9fa2dfaf4b9984
+	.dword              0x3f0aacee8c7f7553
+	.dword              0x1d9d342add8d8097
+	.dword              0x650eb1ada6e33ee1
+	.dword              0x2dc1512bf050653a
+	.dword              0x4dd653fa0ea67179
+	.dword              0x62b7004e40e41663
+	.dword              0x1f9da1f768f35bfd
+	.dword              0x77039174c5166c72
+	.dword              0x248b8c44e4df9c0e
+	.dword              0x362206735fb01a2f
+	.dword              0x14b158c34a98f1cb
+	.dword              0x27e4f81eb34a57ce
+	.dword              0x482f1b2e924d283d
+	.dword              0x6518cc65762b50f5
+	.dword              0x6e842dc9d6a92786
+	.dword              0x7a252d475eb5ee65
+	.dword              0x08c186fcc8d2535d
+	.dword              0x36fed9c790ee4f88
+	.dword              0x00bc5d0ad1c78b39
+	.dword              0x1c99ec8aa8f33241
+	.dword              0x42ee4015afac75aa
+	.dword              0x65528d38b25ec7be
+	.dword              0x0b93fae4e9d6b0d8
+	.dword              0x6f4632efc7ab7294
+	.dword              0x329687d4d6f5d514
+	.dword              0x2ef10f4a1a226bd1
+	.dword              0x62a650fe4faf2e06
+	.dword              0x0242b2c3bf97d31b
+	.dword              0x0faa4ad94985e808
+	.dword              0x4e7b6d1975cb3e4f
+	.dword              0x5df769cf225337d0
+	.dword              0x17d0a23c50a13f39
+	.dword              0x6a34547fa5ae9b37
+	.dword              0x67fc99b900000d6b
+	.dword              0x21f45049f540b259
+	.dword              0x0553d3bc3b3c6d58
+	.dword              0x603767694fdd2a78
+	.dword              0x122a3efe278b4d1a
+	.dword              0x66b699bbeb237e4d
+	.dword              0x08b34d0830b86292
+	.dword              0x7c3e1f716b175945
+	.dword              0x53ea6878a20988b7
+	.dword              0x52a024ea9b3a03ff
+	.dword              0x1ce088ba1baadf94
+	.dword              0x64a54c07a875705b
+	.dword              0x46ff38f01d16213c
+	.dword              0x0cd2bcfc27e13d05
+	.dword              0x6772a4ed4117f70d
+	.dword              0x53bc8f261fc67553
+	.dword              0x798d3ce9334ec781
+	.dword              0x0d81ff2c7ebf0148
+	.dword              0x35a829a15b255c36
+	.dword              0x06a1402d87c78545
+	.dword              0x699d08d912494d15
+	.dword              0x76a0543cf7ddc700
+	.dword              0x2b17e1a78bf032da
+	.dword              0x26f2cd2f82389e80
+	.dword              0x2b65a06abd399040
+	.dword              0x365b4fad2d54c4ea
+	.dword              0x08dc93f2aab1b366
+	.dword              0x1200bb35b5d3ab34
+	.dword              0x2923029046ff4e94
+	.dword              0x29c7997d2a3f8dca
+	.dword              0x6b6f437b70beb438
+	.dword              0x4373d4aaa8141543
+	.dword              0x2a78c02d8595eda4
+	.dword              0x752ded296676038a
+	.dword              0x10e8048ef91b9193
+	.dword              0x37f552312a20eb56
+	.dword              0x453dbd4fe1643b0b
+	.dword              0x791afcf67f2f2a8d
+	.dword              0x27fdf4ea4fd447db
+	.dword              0x6f55ee7b68ac3521
+	.dword              0x37b8360903649e71
+	.dword              0x6cc1e23411192246
+	.dword              0x4f1e8750782ac449
+	.dword              0x15cab9686ec99900
+	.dword              0x4ff4831091767e48
+	.dword              0x63a080d718a6b044
+	.dword              0x4b0c31f32b21c97d
+	.dword              0x18031ee416c7f259
+	.dword              0x33032d7a106f728e
+	.dword              0x78688d91e9b52dc6
+	.dword              0x4e29d9a5d0a7dde6
+	.dword              0x1d37a38c1c258d00
+	.dword              0x4f020e9e98bbffc4
+	.dword              0x50f7bf54616ffd4e
+	.dword              0x0d65af0da6fff8fb
+	.dword              0x6e7e1b7eca735f78
+	.dword              0x56500294bd3d4898
+	.dword              0x103b8933cf09a76d
+	.dword              0x19d94ba5bcb4136e
+	.dword              0x66b9a8e0a3597dd6
+	.dword              0x53ef13e6cab42416
+	.dword              0x470edb6a96d0f34c
+	.dword              0x0868ed3c6649a529
+	.dword              0x28560670231a48f5
+	.dword              0x015513a33b991acd
+	.dword              0x7151d15dc0280cd6
+	.dword              0x34f4e8c733ca72e6
+	.dword              0x21f0f76a10ac3600
+	.dword              0x204e18e0b20b7c59
+	.dword              0x4415c317589e5ec2
+	.dword              0x1eb09a224afe7a64
+	.dword              0x0bed1755b6adeca7
+	.dword              0x07229aeeab34de51
+	.dword              0x75fc24b9a3928b91
+	.dword              0x2b96249cf28175ef
+	.dword              0x4644f29ac6042834
+	.dword              0x7fc88c24853faf2e
+	.dword              0x225ca1ba269d6508
+	.dword              0x5ef187d1f0e5b491
+	.dword              0x3a9097eb2ee049fe
+	.dword              0x11be561e0d23d74b
+	.dword              0x3ab480c38588b8c3
+	.dword              0x41462badc5c69334
+	.dword              0x57e8eeccb6dcac05
+	.dword              0x6975e9e7f35ea35d
+	.dword              0x6dbd6495e9935eb5
+	.dword              0x77d5a34487568ff5
+	.dword              0x48825157891b8414
+	.dword              0x05dd90bd68847d09
+	.dword              0x4df091775d72f456
+	.dword              0x3773053c8cc72499
+	.dword              0x3b67dc8b5a65505e
+	.dword              0x18276f0f7311df24
+	.dword              0x379fa531c9f12c30
+	.dword              0x21f3733df7945e67
+	.dword              0x489f1be0423f3127
+	.dword              0x04566f128a20f43a
+	.dword              0x4b2792be0ba8c852
+	.dword              0x2c964892a0672ab2
+	.dword              0x0cc9c4eda7d89b8b
+	.dword              0x0d5de687964c28a2
+	.dword              0x54b2347597c055d5
+	.dword              0x654a14e1f320d51e
+	.dword              0x740024c2de4c3cba
+	.dword              0x068b125a563ae243
+	.dword              0x606c8ea2a0b69d84
+	.dword              0x15d6c43110edb86c
+	.dword              0x0dccb50c1af4f332
+	.dword              0x7faeae41cdc61923
+	.dword              0x78d23419efbc8fc7
+	.dword              0x1a38de0d091a60dd
+	.dword              0x09cff549bace38c3
+	.dword              0x4669bb5677c55e75
+	.dword              0x37e8b442924a52aa
+	.dword              0x030effddc39acc9c
+	.dword              0x0022db78a8ec3c08
+	.dword              0x56a9de2fa753c2d8
+	.dword              0x7d073d83765c3b5e
+	.dword              0x3613e1ad9245ad11
+	.dword              0x609c2f3c48415dc9
+	.dword              0x43f3a78673237a40
+	.dword              0x5278c74adf3be579
+	.dword              0x32ad63718c3dd0bb
+	.dword              0x7ab2e063d33eb554
+	.dword              0x6ec5d88198c15cbc
+	.dword              0x3ebcc2ae2546bb2a
+	.dword              0x66e28b304790c680
+	.dword              0x6ac077bc5fca8435
+	.dword              0x1130694670a66afd
+	.dword              0x1f3dfb87c26a721b
+	.dword              0x22a006bfb9862e74
+	.dword              0x284e0748b4c83bc2
+	.dword              0x0bbf22f28bec3749
+	.dword              0x5fc778e5e8948f97
+	.dword              0x5a1f4390385264db
+	.dword              0x404bb05fa6a4449c
+	.dword              0x158cdd374c4fc3b6
+	.dword              0x41433ae6db197e42
+	.dword              0x3b9b8a3748ac7087
+	.dword              0x3e467120ca774779
+	.dword              0x412cd9281e2fac1e
+	.dword              0x0337a8d2fe68ca4a
+	.dword              0x01b817faea454bd4
+	.dword              0x3b462701adf38536
+	.dword              0x7c71ee979646b516
+	.dword              0x72dd95255ab810a6
+	.dword              0x78c1fef2ae4840f5
+	.dword              0x4db039eeca00de07
+	.dword              0x48a2fd325c425945
+	.dword              0x4a4ce39d27063277
+	.dword              0x0bb7db1083399c01
+	.dword              0x116731374c8c3b06
+	.dword              0x36fb757e6de9acc6
+	.dword              0x5e92c49412450b3b
+	.dword              0x36477f64f00bc2ed
+	.dword              0x503b92fa435bfcce
+	.dword              0x5053c08234d50815
+	.dword              0x2b9af3dff8576fbd
+	.dword              0x6fb7d4bf549e8f9f
+	.dword              0x181d2fbebe746f98
+	.dword              0x6df57370d6b96561
+	.dword              0x576b4d68427f8b87
+	.dword              0x7f2232719fb93954
+	.dword              0x58f83b97764d835d
+	.dword              0x079fbe7bd630e0d6
+	.dword              0x74f51019a70cbc10
+	.dword              0x4befbd2ceb773041
+	.dword              0x2fa69e09df532c89
+	.dword              0x41af8aced3d5a41e
+	.dword              0x5ec4c32b147f1acb
+	.dword              0x7685b73114f200c4
+	.dword              0x57db04cf462129ef
+	.dword              0x1c1673bb389af58d
+	.dword              0x016fb5cfe36be0b5
+	.dword              0x08e7b0c5a497b269
+	.dword              0x4b498c3bed280ef4
+	.dword              0x22313a0bce902e06
+	.dword              0x16788f0b28857d00
+	.dword              0x362cb1756d427b44
+	.dword              0x05176bce1bb4f38c
+	.dword              0x51ae7ea25b538079
+	.dword              0x31f8869fceb456de
+	.dword              0x35890afef59050bf
+	.dword              0x61e899a1b5e1e85d
+	.dword              0x079daeafe4e7e459
+	.dword              0x7558862904e408e6
+	.dword              0x6ba5ecabf57319b9
+	.dword              0x30406accbe12667f
+	.dword              0x764ff09dd06bbd77
+	.dword              0x55ca6385a277a40f
+	.dword              0x4c7872cbbbeb1a4a
+	.dword              0x12111f0262cdfc07
+	.dword              0x0e22d1f416f71ed3
+	.dword              0x6ea9cbf3c2809ae4
+	.dword              0x61d5e576edb32ec7
+	.dword              0x30ae894cdb7c752a
+	.dword              0x4b500addb322c494
+	.dword              0x12df9c5c2330533c
+	.dword              0x6260a003c90e167f
+	.dword              0x6f772dcbc3410b3d
+	.dword              0x59c38aede707b6f3
+	.dword              0x5e105176fc99b2da
+	.dword              0x52a161af731fa4ff
+	.dword              0x2063202cd1129655
+	.dword              0x2ddfc8c5ce8c96e2
+	.dword              0x381186b0c3e1c183
+	.dword              0x2845e14822531cc5
+	.dword              0x44df8aecef436686
+	.dword              0x1ccda10d36c124b8
+	.dword              0x030a8031bffbbe8c
+	.dword              0x13aa38c7b6e1d669
+	.dword              0x399473569a79c719
+	.dword              0x7637385b7513f03f
+	.dword              0x149a245571e5bf05
+	.dword              0x4573880f691fbed9
+	.dword              0x5b4d2f36db153104
+	.dword              0x130679edf1775f0b
+	.dword              0x0307e28ecaa33029
+	.dword              0x3d4d5e808df14699
+	.dword              0x5c6e242b151669cc
+	.dword              0x49b66afdefb5ead2
+	.dword              0x24f6364432d17b98
+	.dword              0x6e987e5ca3cfd32e
+	.dword              0x19e3205da607a903
+	.dword              0x11fd5e5266fb4378
+	.dword              0x6ad25b501d8263ae
+	.dword              0x53bbc999c6b7135b
+	.dword              0x4c58ce823458aa4e
+	.dword              0x53f928919dc35106
+	.dword              0x13628dbbc7f45342
+	.dword              0x6c01edcff420d020
+	.dword              0x590883fbec2de475
+	.dword              0x3fca19bd10040d4e
+	.dword              0x4579577a6707fd7d
+	.dword              0x4885e61017825b4f
+	.dword              0x6284f8a99d7f9b0f
+	.dword              0x1e33fb61218d1ce8
+	.dword              0x5dbb91afed60f414
+	.dword              0x69a00195e12e7e55
+	.dword              0x71de1a8db3142339
+	.dword              0x51aa143bacd29f72
+	.dword              0x78a23cd29b5b1cef
+	.dword              0x235ca922e8b62d76
+	.dword              0x64b2749a295c8906
+	.dword              0x5a68a07e2922b813
+	.dword              0x511e1e7bf2928bca
+	.dword              0x3b0ee17339706d85
+	.dword              0x6275289d9cea1188
+	.dword              0x402d141d8db69561
+	.dword              0x436134007e0308b2
+	.dword              0x53b4c21334af9c85
+	.dword              0x1a881a7e9295d847
+	.dword              0x40c9f321527e0f1a
+	.dword              0x3364369dd9aa26d7
+	.dword              0x055fae4b90eff731
+	.dword              0x1fe9e3e76a766e1b
+	.dword              0x5fc229632bc0d503
+	.dword              0x38f5d38f34f9166f
+	.dword              0x552aab17235fa856
+	.dword              0x3adf47df20004bc7
+	.dword              0x2d93b6d590c64a9e
+	.dword              0x79707952bcc79c39
+	.dword              0x2f0a49ef5aa5be35
+	.dword              0x354de2a88a0ef6ac
+	.dword              0x4b76552a667fa824
+	.dword              0x40553e0ec924df44
+	.dword              0x36f09ac6c4384593
+	.dword              0x36837bbbd609d7fb
+	.dword              0x204e35dcc27d6305
+	.dword              0x446f03306be5a5e8
+	.dword              0x7fb3258e5919c171
+	.dword              0x05a2b6d1927bb3d9
+	.dword              0x4f349ea7ffcf8005
+	.dword              0x305def4daed6fbe7
+	.dword              0x0e395eddecc04506
+	.dword              0x72362c7c40349df4
+	.dword              0x7bf57a95d0c53b27
+	.dword              0x2b157e0e60cdde85
+	.dword              0x4c992894fdd8223e
+	.dword              0x4b7ba61e81cfc7d4
+	.dword              0x4ac5c66df8d55d1a
+	.dword              0x4716d635fd0bcb84
+	.dword              0x6fbc9a49acbb5b53
+	.dword              0x7fae809db3a40a84
+	.dword              0x2cf9ca9e27ae78a5
+	.dword              0x44219aa91da267d4
+	.dword              0x6704f2e41b7a29ba
+	.dword              0x35eefd5f5825b64c
+	.dword              0x09df709133dc2d1f
+	.dword              0x06f22250de4895a7
+	.dword              0x75ad0083fd90907a
+	.dword              0x01a99727af0043e3
+	.dword              0x1a993950c4fb7e8c
+	.dword              0x279edac9f8d98788
+	.dword              0x0e424c269bb16fa0
+	.dword              0x46387f50304a9e1c
+	.dword              0x24a68be7a64178ad
+	.dword              0x0ff4c99192575224
+	.dword              0x07512b3e83756514
+	.dword              0x202a257616717666
+	.dword              0x426ab82f9372a524
+	.dword              0x5cc79d0d70ef0141
+	.dword              0x675aed0fd6355ca4
+	.dword              0x7438d17421a153e4
+	.dword              0x141845dbecd86d4e
+	.dword              0x3174ebf709efd575
 
 .align 4; .global end_signature; end_signature:
